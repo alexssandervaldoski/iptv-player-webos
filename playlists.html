@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Playlists</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="playlists.css">
+</head>
+<body>
+
+  <header class="topo-playlist">
+    <a class="btn-voltar" href="index.html">← Voltar</a>
+    <div>
+      <h1>Minhas Playlists</h1>
+      <p class="subtitulo">Gerencie suas listas e escolha qual está conectada.</p>
+    </div>
+  </header>
+
+  <main class="conteudo-playlist">
+    <section class="listas">
+      <div class="listas-topo">
+        <div>
+          <span class="mini">Playlists</span>
+          <h2>Listas salvas</h2>
+        </div>
+        <span class="pilula" id="qtd-listas">0 listas</span>
+      </div>
+      <ul class="lista-playlists" id="lista-playlists"></ul>
+    </section>
+
+    <aside class="painel">
+      <h2>Ações</h2>
+      <button class="botao" id="btn-nova" type="button">＋ Nova playlist</button>
+      <p class="aviso">
+        Este aplicativo é apenas um reprodutor. Use somente listas que você tem direito de acessar.
+      </p>
+    </aside>
+  </main>
+
+  <dialog id="dlg-opcoes">
+    <span class="mini">Playlist</span>
+    <h2 id="opcoes-nome">--</h2>
+    <div class="dlg-botoes">
+      <button class="botao principal" id="op-conectar" type="button">Conectar</button>
+      <button class="botao" id="op-editar" type="button">Editar</button>
+      <button class="botao perigo" id="op-apagar" type="button">Apagar</button>
+      <button class="botao" id="op-voltar" type="button">Voltar</button>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-form">
+    <h2 id="form-titulo">Nova playlist</h2>
+    <form id="form-playlist">
+      <label class="campo">Nome da playlist
+        <input name="nome" type="text" required>
+      </label>
+      <label class="campo">Endereço da lista (M3U)
+        <input name="url" type="url" placeholder="https://exemplo.com/lista.m3u" required>
+      </label>
+      <label class="campo">Usuário (opcional)
+        <input name="usuario" type="text" autocomplete="off">
+      </label>
+      <label class="campo">Senha (opcional)
+        <input name="senha" type="password" autocomplete="off">
+      </label>
+      <div class="dlg-botoes linha">
+        <button class="botao principal" type="submit">Salvar</button>
+        <button class="botao" id="form-cancelar" type="button">Cancelar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="comum.js"></script>
+  <script src="playlist.js"></script>
+</body>
+</html>

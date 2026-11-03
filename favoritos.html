@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favoritos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="catalogo.css">
+</head>
+<body>
+
+  <header class="barra">
+    <a class="btn-voltar" href="index.html">← Voltar</a>
+
+    <nav class="abas">
+      <a class="aba" href="home.html">Ao Vivo</a>
+      <a class="aba" href="catalogo.html?tipo=filmes">Filmes</a>
+      <a class="aba" href="catalogo.html?tipo=series">Séries</a>
+    </nav>
+
+    <div class="estatisticas">
+      <div class="stat"><strong id="qtd-total">0</strong><span>Favoritos</span></div>
+      <div class="stat"><strong id="data">--</strong><span>Data</span></div>
+      <div class="stat"><strong id="hora">--</strong><span>Hora</span></div>
+    </div>
+  </header>
+
+  <main class="conteudo conteudo-catalogo">
+    <aside class="coluna-grupos">
+      <input class="busca" id="busca" type="search" placeholder="Pesquisar">
+      <ul class="grupos" id="grupos"></ul>
+    </aside>
+
+    <section class="coluna-canais">
+      <ul class="posters" id="posters"></ul>
+    </section>
+  </main>
+
+  <script src="comum.js"></script>
+  <script src="favoritos.js"></script>
+</body>
+</html>

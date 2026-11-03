@@ -3,47 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xique-Xique Player</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Início</title>
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
   <header class="topo">
-    <h1>TV ao Vivo</h1>
+    <h1>Xique-Xique APP</h1>
   </header>
+  <main class="home">
 
-  <nav class="filtros">
-    <button class="filtro ativo">Todos</button>
-    <button class="filtro">Notícias</button>
-    <button class="filtro">Esportes</button>
-    <button class="filtro">Filmes</button>
-    <button class="filtro">Infantil</button>
-    <br>
-  </nav>
+    <a class="card card-aovivo" href="home.html">
+      <span class="icone">📺</span>
+      <span class="rotulo">Ao Vivo</span>
+    </a>
 
-  <main class="grade">
-    <article class="cartao" tabindex="0">
-      <div class="logo">N1</div>
-      <h2 class="nome">Canal Notícias 1</h2>
-      <p class="grupo">Notícias</p>
-    </article>
+    <a class="card card-filmes" href="catalogo.html?tipo=filmes"
+      <span class="icone">🎬</span>
+      <span class="rotulo">Filmes</span>
+    </a>
 
-    <article class="cartao" tabindex="0">
-      <div class="logo">ES</div>
-      <h2 class="nome">Esportes Play</h2>
-      <p class="grupo">Esportes</p>
-    </article>
+    <a class="card card-playlist" href="playlists.html">
+      <span class="icone">🎵</span>
+      <span class="rotulo">Playlist</span>
+    </a>
 
-    <article class="cartao" tabindex="0">
-      <div class="logo">FM</div>
-      <h2 class="nome">Filmes Max</h2>
-      <p class="grupo">Filmes</p>
-    </article>
+    <a class="card card-series" href="catalogo.html?tipo=series">
+      <span class="icone">🎞️</span>
+      <span class="rotulo">Séries</span>
+    </a>
 
-    <article class="cartao" tabindex="0">
-      <div class="logo">KD</div>
-      <h2 class="nome">Kids Day</h2>
-      <p class="grupo">Infantil</p>
-    </article>
+    <a class="card card-favoritos" href="favoritos.html">
+      <span class="icone">❤️</span>
+      <span class="rotulo">Favoritos</span>
+    </a>
+
+    <nav class="lateral">
+      <a class="card card-linha" href="#">
+        <span class="icone">👤</span>
+        <span class="rotulo">Conta</span>
+        <span class="seta">›</span>
+      </a>
+      <a class="card card-linha" href="#">
+        <span class="icone">⚙️</span>
+        <span class="rotulo">Configurações</span>
+        <span class="seta">›</span>
+      </a>
+      <a class="card card-linha" href="#">
+        <span class="icone">🚪</span>
+        <span class="rotulo">Sair</span>
+        <span class="seta">›</span>
+      </a>
+    </nav>
+
+    <footer class="info">
+      <div>
+        <p>Playlist: nenhuma</p>
+        <p>Status: modo estudo</p>
+        <p>Versão: 0.1.0</p>
+      </div>
+      <div class="info-direita">
+        <p>Plataforma: LG webOS</p>
+        <p>Projeto: iptv-smart-webos</p>
+      </div>
+    </footer>
+
   </main>
 </body>
 </html>

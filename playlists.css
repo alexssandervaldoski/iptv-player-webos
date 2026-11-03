@@ -1,0 +1,198 @@
+.topo-playlist {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topo-playlist h1 {
+  font-size: 2rem;
+}
+
+.subtitulo {
+  margin-top: 4px;
+  opacity: 0.75;
+}
+
+.conteudo-playlist {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 20px;
+}
+
+.listas,
+.painel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 0;
+  padding: 20px;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+}
+
+.listas-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.pilula {
+  padding: 6px 14px;
+  border: 1px solid var(--borda);
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.lista-playlists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  padding: 4px;
+}
+
+.item-playlist {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.item-playlist:hover,
+.item-playlist:focus {
+  background: var(--realce);
+  box-shadow: 0 0 0 3px #ffffff;
+  outline: none;
+}
+
+.icone-lista {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #1e0655;
+  display: grid;
+  place-items: center;
+  font-size: 1.4rem;
+}
+
+.info-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.selo {
+  align-self: flex-start;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(60, 200, 160, 0.35);
+  font-size: 0.75rem;
+}
+
+.vazio {
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.botao {
+  padding: 14px 18px;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.botao:hover,
+.botao:focus {
+  background: var(--realce);
+  box-shadow: 0 0 0 3px #ffffff;
+  outline: none;
+}
+
+.botao.principal {
+  background: #ffffff;
+  color: var(--fundo-1);
+  font-weight: bold;
+}
+
+.botao.perigo {
+  background: rgba(255, 90, 120, 0.3);
+}
+
+.aviso {
+  padding: 14px;
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* Janelas */
+dialog {
+  margin: auto;
+  width: min(560px, 90vw);
+  padding: 28px;
+  background: linear-gradient(160deg, var(--fundo-2), var(--fundo-1));
+  border: 1px solid var(--borda);
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.dlg-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.dlg-botoes.linha {
+  flex-direction: row;
+}
+
+.dlg-botoes.linha .botao {
+  flex: 1;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.campo input {
+  padding: 12px 14px;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.campo input:focus {
+  box-shadow: 0 0 0 3px #ffffff;
+  outline: none;
+}

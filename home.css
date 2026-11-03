@@ -13,13 +13,24 @@
 
 body {
   background: linear-gradient(135deg, var(--fundo-1), var(--fundo-2));
+  background-attachment: fixed;
   color: #ffffff;
   font-family: Arial, sans-serif;
+  height: 100vh;
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Título opcional, fora do bloco .home */
+.titulo-app {
+  font-size: 2rem;
 }
 
 .home {
-  height: 100vh;
-  padding: 32px 48px;
+  flex: 1;
+  min-height: 0;
   display: grid;
   grid-template-columns: 1.6fr 1fr 1fr 1.4fr;
   grid-template-rows: 1fr 1fr auto;

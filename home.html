@@ -3,70 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Início</title>
-  <link rel="stylesheet" href="home.css">
+  <title>Ao Vivo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topo">
-    <h1>Xique-Xique APP</h1>
-  </header>
-  <main class="home">
 
-    <a class="card card-aovivo" href="index.html">
-      <span class="icone">📺</span>
-      <span class="rotulo">Ao Vivo</span>
-    </a>
+  <header class="barra">
+    <a class="btn-voltar" href="index.html">← Voltar</a>
 
-    <a class="card card-filmes" href="#">
-      <span class="icone">🎬</span>
-      <span class="rotulo">Filmes</span>
-    </a>
-
-    <a class="card card-playlist" href="#">
-      <span class="icone">🎵</span>
-      <span class="rotulo">Playlist</span>
-    </a>
-
-    <a class="card card-series" href="#">
-      <span class="icone">🎞️</span>
-      <span class="rotulo">Séries</span>
-    </a>
-
-    <a class="card card-favoritos" href="#">
-      <span class="icone">❤️</span>
-      <span class="rotulo">Favoritos</span>
-    </a>
-
-    <nav class="lateral">
-      <a class="card card-linha" href="#">
-        <span class="icone">👤</span>
-        <span class="rotulo">Conta</span>
-        <span class="seta">›</span>
-      </a>
-      <a class="card card-linha" href="#">
-        <span class="icone">⚙️</span>
-        <span class="rotulo">Configurações</span>
-        <span class="seta">›</span>
-      </a>
-      <a class="card card-linha" href="#">
-        <span class="icone">🚪</span>
-        <span class="rotulo">Sair</span>
-        <span class="seta">›</span>
-      </a>
+    <nav class="abas">
+      <a class="aba ativa" href="home.html">Ao Vivo</a>
+      <a class="aba" href="catalogo.html?tipo=filmes">Filmes</a>
+      <a class="aba" href="catalogo.html?tipo=series">Séries</a>
     </nav>
 
-    <footer class="info">
-      <div>
-        <p>Playlist: nenhuma</p>
-        <p>Status: modo estudo</p>
-        <p>Versão: 0.1.0</p>
+    <div class="estatisticas">
+      <div class="stat"><strong id="qtd-total">0</strong><span>Total</span></div>
+      <div class="stat"><strong id="qtd-canais">0</strong><span>Canais</span></div>
+      <div class="stat"><strong>Agrupado</strong><span>Visualização</span></div>
+      <div class="stat"><strong id="data">--</strong><span>Data</span></div>
+      <div class="stat"><strong id="hora">--</strong><span>Hora</span></div>
+    </div>
+  </header>
+
+  <main class="conteudo">
+
+    <aside class="coluna-grupos">
+      <input class="busca" id="busca" type="search" placeholder="Pesquisar">
+      <ul class="grupos" id="grupos"></ul>
+    </aside>
+
+    <section class="coluna-canais">
+      <ul class="canais" id="canais-lista"></ul>
+    </section>
+
+    <aside class="coluna-preview">
+      <div class="player">
+        <div class="botao-play">▶</div>
+        <h2 id="titulo-player">Pronto para assistir</h2>
+        <p class="dica" id="dica-player">Selecione um item ao lado</p>
       </div>
-      <div class="info-direita">
-        <p>Plataforma: LG webOS</p>
-        <p>Projeto: iptv-smart-webos</p>
+
+      <div class="detalhes">
+        <strong id="det-nome">--</strong>
+        <span id="det-grupo">--</span>
+        <p>A prévia do canal será exibida aqui. Selecione um canal para assistir.</p>
       </div>
-    </footer>
+    </aside>
 
   </main>
+
+  <script src="comum.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
