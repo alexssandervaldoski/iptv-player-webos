@@ -1,0 +1,22 @@
+:root {
+  --fundo-1: #12104a;
+  --fundo-2: #2a1fb8;
+  --cartao: rgba(255, 255, 255, 0.08);
+  --borda: rgba(255, 255, 255, 0.25);
+  --realce: rgba(255, 255, 255, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, var(--fundo-1), var(--fundo-2));
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}

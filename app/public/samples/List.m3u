@@ -1,0 +1,1936 @@
+#EXTM3U
+#EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_5r2"
+#EXTINF:-1 tvg-id="523297" tvg-name="ANIMAL PLANET [FHD]" tvg-logo="http://lgfp.one/AKY" group-title="Canais | Documentários",ANIMAL PLANET [FHD]
+http://bst3.me:80/7142954/11092011/164.ts
+#EXTINF:-1 tvg-id="São.Paulo/SP..Animal.Planet.br" tvg-name="ANIMAL PLANET [FHD][H265]" tvg-logo="http://lgfp.one/WHO" group-title="Canais | Documentários",ANIMAL PLANET [FHD][H265]
+http://bst3.me:80/7142954/11092011/30248.ts
+#EXTINF:-1 tvg-id="animal.planet.br" tvg-name="ANIMAL PLANET [HD]" tvg-logo="http://lgfp.one/ALM" group-title="Canais | Documentários",ANIMAL PLANET [HD]
+http://bst3.me:80/7142954/11092011/179.ts
+#EXTINF:-1 tvg-id="animal.planet.br" tvg-name="ANIMAL PLANET [SD]" tvg-logo="http://lgfp.one/AMA" group-title="Canais | Documentários",ANIMAL PLANET [SD]
+http://bst3.me:80/7142954/11092011/194.ts
+#EXTINF:-1 tvg-id="tv.gazeta.al.br" tvg-name="GLOBO TV GAZETA ALAGOAS [HD]" tvg-logo="http://lgfp.one/VCR" group-title="Canais | Globo Nordeste",GLOBO TV GAZETA ALAGOAS [HD]
+http://bst3.me:80/7142954/11092011/405.ts
+#EXTINF:-1 tvg-id="tv.gazeta.al.br" tvg-name="GLOBO TV GAZETA ALAGOAS [SD]" tvg-logo="http://lgfp.one/AUN" group-title="Canais | Globo Nordeste",GLOBO TV GAZETA ALAGOAS [SD]
+http://bst3.me:80/7142954/11092011/442.ts
+#EXTINF:-1 tvg-id="tv.gazeta.sul.br" tvg-name="GLOBO TV GAZETA SUL ES [FHD]" tvg-logo="http://lgfp.one/ASI" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA SUL ES [FHD]
+http://bst3.me:80/7142954/11092011/372.ts
+#EXTINF:-1 tvg-id="tv.gazeta.sul.br" tvg-name="GLOBO TV GAZETA SUL ES [HD]" tvg-logo="http://lgfp.one/ATL" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA SUL ES [HD]
+http://bst3.me:80/7142954/11092011/406.ts
+#EXTINF:-1 tvg-id="tv.gazeta.es.br" tvg-name="GLOBO TV GAZETA SUL ES [SD]" tvg-logo="http://lgfp.one/ASI" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA SUL ES [SD]
+http://bst3.me:80/7142954/11092011/364747.ts
+#EXTINF:-1 tvg-id="tv.vitoria.br" tvg-name="GLOBO TV GAZETA VITORIA [FHD]" tvg-logo="http://lgfp.one/ARW" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA VITORIA [FHD]
+http://bst3.me:80/7142954/11092011/358.ts
+#EXTINF:-1 tvg-id="tv.gazeta.es.br" tvg-name="GLOBO TV GAZETA VITORIA [FHD]" tvg-logo="http://lgfp.one/ATH" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA VITORIA [FHD]
+http://bst3.me:80/7142954/11092011/357524.ts
+#EXTINF:-1 tvg-id="tv.gazeta.es.br" tvg-name="GLOBO TV GAZETA VITORIA [HD]" tvg-logo="http://lgfp.one/ATH" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA VITORIA [HD]
+http://bst3.me:80/7142954/11092011/401.ts
+#EXTINF:-1 tvg-id="tv.gazeta.es.br" tvg-name="GLOBO TV GAZETA VITORIA [SD]" tvg-logo="http://lgfp.one/AUJ" group-title="Canais | Globo Sudeste",GLOBO TV GAZETA VITORIA [SD]
+http://bst3.me:80/7142954/11092011/438.ts
+#EXTINF:-1 tvg-id="tv.guajaramirim.br" tvg-name="Globo TV Guajará-Mirim [FHD]" tvg-logo="http://lgfp.one/REQ6" group-title="Canais | Globo Norte",Globo TV Guajará-Mirim [FHD]
+http://bst3.me:80/7142954/11092011/350661.ts
+#EXTINF:-1 tvg-id="tv.integracao.ituiutaba.br" tvg-name="Globo TV Integracao Ituiutaba [HD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Sudeste",Globo TV Integracao Ituiutaba [HD]
+http://bst3.me:80/7142954/11092011/329757.ts
+#EXTINF:-1 tvg-id="tv.integracao.juiz.de.fora.br" tvg-name="GLOBO TV INTEGRACAO JUIZ DE FORA [FHD]" tvg-logo="http://lgfp.one/VFI" group-title="Canais | Globo Sudeste",GLOBO TV INTEGRACAO JUIZ DE FORA [FHD]
+http://bst3.me:80/7142954/11092011/65249.ts
+#EXTINF:-1 tvg-id="tv.integracao.juiz.de.fora.br" tvg-name="GLOBO TV INTEGRACAO JUIZ DE FORA [HD]" tvg-logo="http://lgfp.one/VFH" group-title="Canais | Globo Sudeste",GLOBO TV INTEGRACAO JUIZ DE FORA [HD]
+http://bst3.me:80/7142954/11092011/65248.ts
+#EXTINF:-1 tvg-id="tv.integracao.juiz.de.fora.br" tvg-name="GLOBO TV INTEGRACAO JUIZ DE FORA [SD]" tvg-logo="http://lgfp.one/JZB1" group-title="Canais | Globo Sudeste",GLOBO TV INTEGRACAO JUIZ DE FORA [SD]
+http://bst3.me:80/7142954/11092011/199787.ts
+#EXTINF:-1 tvg-id="tv.integracao.uberaba.br" tvg-name="GLOBO TV INTEGRACAO UBERABA [FHD]" tvg-logo="http://lgfp.one/VGV" group-title="Canais | Globo Sudeste",GLOBO TV INTEGRACAO UBERABA [FHD]
+http://bst3.me:80/7142954/11092011/122770.ts
+#EXTINF:-1 tvg-id="tv.integracao.uberaba.br" tvg-name="GLOBO TV INTEGRACAO UBERABA [HD]" tvg-logo="http://lgfp.one/VFB" group-title="Canais | Globo Sudeste",GLOBO TV INTEGRACAO UBERABA [HD]
+http://bst3.me:80/7142954/11092011/56138.ts
+#EXTINF:-1 tvg-id="tv.integracao.uberaba.br" tvg-name="GLOBO TV INTEGRACAO UBERABA [SD]" tvg-logo="http://lgfp.one/VGW" group-title="Canais | Globo Sudeste",GLOBO TV INTEGRACAO UBERABA [SD]
+http://bst3.me:80/7142954/11092011/122771.ts
+#EXTINF:-1 tvg-id="tv.integracao.uberlandia.br" tvg-name="Globo TV INTEGRAÇÃO UBERLANDIA [FHD]" tvg-logo="http://lgfp.one/QAP1" group-title="Canais | Globo Sudeste",Globo TV INTEGRAÇÃO UBERLANDIA [FHD]
+http://bst3.me:80/7142954/11092011/358700.ts
+#EXTINF:-1 tvg-id="tv.integracao.uberlandia.br" tvg-name="Globo TV INTEGRAÇÃO UBERLANDIA [HD]" tvg-logo="http://lgfp.one/QAP1" group-title="Canais | Globo Sudeste",Globo TV INTEGRAÇÃO UBERLANDIA [HD]
+http://bst3.me:80/7142954/11092011/330476.ts
+#EXTINF:-1 tvg-id="tv.integracao.uberlandia.br" tvg-name="Globo TV INTEGRAÇÃO UBERLANDIA [SD]" tvg-logo="http://lgfp.one/QAP1" group-title="Canais | Globo Sudeste",Globo TV INTEGRAÇÃO UBERLANDIA [SD]
+http://bst3.me:80/7142954/11092011/355537.ts
+#EXTINF:-1 tvg-id="tv.jiparana.br" tvg-name="Globo tv ji-paraná [HD]" tvg-logo="http://lgfp.one/REQ4" group-title="Canais | Globo Norte",Globo tv ji-paraná [HD]
+http://bst3.me:80/7142954/11092011/350659.ts
+#EXTINF:-1 tvg-id="globo.tv.bahia.br" tvg-name="GLOBO TV JUAZEIRO BAHIA [FHD]" tvg-logo="http://lgfp.one/QEB3" group-title="Canais | Globo Nordeste",GLOBO TV JUAZEIRO BAHIA [FHD]
+http://bst3.me:80/7142954/11092011/333831.ts
+#EXTINF:-1 tvg-id="tv.bahia.br" tvg-name="GLOBO TV JUAZEIRO BAHIA [HD]" tvg-logo="http://lgfp.one/QEB3" group-title="Canais | Globo Nordeste",GLOBO TV JUAZEIRO BAHIA [HD]
+http://bst3.me:80/7142954/11092011/353989.ts
+#EXTINF:-1 tvg-id="globo.tv.bahia.br" tvg-name="GLOBO TV JUAZEIRO BAHIA [SD]" tvg-logo="http://lgfp.one/QEB3" group-title="Canais | Globo Nordeste",GLOBO TV JUAZEIRO BAHIA [SD]
+http://bst3.me:80/7142954/11092011/353990.ts
+#EXTINF:-1 tvg-id="tv.liberal.br" tvg-name="Globo TV LIBERAL ALTAMIRA PARÁ [HD]" tvg-logo="http://lgfp.one/QAN8" group-title="Canais | Globo Norte",Globo TV LIBERAL ALTAMIRA PARÁ [HD]
+http://bst3.me:80/7142954/11092011/330463.ts
+#EXTINF:-1 tvg-id="globo.belem.liberal.br" tvg-name="GLOBO TV LIBERAL BELEM [FHD]" tvg-logo="http://lgfp.one/VFX" group-title="Canais | Globo Norte",GLOBO TV LIBERAL BELEM [FHD]
+http://bst3.me:80/7142954/11092011/119987.ts
+#EXTINF:-1 tvg-id="tv.liberal.belem.hd.tv.globo.br" tvg-name="GLOBO TV LIBERAL BELEM [HD]" tvg-logo="http://lgfp.one/VDX" group-title="Canais | Globo Norte",GLOBO TV LIBERAL BELEM [HD]
+http://bst3.me:80/7142954/11092011/43818.ts
+#EXTINF:-1 tvg-id="tv.liberal.belem.hd.tv.globo.br" tvg-name="GLOBO TV LIBERAL BELEM [SD]" tvg-logo="http://lgfp.one/AUX" group-title="Canais | Globo Norte",GLOBO TV LIBERAL BELEM [SD]
+http://bst3.me:80/7142954/11092011/455.ts
+#EXTINF:-1 tvg-id="tv.liberal.castanhalglobo.br" tvg-name="Globo TV Liberal Castanhal [HD]" tvg-logo="http://lgfp.one/QAN6" group-title="Canais | Globo Nordeste",Globo TV Liberal Castanhal [HD]
+http://bst3.me:80/7142954/11092011/330461.ts
+#EXTINF:-1 tvg-id="tv.liberal.belem.hd.tv.globo.br" tvg-name="Globo TV Liberal Maraba [FHD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Nordeste",Globo TV Liberal Maraba [FHD]
+http://bst3.me:80/7142954/11092011/329755.ts
+#EXTINF:-1 tvg-id="tv.liberal.br" tvg-name="Globo TV Liberal Maraba [HD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Nordeste",Globo TV Liberal Maraba [HD]
+http://bst3.me:80/7142954/11092011/329754.ts
+#EXTINF:-1 tvg-id="tv.liberal.paragominas.br" tvg-name="Globo TV LIBERAL PARAGOMINAS PARÁ [HD]" tvg-logo="http://lgfp.one/QAO0" group-title="Canais | Globo Norte",Globo TV LIBERAL PARAGOMINAS PARÁ [HD]
+http://bst3.me:80/7142954/11092011/330464.ts
+#EXTINF:-1 tvg-id="tv.liberal.parauapebas.br" tvg-name="Globo TV LIBERAL PARAUAPEBAS PARÁ [FHD]" tvg-logo="http://lgfp.one/QAO1" group-title="Canais | Globo Norte",Globo TV LIBERAL PARAUAPEBAS PARÁ [FHD]
+http://bst3.me:80/7142954/11092011/330465.ts
+#EXTINF:-1 tvg-id="tv.liberal.redencao.br" tvg-name="Globo TV LIBERAL REDENÇÃO PARÁ [FHD]" tvg-logo="http://lgfp.one/QAO2" group-title="Canais | Globo Norte",Globo TV LIBERAL REDENÇÃO PARÁ [FHD]
+http://bst3.me:80/7142954/11092011/330466.ts
+#EXTINF:-1 tvg-id="tv.liberal.redencao.br" tvg-name="GLOBO TV Liberal Redenção [HD]" tvg-logo="http://lgfp.one/REQ3" group-title="Canais | Globo Norte",GLOBO TV Liberal Redenção [HD]
+http://bst3.me:80/7142954/11092011/350658.ts
+#EXTINF:-1 tvg-id="tv.mirante.hd.tv.globo.br" tvg-name="Globo TV MIRANTE BALSAS [HD]" tvg-logo="http://lgfp.one/QXD5" group-title="Canais | Globo Nordeste",Globo TV MIRANTE BALSAS [HD]
+http://bst3.me:80/7142954/11092011/331706.ts
+#EXTINF:-1 tvg-id="tv.mirante.cocais.br" tvg-name="Globo TV Mirante Cocais [HD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Nordeste",Globo TV Mirante Cocais [HD]
+http://bst3.me:80/7142954/11092011/300928.ts
+#EXTINF:-1 tvg-id="tv.mirante.imperatriz.br" tvg-name="GLOBO TV MIRANTE IMPERATRIZ [HD]" tvg-logo="http://lgfp.one/QCG4" group-title="Canais | Globo Nordeste",GLOBO TV MIRANTE IMPERATRIZ [HD]
+http://bst3.me:80/7142954/11092011/331705.ts
+#EXTINF:-1 tvg-id="tv.mirante.imperatriz.br" tvg-name="GLOBO TV MIRANTE IMPERATRIZ [SD]" tvg-logo="http://lgfp.one/QCG4" group-title="Canais | Globo Nordeste",GLOBO TV MIRANTE IMPERATRIZ [SD]
+http://bst3.me:80/7142954/11092011/355690.ts
+#EXTINF:-1 tvg-id="tv.mirante.sao.luis.br" tvg-name="GLOBO TV MIRANTE SAO LUIS [FHD]" tvg-logo="http://lgfp.one/ASF" group-title="Canais | Globo Nordeste",GLOBO TV MIRANTE SAO LUIS [FHD]
+http://bst3.me:80/7142954/11092011/368.ts
+#EXTINF:-1 tvg-id="tv.mirante.sao.luis.br" tvg-name="GLOBO TV MIRANTE SAO LUIS [HD]" tvg-logo="http://lgfp.one/ATJ" group-title="Canais | Globo Nordeste",GLOBO TV MIRANTE SAO LUIS [HD]
+http://bst3.me:80/7142954/11092011/403.ts
+#EXTINF:-1 tvg-id="tv.mirante.sao.luis.br" tvg-name="GLOBO TV MIRANTE SAO LUIS [SD]" tvg-logo="http://lgfp.one/AUL" group-title="Canais | Globo Nordeste",GLOBO TV MIRANTE SAO LUIS [SD]
+http://bst3.me:80/7142954/11092011/440.ts
+#EXTINF:-1 tvg-id="tv.campo.grande.br" tvg-name="GLOBO TV MORENA CAMPO GRANDE [FHD]" tvg-logo="http://lgfp.one/ASG" group-title="Canais | Globo Centro-Oeste",GLOBO TV MORENA CAMPO GRANDE [FHD]
+http://bst3.me:80/7142954/11092011/369.ts
+#EXTINF:-1 tvg-id="tv.morena.br" tvg-name="GLOBO TV MORENA CAMPO GRANDE [HD]" tvg-logo="http://lgfp.one/ATK" group-title="Canais | Globo Centro-Oeste",GLOBO TV MORENA CAMPO GRANDE [HD]
+http://bst3.me:80/7142954/11092011/404.ts
+#EXTINF:-1 tvg-id="tv.campo.grande.br" tvg-name="GLOBO TV MORENA CAMPO GRANDE [SD]" tvg-logo="http://lgfp.one/AUM" group-title="Canais | Globo Centro-Oeste",GLOBO TV MORENA CAMPO GRANDE [SD]
+http://bst3.me:80/7142954/11092011/441.ts
+#EXTINF:-1 tvg-id="tv.morena.corumba.br" tvg-name="GLOBO TV MORENA CORUMBÁ [FHD]" tvg-logo="http://lgfp.one/QCG8" group-title="Canais | Globo Centro-Oeste",GLOBO TV MORENA CORUMBÁ [FHD]
+http://bst3.me:80/7142954/11092011/331710.ts
+#EXTINF:-1 tvg-id="tv.morena.ponta.pora.hd.tv.globo.br" tvg-name="GLOBO TV MORENA PONTA PORÃ [HD]" tvg-logo="http://lgfp.one/QCG9" group-title="Canais | Globo Centro-Oeste",GLOBO TV MORENA PONTA PORÃ [HD]
+http://bst3.me:80/7142954/11092011/331711.ts
+#EXTINF:-1 tvg-id="" tvg-name="GLOBO TV NORDESTE [FHD]" tvg-logo="http://lgfp.one/RPG3" group-title="Canais | Globo Nordeste",GLOBO TV NORDESTE [FHD]
+http://bst3.me:80/7142954/11092011/358698.ts
+#EXTINF:-1 tvg-id="globo.nordeste.br" tvg-name="GLOBO TV NORDESTE [FHD][H265]" tvg-logo="http://lgfp.one/ASA" group-title="Canais | Globo Nordeste",GLOBO TV NORDESTE [FHD][H265]
+http://bst3.me:80/7142954/11092011/363.ts
+#EXTINF:-1 tvg-id="globo.nordeste.br" tvg-name="GLOBO TV NORDESTE [HD]" tvg-logo="http://lgfp.one/ASV" group-title="Canais | Globo Nordeste",GLOBO TV NORDESTE [HD]
+http://bst3.me:80/7142954/11092011/389.ts
+#EXTINF:-1 tvg-id="globo.nordeste.br" tvg-name="GLOBO TV NORDESTE [SD]" tvg-logo="http://lgfp.one/VCV" group-title="Canais | Globo Nordeste",GLOBO TV NORDESTE [SD]
+http://bst3.me:80/7142954/11092011/424.ts
+#EXTINF:-1 tvg-id="nsc.tv.joinville.tv.globo.br" tvg-name="GLOBO TV NSC JOINVILLE [FHD]" tvg-logo="http://lgfp.one/VCO" group-title="Canais | Globo Sul",GLOBO TV NSC JOINVILLE [FHD]
+http://bst3.me:80/7142954/11092011/378.ts
+#EXTINF:-1 tvg-id="nsc.tv.joinville.tv.globo.br" tvg-name="GLOBO TV NSC JOINVILLE [HD]" tvg-logo="http://lgfp.one/VCS" group-title="Canais | Globo Sul",GLOBO TV NSC JOINVILLE [HD]
+http://bst3.me:80/7142954/11092011/413.ts
+#EXTINF:-1 tvg-id="nsc.tv.joinville.tv.globo.br" tvg-name="GLOBO TV NSC JOINVILLE [SD]" tvg-logo="http://lgfp.one/AUT" group-title="Canais | Globo Sul",GLOBO TV NSC JOINVILLE [SD]
+http://bst3.me:80/7142954/11092011/449.ts
+#EXTINF:-1 tvg-id="nsc.tv.florianopolis.br" tvg-name="GLOBO TV NSC TV FLORIANOPOLIS [FHD]" tvg-logo="http://lgfp.one/ASB" group-title="Canais | Globo Sul",GLOBO TV NSC TV FLORIANOPOLIS [FHD]
+http://bst3.me:80/7142954/11092011/364.ts
+#EXTINF:-1 tvg-id="nsc.tv.florianopolis.br" tvg-name="GLOBO TV NSC TV FLORIANOPOLIS [HD]" tvg-logo="http://lgfp.one/ASW" group-title="Canais | Globo Sul",GLOBO TV NSC TV FLORIANOPOLIS [HD]
+http://bst3.me:80/7142954/11092011/390.ts
+#EXTINF:-1 tvg-id="nsc.tv.florianopolis.br" tvg-name="GLOBO TV NSC TV FLORIANOPOLIS [SD]" tvg-logo="http://lgfp.one/AUA" group-title="Canais | Globo Sul",GLOBO TV NSC TV FLORIANOPOLIS [SD]
+http://bst3.me:80/7142954/11092011/425.ts
+#EXTINF:-1 tvg-id="rede.bahia.br" tvg-name="GLOBO TV OESTE [HD]" tvg-logo="http://lgfp.one/REQ1" group-title="Canais | Globo Nordeste",GLOBO TV OESTE [HD]
+http://bst3.me:80/7142954/11092011/350656.ts
+#EXTINF:-1 tvg-id="rede.bahia.br" tvg-name="GLOBO TV OESTE [SD]" tvg-logo="http://lgfp.one/REQ2" group-title="Canais | Globo Nordeste",GLOBO TV OESTE [SD]
+http://bst3.me:80/7142954/11092011/350657.ts
+#EXTINF:-1 tvg-id="tv.paraiba.br" tvg-name="Globo TV Paraiba [FHD]" tvg-logo="http://lgfp.one/QXD4" group-title="Canais | Globo Sul",Globo TV Paraiba [FHD]
+http://bst3.me:80/7142954/11092011/331703.ts
+#EXTINF:-1 tvg-id="tv.paraiba.br" tvg-name="Globo TV Paraiba [HD]" tvg-logo="http://lgfp.one/QXD4" group-title="Canais | Globo Nordeste",Globo TV Paraiba [HD]
+http://bst3.me:80/7142954/11092011/356723.ts
+#EXTINF:-1 tvg-id="" tvg-name="GLOBO TV PASSO FUNDO [FHD]" tvg-logo="http://lgfp.one/JYX5" group-title="Canais | Globo Sul",GLOBO TV PASSO FUNDO [FHD]
+http://bst3.me:80/7142954/11092011/132949.ts
+#EXTINF:-1 tvg-id="" tvg-name="GLOBO TV PASSO FUNDO [HD]" tvg-logo="http://lgfp.one/JYX6" group-title="Canais | Globo Sul",GLOBO TV PASSO FUNDO [HD]
+http://bst3.me:80/7142954/11092011/132950.ts
+#EXTINF:-1 tvg-id="rbs.tv.porto.alegre.br" tvg-name="GLOBO TV RBS PORTO ALEGRE [FHD]" tvg-logo="http://lgfp.one/ASC" group-title="Canais | Globo Sul",GLOBO TV RBS PORTO ALEGRE [FHD]
+http://bst3.me:80/7142954/11092011/365.ts
+#EXTINF:-1 tvg-id="rbs.tv.porto.alegre.br" tvg-name="GLOBO TV RBS PORTO ALEGRE [HD]" tvg-logo="http://lgfp.one/ASX" group-title="Canais | Globo Sul",GLOBO TV RBS PORTO ALEGRE [HD]
+http://bst3.me:80/7142954/11092011/391.ts
+#EXTINF:-1 tvg-id="rbs.tv.porto.alegre.br" tvg-name="GLOBO TV RBS PORTO ALEGRE [SD]" tvg-logo="http://lgfp.one/VDV" group-title="Canais | Globo Sul",GLOBO TV RBS PORTO ALEGRE [SD]
+http://bst3.me:80/7142954/11092011/34013.ts
+#EXTINF:-1 tvg-id="rbs.tv.rio.grande.br" tvg-name="Globo tv RBS RIO GRANDE [HD]" tvg-logo="http://lgfp.one/QAO6" group-title="Canais | Globo Sul",Globo tv RBS RIO GRANDE [HD]
+http://bst3.me:80/7142954/11092011/330470.ts
+#EXTINF:-1 tvg-id="rbs.tv.santa.rosa.tv.globo.br" tvg-name="GLOBO TV RBS SANTA ROSA [FHD]" tvg-logo="http://lgfp.one/QAN4" group-title="Canais | Globo Sul",GLOBO TV RBS SANTA ROSA [FHD]
+http://bst3.me:80/7142954/11092011/333834.ts
+#EXTINF:-1 tvg-id="rbs.tv.santa.rosa.tv.globo.br" tvg-name="GLOBO TV RBS SANTA ROSA [HD]" tvg-logo="http://lgfp.one/REQ9" group-title="Canais | Globo Sul",GLOBO TV RBS SANTA ROSA [HD]
+http://bst3.me:80/7142954/11092011/350664.ts
+#EXTINF:-1 tvg-id="rbs.tv.uruguaiana.br" tvg-name="Globo TV RBS URUGUAIANA [FHD]" tvg-logo="http://lgfp.one/QAN4" group-title="Canais | Globo Sul",Globo TV RBS URUGUAIANA [FHD]
+http://bst3.me:80/7142954/11092011/333835.ts
+#EXTINF:-1 tvg-id="rbs.tv.uruguaiana.br" tvg-name="Globo TV RBS URUGUAIANA [HD]" tvg-logo="http://lgfp.one/REQ8" group-title="Canais | Globo Sul",Globo TV RBS URUGUAIANA [HD]
+http://bst3.me:80/7142954/11092011/350663.ts
+#EXTINF:-1 tvg-id="tv.globo.recife.br" tvg-name="Globo TV Recife [HD]" tvg-logo="http://lgfp.one/RNW0" group-title="Canais | Globo Nordeste",Globo TV Recife [HD]
+http://bst3.me:80/7142954/11092011/357525.ts
+#EXTINF:-1 tvg-id="rede.amazonica.rio.branco.br" tvg-name="Globo Tv Rede Amazonas Macapa [FHD]" tvg-logo="http://lgfp.one/QAX0" group-title="Canais | Globo Norte",Globo Tv Rede Amazonas Macapa [FHD]
+http://bst3.me:80/7142954/11092011/330658.ts
+#EXTINF:-1 tvg-id="rede.amazonica.rio.branco.br" tvg-name="Globo Tv Rede Amazonas Macapa [HD]" tvg-logo="http://lgfp.one/QAW9" group-title="Canais | Globo Norte",Globo Tv Rede Amazonas Macapa [HD]
+http://bst3.me:80/7142954/11092011/330657.ts
+#EXTINF:-1 tvg-id="rede.amazonica.macapaglobo.br" tvg-name="Globo Tv Rede Amazonas Macapa [SD]" tvg-logo="http://lgfp.one/RER1" group-title="Canais | Globo Norte",Globo Tv Rede Amazonas Macapa [SD]
+http://bst3.me:80/7142954/11092011/355702.ts
+#EXTINF:-1 tvg-id="rede.amazonica.manaus.br" tvg-name="GLOBO TV REDE AMAZONICA MANAUS [FHD]" tvg-logo="http://lgfp.one/VFF" group-title="Canais | Globo Norte",GLOBO TV REDE AMAZONICA MANAUS [FHD]
+http://bst3.me:80/7142954/11092011/59558.ts
+#EXTINF:-1 tvg-id="rede.amazonica.manaus.br" tvg-name="GLOBO TV REDE AMAZONICA MANAUS [HD]" tvg-logo="http://lgfp.one/VEZ" group-title="Canais | Globo Norte",GLOBO TV REDE AMAZONICA MANAUS [HD]
+http://bst3.me:80/7142954/11092011/56132.ts
+#EXTINF:-1 tvg-id="rede.amazonica.manaus.br" tvg-name="GLOBO TV REDE AMAZONICA MANAUS [SD]" tvg-logo="http://lgfp.one/VDP" group-title="Canais | Globo Norte",GLOBO TV REDE AMAZONICA MANAUS [SD]
+http://bst3.me:80/7142954/11092011/32430.ts
+#EXTINF:-1 tvg-id="rede.amazonica.rio.branco.br" tvg-name="GLOBO TV REDE AMAZONICA RIO BRANCO [FHD]" tvg-logo="http://lgfp.one/RKH3" group-title="Canais | Globo Norte",GLOBO TV REDE AMAZONICA RIO BRANCO [FHD]
+http://bst3.me:80/7142954/11092011/355693.ts
+#EXTINF:-1 tvg-id="rede.amazonica.rio.branco.br" tvg-name="GLOBO TV REDE AMAZONICA RIO BRANCO [HD]" tvg-logo="http://lgfp.one/RKH3" group-title="Canais | Globo Norte",GLOBO TV REDE AMAZONICA RIO BRANCO [HD]
+http://bst3.me:80/7142954/11092011/331694.ts
+#EXTINF:-1 tvg-id="rede.amazonica.rio.branco.br" tvg-name="GLOBO TV REDE AMAZONICA RIO BRANCO [SD]" tvg-logo="http://lgfp.one/RKH3" group-title="Canais | Globo Norte",GLOBO TV REDE AMAZONICA RIO BRANCO [SD]
+http://bst3.me:80/7142954/11092011/355694.ts
+#EXTINF:-1 tvg-id="rede.amazonica.rondonia.br" tvg-name="Globo TV Rede Amazônica Cacoal [HD]" tvg-logo="http://lgfp.one/REQ7" group-title="Canais | Globo Norte",Globo TV Rede Amazônica Cacoal [HD]
+http://bst3.me:80/7142954/11092011/350662.ts
+#EXTINF:-1 tvg-id="tv.itacoatiara.br" tvg-name="Globo TV Rede Amazônica Itacoatiara [HD]" tvg-logo="http://lgfp.one/REQ5" group-title="Canais | Globo Norte",Globo TV Rede Amazônica Itacoatiara [HD]
+http://bst3.me:80/7142954/11092011/350660.ts
+#EXTINF:-1 tvg-id="tv.parintins.br" tvg-name="Globo TV Rede Amazônica Parintins [HD]" tvg-logo="http://lgfp.one/RER0" group-title="Canais | Globo Norte",Globo TV Rede Amazônica Parintins [HD]
+http://bst3.me:80/7142954/11092011/350665.ts
+#EXTINF:-1 tvg-id="tv.rio.sul.br" tvg-name="GLOBO TV RIO SUL [FHD]" tvg-logo="http://lgfp.one/ASO" group-title="Canais | Globo Sul",GLOBO TV RIO SUL [FHD]
+http://bst3.me:80/7142954/11092011/381.ts
+#EXTINF:-1 tvg-id="tv.rio.sul.br" tvg-name="GLOBO TV RIO SUL [HD]" tvg-logo="http://lgfp.one/ATU" group-title="Canais | Globo Sul",GLOBO TV RIO SUL [HD]
+http://bst3.me:80/7142954/11092011/416.ts
+#EXTINF:-1 tvg-id="tv.rio.sul.br" tvg-name="GLOBO TV RIO SUL [SD]" tvg-logo="http://lgfp.one/VDB" group-title="Canais | Globo Sul",GLOBO TV RIO SUL [SD]
+http://bst3.me:80/7142954/11092011/452.ts
+#EXTINF:-1 tvg-id="rpc.foz.do.iguacu.hd.tv.globo.br" tvg-name="GLOBO TV RPC FOZ DO IGUACU [FHD]" tvg-logo="http://lgfp.one/ARU" group-title="Canais | Globo Sul",GLOBO TV RPC FOZ DO IGUACU [FHD]
+http://bst3.me:80/7142954/11092011/356.ts
+#EXTINF:-1 tvg-id="rpc.foz.do.iguacu.hd.tv.globo.br" tvg-name="GLOBO TV RPC FOZ DO IGUACU [HD]" tvg-logo="http://lgfp.one/ATF" group-title="Canais | Globo Sul",GLOBO TV RPC FOZ DO IGUACU [HD]
+http://bst3.me:80/7142954/11092011/399.ts
+#EXTINF:-1 tvg-id="rpc.foz.do.iguacu.hd.tv.globo.br" tvg-name="GLOBO TV RPC FOZ DO IGUACU [SD]" tvg-logo="http://lgfp.one/AUI" group-title="Canais | Globo Sul",GLOBO TV RPC FOZ DO IGUACU [SD]
+http://bst3.me:80/7142954/11092011/436.ts
+#EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO TV RPC MARINGA [FHD]" tvg-logo="http://lgfp.one/ARR" group-title="Canais | Globo Sul",GLOBO TV RPC MARINGA [FHD]
+http://bst3.me:80/7142954/11092011/351.ts
+#EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO TV RPC MARINGA [HD]" tvg-logo="http://lgfp.one/ASR" group-title="Canais | Globo Sul",GLOBO TV RPC MARINGA [HD]
+http://bst3.me:80/7142954/11092011/384.ts
+#EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO TV RPC MARINGA [SD]" tvg-logo="http://lgfp.one/VCT" group-title="Canais | Globo Sul",GLOBO TV RPC MARINGA [SD]
+http://bst3.me:80/7142954/11092011/419.ts
+#EXTINF:-1 tvg-id="rpc.paranavai.br" tvg-name="GLOBO TV RPC PARANA [FHD]" tvg-logo="http://lgfp.one/QCG0" group-title="Canais | Globo Sul",GLOBO TV RPC PARANA [FHD]
+http://bst3.me:80/7142954/11092011/331700.ts
+#EXTINF:-1 tvg-id="rpc.paranavai.br" tvg-name="GLOBO TV RPC PARANAVAI [FHD]" tvg-logo="http://lgfp.one/VEK" group-title="Canais | Globo Sul",GLOBO TV RPC PARANAVAI [FHD]
+http://bst3.me:80/7142954/11092011/43843.ts
+#EXTINF:-1 tvg-id="rpc.paranavai.br" tvg-name="GLOBO TV RPC PARANAVAI [HD]" tvg-logo="http://lgfp.one/VED" group-title="Canais | Globo Sul",GLOBO TV RPC PARANAVAI [HD]
+http://bst3.me:80/7142954/11092011/43830.ts
+#EXTINF:-1 tvg-id="rpc.paranavai.br" tvg-name="GLOBO TV RPC PARANAVAI [SD]" tvg-logo="http://lgfp.one/VGF" group-title="Canais | Globo Sul",GLOBO TV RPC PARANAVAI [SD]
+http://bst3.me:80/7142954/11092011/121126.ts
+#EXTINF:-1 tvg-id="tv.santa.cruz.br" tvg-name="GLOBO TV SANTA CRUZ [FHD]" tvg-logo="http://lgfp.one/ASP" group-title="Canais | Globo Norte",GLOBO TV SANTA CRUZ [FHD]
+http://bst3.me:80/7142954/11092011/382.ts
+#EXTINF:-1 tvg-id="tv.santa.cruz.br" tvg-name="GLOBO TV SANTA CRUZ [HD]" tvg-logo="http://lgfp.one/ATV" group-title="Canais | Globo Norte",GLOBO TV SANTA CRUZ [HD]
+http://bst3.me:80/7142954/11092011/417.ts
+#EXTINF:-1 tvg-id="tv.sergipe.br" tvg-name="GLOBO TV SERGIPE [FHD]" tvg-logo="http://lgfp.one/ARX" group-title="Canais | Globo Nordeste",GLOBO TV SERGIPE [FHD]
+http://bst3.me:80/7142954/11092011/359.ts
+#EXTINF:-1 tvg-id="tv.sergipe.br" tvg-name="GLOBO TV SERGIPE [HD]" tvg-logo="http://lgfp.one/ATI" group-title="Canais | Globo Nordeste",GLOBO TV SERGIPE [HD]
+http://bst3.me:80/7142954/11092011/402.ts
+#EXTINF:-1 tvg-id="tv.sergipe.br" tvg-name="GLOBO TV SERGIPE [SD]" tvg-logo="http://lgfp.one/JZO8" group-title="Canais | Globo Nordeste",GLOBO TV SERGIPE [SD]
+http://bst3.me:80/7142954/11092011/246895.ts
+#EXTINF:-1 tvg-id="tv.subae.br" tvg-name="Globo TV Subae [FHD]" tvg-logo="http://lgfp.one/REQ9" group-title="Canais | Globo Nordeste",Globo TV Subae [FHD]
+http://bst3.me:80/7142954/11092011/355532.ts
+#EXTINF:-1 tvg-id="tv.subae.br" tvg-name="Globo TV Subae [HD]" tvg-logo="http://lgfp.one/REQ9" group-title="Canais | Globo Nordeste",Globo TV Subae [HD]
+http://bst3.me:80/7142954/11092011/355533.ts
+#EXTINF:-1 tvg-id="tv.subae.br" tvg-name="Globo TV Subae [SD]" tvg-logo="http://lgfp.one/REQ9" group-title="Canais | Globo Nordeste",Globo TV Subae [SD]
+http://bst3.me:80/7142954/11092011/355534.ts
+#EXTINF:-1 tvg-id="tv.sudoeste.br" tvg-name="Globo TV Sudoeste [FHD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Sudeste",Globo TV Sudoeste [FHD]
+http://bst3.me:80/7142954/11092011/329761.ts
+#EXTINF:-1 tvg-id="tv.sudoeste.br" tvg-name="Globo TV Sudoeste [HD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Sudeste",Globo TV Sudoeste [HD]
+http://bst3.me:80/7142954/11092011/329760.ts
+#EXTINF:-1 tvg-id="tv.sudoeste.br" tvg-name="Globo TV Sudoeste [SD]" tvg-logo="http://lgfp.one/NRM1" group-title="Canais | Globo Sudeste",Globo TV Sudoeste [SD]
+http://bst3.me:80/7142954/11092011/329759.ts
+#EXTINF:-1 tvg-id="tv.tapajos.br" tvg-name="GLOBO TV TAPAJÓS [FHD]" tvg-logo="http://lgfp.one/QCF7" group-title="Canais | Globo Norte",GLOBO TV TAPAJÓS [FHD]
+http://bst3.me:80/7142954/11092011/331697.ts
+#EXTINF:-1 tvg-id="tv.tapajos.br" tvg-name="GLOBO TV TAPAJÓS [HD]" tvg-logo="http://lgfp.one/QCF7" group-title="Canais | Globo Norte",GLOBO TV TAPAJÓS [HD]
+http://bst3.me:80/7142954/11092011/357602.ts
+#EXTINF:-1 tvg-id="tv.tem.bauru.br" tvg-name="GLOBO TV TEM BAURU [FHD]" tvg-logo="http://lgfp.one/VFR" group-title="Canais | Globo Sudeste",GLOBO TV TEM BAURU [FHD]
+http://bst3.me:80/7142954/11092011/69091.ts
+#EXTINF:-1 tvg-id="tv.tem.bauru.br" tvg-name="GLOBO TV TEM BAURU [HD]" tvg-logo="http://lgfp.one/VFQ" group-title="Canais | Globo Sudeste",GLOBO TV TEM BAURU [HD]
+http://bst3.me:80/7142954/11092011/69090.ts
+#EXTINF:-1 tvg-id="tv.tem.bauru.br" tvg-name="GLOBO TV TEM BAURU [SD]" tvg-logo="http://lgfp.one/AUW" group-title="Canais | Globo Sudeste",GLOBO TV TEM BAURU [SD]
+http://bst3.me:80/7142954/11092011/454.ts
+#EXTINF:-1 tvg-id="tv.tem.itapetininga.br" tvg-name="GLOBO TV TEM ITAPETININGA [FHD]" tvg-logo="http://lgfp.one/VGI" group-title="Canais | Globo Sudeste",GLOBO TV TEM ITAPETININGA [FHD]
+http://bst3.me:80/7142954/11092011/122753.ts
+#EXTINF:-1 tvg-id="tv.tem.itapetininga.br" tvg-name="GLOBO TV TEM ITAPETININGA [HD]" tvg-logo="http://lgfp.one/VGH" group-title="Canais | Globo Sudeste",GLOBO TV TEM ITAPETININGA [HD]
+http://bst3.me:80/7142954/11092011/122752.ts
+#EXTINF:-1 tvg-id="tv.tem.sorocaba.br" tvg-name="GLOBO TV TEM SOROCABA [FHD]" tvg-logo="http://lgfp.one/VFZ" group-title="Canais | Globo Sudeste",GLOBO TV TEM SOROCABA [FHD]
+http://bst3.me:80/7142954/11092011/119990.ts
+#EXTINF:-1 tvg-id="tv.tem.sorocaba.br" tvg-name="GLOBO TV TEM SOROCABA [HD]" tvg-logo="http://lgfp.one/VFY" group-title="Canais | Globo Sudeste",GLOBO TV TEM SOROCABA [HD]
+http://bst3.me:80/7142954/11092011/119989.ts
+#EXTINF:-1 tvg-id="tv.tem.sorocaba.br" tvg-name="GLOBO TV TEM SOROCABA [SD]" tvg-logo="http://lgfp.one/VDC" group-title="Canais | Globo Sudeste",GLOBO TV TEM SOROCABA [SD]
+http://bst3.me:80/7142954/11092011/456.ts
+#EXTINF:-1 tvg-id="tv.tribuna.santos.br" tvg-name="GLOBO TV TRIBUNA SANTOS [FHD]" tvg-logo="http://lgfp.one/VFS" group-title="Canais | Globo Sudeste",GLOBO TV TRIBUNA SANTOS [FHD]
+http://bst3.me:80/7142954/11092011/102041.ts
+#EXTINF:-1 tvg-id="tv.tribuna.santos.br" tvg-name="GLOBO TV TRIBUNA SANTOS [HD]" tvg-logo="http://lgfp.one/VES" group-title="Canais | Globo Sudeste",GLOBO TV TRIBUNA SANTOS [HD]
+http://bst3.me:80/7142954/11092011/56125.ts
+#EXTINF:-1 tvg-id="tv.tribuna.santos.br" tvg-name="GLOBO TV TRIBUNA SANTOS [SD]" tvg-logo="http://lgfp.one/AUH" group-title="Canais | Globo Sudeste",GLOBO TV TRIBUNA SANTOS [SD]
+http://bst3.me:80/7142954/11092011/433.ts
+#EXTINF:-1 tvg-id="tv.vanguarda.br" tvg-name="GLOBO TV VANGUARDA S. J. DOS CAMPOS [FHD]" tvg-logo="http://lgfp.one/VGK" group-title="Canais | Globo Sudeste",GLOBO TV VANGUARDA S. J. DOS CAMPOS [FHD]
+http://bst3.me:80/7142954/11092011/122758.ts
+#EXTINF:-1 tvg-id="tv.vanguarda.br" tvg-name="GLOBO TV VANGUARDA S. J. DOS CAMPOS [HD]" tvg-logo="http://lgfp.one/VGJ" group-title="Canais | Globo Sudeste",GLOBO TV VANGUARDA S. J. DOS CAMPOS [HD]
+http://bst3.me:80/7142954/11092011/122757.ts
+#EXTINF:-1 tvg-id="tv.vanguarda.br" tvg-name="GLOBO TV VANGUARDA S. J. DOS CAMPOS [SD]" tvg-logo="http://lgfp.one/VCX" group-title="Canais | Globo Sudeste",GLOBO TV VANGUARDA S. J. DOS CAMPOS [SD]
+http://bst3.me:80/7142954/11092011/434.ts
+#EXTINF:-1 tvg-id="tv.vanguarda.taubate.br" tvg-name="GLOBO TV VANGUARDA TAUBATE [FHD]" tvg-logo="http://lgfp.one/VFE" group-title="Canais | Globo Sudeste",GLOBO TV VANGUARDA TAUBATE [FHD]
+http://bst3.me:80/7142954/11092011/56179.ts
+#EXTINF:-1 tvg-id="tv.vanguarda.taubate.br" tvg-name="GLOBO TV VANGUARDA TAUBATE [HD]" tvg-logo="http://lgfp.one/VFD" group-title="Canais | Globo Sudeste",GLOBO TV VANGUARDA TAUBATE [HD]
+http://bst3.me:80/7142954/11092011/56140.ts
+#EXTINF:-1 tvg-id="tv.vanguarda.taubate.br" tvg-name="GLOBO TV VANGUARDA TAUBATE [SD]" tvg-logo="http://lgfp.one/VFW" group-title="Canais | Globo Sudeste",GLOBO TV VANGUARDA TAUBATE [SD]
+http://bst3.me:80/7142954/11092011/110300.ts
+#EXTINF:-1 tvg-id="tv.verdes.mares.br" tvg-name="GLOBO TV VERDES MARES FORTALEZA [FHD]" tvg-logo="http://lgfp.one/VFM" group-title="Canais | Globo Nordeste",GLOBO TV VERDES MARES FORTALEZA [FHD]
+http://bst3.me:80/7142954/11092011/65253.ts
+#EXTINF:-1 tvg-id="tv.verdes.mares.br" tvg-name="GLOBO TV VERDES MARES FORTALEZA [HD]" tvg-logo="http://lgfp.one/VFL" group-title="Canais | Globo Nordeste",GLOBO TV VERDES MARES FORTALEZA [HD]
+http://bst3.me:80/7142954/11092011/65252.ts
+#EXTINF:-1 tvg-id="tv.verdes.mares.br" tvg-name="GLOBO TV VERDES MARES FORTALEZA [SD]" tvg-logo="http://lgfp.one/AVB" group-title="Canais | Globo Nordeste",GLOBO TV VERDES MARES FORTALEZA [SD]
+http://bst3.me:80/7142954/11092011/461.ts
+#EXTINF:-1 tvg-id="tv.verdes.mares.br" tvg-name="GLOBO VERDE MARES [HD]" tvg-logo="http://lgfp.one/QEB6" group-title="Canais | Globo Nordeste",GLOBO VERDE MARES [HD]
+http://bst3.me:80/7142954/11092011/333837.ts
+#EXTINF:-1 tvg-id="tv.verdes.mares.br" tvg-name="GLOBO VERDES MARES [FHD]" tvg-logo="http://lgfp.one/QCG3" group-title="Canais | Globo Nordeste",GLOBO VERDES MARES [FHD]
+http://bst3.me:80/7142954/11092011/331704.ts
+#EXTINF:-1 tvg-id="" tvg-name="Globo+ GE Futebol 1 [HD]" tvg-logo="http://lgfp.one/RNW8" group-title="Canais | Jogos & Eventos",Globo+ GE Futebol 1 [HD]
+http://bst3.me:80/7142954/11092011/357600.ts
+#EXTINF:-1 tvg-id="" tvg-name="Globo+ GE Futebol 2" tvg-logo="http://lgfp.one/RNW9" group-title="Canais | Jogos & Eventos",Globo+ GE Futebol 2
+http://bst3.me:80/7142954/11092011/357601.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 1 [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 1 [FHD]
+http://bst3.me:80/7142954/11092011/227960.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 10 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 10 [SD]
+http://bst3.me:80/7142954/11092011/227948.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 2 [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 2 [FHD]
+http://bst3.me:80/7142954/11092011/227968.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 3 [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 3 [HD]
+http://bst3.me:80/7142954/11092011/227964.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 4 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 4 [SD]
+http://bst3.me:80/7142954/11092011/227962.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 5 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 5 [SD]
+http://bst3.me:80/7142954/11092011/227958.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 6 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 6 [SD]
+http://bst3.me:80/7142954/11092011/227956.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 7 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 7 [SD]
+http://bst3.me:80/7142954/11092011/227954.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 8 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 8 [SD]
+http://bst3.me:80/7142954/11092011/227952.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO 9 [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO 9 [SD]
+http://bst3.me:80/7142954/11092011/227950.ts
+#EXTINF:-1 tvg-id="" tvg-name="XXX ADULTO [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",XXX ADULTO [SD]
+http://bst3.me:80/7142954/11092011/227928.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Abella Olsen" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Abella Olsen
+http://bst3.me:80/7142954/11092011/316241.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228140.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228143.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 03] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 03] [HD]
+http://bst3.me:80/7142954/11092011/228146.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 04] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 04] [HD]
+http://bst3.me:80/7142954/11092011/228149.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 05] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 05] [HD]
+http://bst3.me:80/7142954/11092011/228152.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 06] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 06] [HD]
+http://bst3.me:80/7142954/11092011/228155.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] All Anal [Pack 07] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] All Anal [Pack 07] [HD]
+http://bst3.me:80/7142954/11092011/228158.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Anal Only [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Anal Only [HD]
+http://bst3.me:80/7142954/11092011/228161.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Andressa Urach" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Andressa Urach
+http://bst3.me:80/7142954/11092011/316243.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Anna Cherry" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Anna Cherry
+http://bst3.me:80/7142954/11092011/316234.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Asiaticas" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Asiaticas
+http://bst3.me:80/7142954/11092011/228636.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BABES TV [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BABES TV [FHD][H265]
+http://bst3.me:80/7142954/11092011/337392.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BALKAN EROTIC [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BALKAN EROTIC [FHD]
+http://bst3.me:80/7142954/11092011/337393.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BANG U [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BANG U [FHD]
+http://bst3.me:80/7142954/11092011/337394.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BARELY LEGAL TV [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BARELY LEGAL TV [SD]
+http://bst3.me:80/7142954/11092011/337395.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Boquete" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Boquete
+http://bst3.me:80/7142954/11092011/228646.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BRASILEIRINHAS [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BRASILEIRINHAS [FHD]
+http://bst3.me:80/7142954/11092011/337390.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BRASILEIRINHAS: A CAMPEA DO ANAL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] BRASILEIRINHAS: A CAMPEA DO ANAL
+http://bst3.me:80/7142954/11092011/370858.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] BRAZZERS TV EUROPE [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BRAZZERS TV EUROPE [FHD][H265]
+http://bst3.me:80/7142954/11092011/337396.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Bunda Grande" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Bunda Grande
+http://bst3.me:80/7142954/11092011/228638.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Cameras ao Vivo" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Cameras ao Vivo
+http://bst3.me:80/7142954/11092011/228666.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Cornos" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Cornos
+http://bst3.me:80/7142954/11092011/228652.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Coroas" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Coroas
+http://bst3.me:80/7142954/11092011/228668.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Debora Peixoto" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Debora Peixoto
+http://bst3.me:80/7142954/11092011/316236.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] DESIRE [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] DESIRE [FHD][H265]
+http://bst3.me:80/7142954/11092011/337397.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Dorcel TV [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dorcel TV [FHD][H265]
+http://bst3.me:80/7142954/11092011/295200.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] DORCEL XXX [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] DORCEL XXX [FHD][H265]
+http://bst3.me:80/7142954/11092011/337398.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] DUSK [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] DUSK [FHD][H265]
+http://bst3.me:80/7142954/11092011/337399.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] ERO XXX [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] ERO XXX [FHD][H265]
+http://bst3.me:80/7142954/11092011/337400.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE ANAL [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE ANAL [FHD]
+http://bst3.me:80/7142954/11092011/337453.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE ASIAN [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE ASIAN [FHD]
+http://bst3.me:80/7142954/11092011/337454.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE BABYSITTER [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE BABYSITTER [FHD]
+http://bst3.me:80/7142954/11092011/337456.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE BDSM [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE BDSM [FHD]
+http://bst3.me:80/7142954/11092011/337455.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE BIG COCK [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE BIG COCK [FHD]
+http://bst3.me:80/7142954/11092011/337457.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE BLONDES [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE BLONDES [FHD]
+http://bst3.me:80/7142954/11092011/337458.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE BLOWJOB [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE BLOWJOB [FHD]
+http://bst3.me:80/7142954/11092011/337459.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE BRUNETTE [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE BRUNETTE [FHD]
+http://bst3.me:80/7142954/11092011/337460.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE CREAMPIE [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE CREAMPIE [FHD]
+http://bst3.me:80/7142954/11092011/337461.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE FISTING [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE FISTING [FHD]
+http://bst3.me:80/7142954/11092011/337462.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE GANGBANG [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE GANGBANG [FHD]
+http://bst3.me:80/7142954/11092011/337463.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE LESBIANS [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE LESBIANS [FHD]
+http://bst3.me:80/7142954/11092011/337464.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE MILF [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE MILF [FHD]
+http://bst3.me:80/7142954/11092011/337465.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE ORGY [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE ORGY [FHD]
+http://bst3.me:80/7142954/11092011/337466.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE POV [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE POV [FHD]
+http://bst3.me:80/7142954/11092011/337467.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE REDHEADS [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE REDHEADS [FHD]
+http://bst3.me:80/7142954/11092011/337468.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE RUSSIAN TEENS [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE RUSSIAN TEENS [FHD]
+http://bst3.me:80/7142954/11092011/337469.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE SCHOOLGIRL [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE SCHOOLGIRL [FHD]
+http://bst3.me:80/7142954/11092011/337470.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE SHEMALES [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE SHEMALES [FHD]
+http://bst3.me:80/7142954/11092011/337471.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROLUXE SOLO [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROLUXE SOLO [FHD]
+http://bst3.me:80/7142954/11092011/337472.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROMANIA [4K]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROMANIA [4K]
+http://bst3.me:80/7142954/11092011/337401.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC
+http://bst3.me:80/7142954/11092011/337402.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 2
+http://bst3.me:80/7142954/11092011/337403.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 3
+http://bst3.me:80/7142954/11092011/337404.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 4
+http://bst3.me:80/7142954/11092011/337405.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 5
+http://bst3.me:80/7142954/11092011/337406.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 6" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 6
+http://bst3.me:80/7142954/11092011/337407.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 7
+http://bst3.me:80/7142954/11092011/337408.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROTIC 8" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROTIC 8
+http://bst3.me:80/7142954/11092011/337409.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EROX [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EROX [FHD][H265]
+http://bst3.me:80/7142954/11092011/337410.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Estrelas Porno" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Estrelas Porno
+http://bst3.me:80/7142954/11092011/228670.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EVIL ANGEL [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EVIL ANGEL [FHD]
+http://bst3.me:80/7142954/11092011/337411.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EXTASY [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EXTASY [FHD]
+http://bst3.me:80/7142954/11092011/337412.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EXTASY [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EXTASY [FHD][H265]
+http://bst3.me:80/7142954/11092011/337413.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] EXXXOTICA [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EXXXOTICA [FHD][H265]
+http://bst3.me:80/7142954/11092011/337414.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] FANTAZZY TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] FANTAZZY TV
+http://bst3.me:80/7142954/11092011/337415.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228164.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 02] [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 02] [SD]
+http://bst3.me:80/7142954/11092011/228167.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 03] [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 03] [SD]
+http://bst3.me:80/7142954/11092011/228170.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 04] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 04] [HD]
+http://bst3.me:80/7142954/11092011/228173.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 05] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 05] [HD]
+http://bst3.me:80/7142954/11092011/228176.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 06] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 06] [HD]
+http://bst3.me:80/7142954/11092011/228179.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 07] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 07] [HD]
+http://bst3.me:80/7142954/11092011/228182.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 08] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 08] [HD]
+http://bst3.me:80/7142954/11092011/228185.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 09] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 09] [HD]
+http://bst3.me:80/7142954/11092011/228188.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 10] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 10] [HD]
+http://bst3.me:80/7142954/11092011/228191.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 11] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 11] [HD]
+http://bst3.me:80/7142954/11092011/228194.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 12] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 12] [HD]
+http://bst3.me:80/7142954/11092011/228197.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 13] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 13] [HD]
+http://bst3.me:80/7142954/11092011/228200.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 14] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 14] [HD]
+http://bst3.me:80/7142954/11092011/228203.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 15] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 15] [HD]
+http://bst3.me:80/7142954/11092011/228206.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 16] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 16] [HD]
+http://bst3.me:80/7142954/11092011/228323.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 17] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 17] [HD]
+http://bst3.me:80/7142954/11092011/228326.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 18] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 18] [HD]
+http://bst3.me:80/7142954/11092011/228329.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 19] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 19] [HD]
+http://bst3.me:80/7142954/11092011/228332.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 20] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 20] [HD]
+http://bst3.me:80/7142954/11092011/228335.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 21] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 21] [HD]
+http://bst3.me:80/7142954/11092011/228338.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 22] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 22] [HD]
+http://bst3.me:80/7142954/11092011/228341.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 23] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 23] [HD]
+http://bst3.me:80/7142954/11092011/228344.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 24] [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 24] [SD]
+http://bst3.me:80/7142954/11092011/228347.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 25] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 25] [HD]
+http://bst3.me:80/7142954/11092011/228350.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 26] [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 26] [SD]
+http://bst3.me:80/7142954/11092011/228353.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 27] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 27] [HD]
+http://bst3.me:80/7142954/11092011/228356.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 28] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 28] [HD]
+http://bst3.me:80/7142954/11092011/228359.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 29] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 29] [HD]
+http://bst3.me:80/7142954/11092011/228362.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 30] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 30] [HD]
+http://bst3.me:80/7142954/11092011/228365.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 31] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 31] [HD]
+http://bst3.me:80/7142954/11092011/228368.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 32] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 32] [HD]
+http://bst3.me:80/7142954/11092011/228371.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Adultos [Pack 33] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Adultos [Pack 33] [HD]
+http://bst3.me:80/7142954/11092011/228374.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228209.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228212.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 03] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 03] [HD]
+http://bst3.me:80/7142954/11092011/228215.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 04] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 04] [HD]
+http://bst3.me:80/7142954/11092011/228218.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 05] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 05] [HD]
+http://bst3.me:80/7142954/11092011/228221.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 06] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 06] [HD]
+http://bst3.me:80/7142954/11092011/228224.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 07] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 07] [HD]
+http://bst3.me:80/7142954/11092011/228227.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 08] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 08] [HD]
+http://bst3.me:80/7142954/11092011/228230.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 09] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 09] [HD]
+http://bst3.me:80/7142954/11092011/228233.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 10] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 10] [HD]
+http://bst3.me:80/7142954/11092011/228236.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 11] [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 11] [SD]
+http://bst3.me:80/7142954/11092011/228239.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 12] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 12] [HD]
+http://bst3.me:80/7142954/11092011/228242.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 13] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 13] [HD]
+http://bst3.me:80/7142954/11092011/228245.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 15] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 15] [HD]
+http://bst3.me:80/7142954/11092011/228248.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Filmes Trans [Pack 16] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Filmes Trans [Pack 16] [HD]
+http://bst3.me:80/7142954/11092011/228251.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] FRENCHLOVER TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] FRENCHLOVER TV
+http://bst3.me:80/7142954/11092011/337416.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Fuck Studies [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Fuck Studies [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228254.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Fuck Studies [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Fuck Studies [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228257.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Fuck Studies [Pack 03] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Fuck Studies [Pack 03] [HD]
+http://bst3.me:80/7142954/11092011/228260.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] HENTAI [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HENTAI [HD]
+http://bst3.me:80/7142954/11092011/337391.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Homossexual Masculino [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Homossexual Masculino [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228263.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Homossexual Masculino [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Homossexual Masculino [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228266.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] HOT PLEASURE [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOT PLEASURE [FHD]
+http://bst3.me:80/7142954/11092011/337418.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] HOT [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOT [HD]
+http://bst3.me:80/7142954/11092011/337417.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] HUSTLER TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HUSTLER TV
+http://bst3.me:80/7142954/11092011/337420.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] HUSTLER [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HUSTLER [FHD]
+http://bst3.me:80/7142954/11092011/337419.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Interesseiras [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Interesseiras [HD]
+http://bst3.me:80/7142954/11092011/228269.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Juliana Bonde" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Juliana Bonde
+http://bst3.me:80/7142954/11092011/316242.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Julyana Ribeiro" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Julyana Ribeiro
+http://bst3.me:80/7142954/11092011/316238.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Latinas" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Latinas
+http://bst3.me:80/7142954/11092011/228662.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Lauren Cat" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Lauren Cat
+http://bst3.me:80/7142954/11092011/316239.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] LEO TV GOLD [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] LEO TV GOLD [FHD][H265]
+http://bst3.me:80/7142954/11092011/337421.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] LEO TV [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] LEO TV [FHD][H265]
+http://bst3.me:80/7142954/11092011/337422.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Lesbicas" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Lesbicas
+http://bst3.me:80/7142954/11092011/228664.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Lets Try Anal [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Lets Try Anal [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228272.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Lets Try Anal [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Lets Try Anal [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228275.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Lets Try Anal [Pack 03] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Lets Try Anal [Pack 03] [HD]
+http://bst3.me:80/7142954/11092011/228278.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Loiras" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Loiras
+http://bst3.me:80/7142954/11092011/228644.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Luiza Marcato" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Luiza Marcato
+http://bst3.me:80/7142954/11092011/316233.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Mari Avila" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Mari Avila
+http://bst3.me:80/7142954/11092011/316235.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Mc Mirella" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Mc Mirella
+http://bst3.me:80/7142954/11092011/316244.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Mc Pipokinha" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Mc Pipokinha
+http://bst3.me:80/7142954/11092011/316237.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MEIDEN VAN HOLLAND" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] MEIDEN VAN HOLLAND
+http://bst3.me:80/7142954/11092011/337423.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MILF TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] MILF TV
+http://bst3.me:80/7142954/11092011/337424.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228281.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228284.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 03] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 03] [HD]
+http://bst3.me:80/7142954/11092011/228287.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 04] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 04] [HD]
+http://bst3.me:80/7142954/11092011/228290.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 05] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 05] [HD]
+http://bst3.me:80/7142954/11092011/228293.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 06] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 06] [HD]
+http://bst3.me:80/7142954/11092011/228296.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 07] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 07] [HD]
+http://bst3.me:80/7142954/11092011/228299.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 08] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 08] [HD]
+http://bst3.me:80/7142954/11092011/228302.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] MissaX [Pack 09] [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] MissaX [Pack 09] [SD]
+http://bst3.me:80/7142954/11092011/228305.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] NET XXL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] NET XXL
+http://bst3.me:80/7142954/11092011/337425.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Nicoly Rio" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Nicoly Rio
+http://bst3.me:80/7142954/11092011/316240.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PASSIE XXX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PASSIE XXX
+http://bst3.me:80/7142954/11092011/337427.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PASSION XXX [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PASSION XXX [FHD]
+http://bst3.me:80/7142954/11092011/337428.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PENTHOUSE GOLD [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PENTHOUSE GOLD [FHD]
+http://bst3.me:80/7142954/11092011/337429.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PENTHOUSE PASSION [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PENTHOUSE PASSION [FHD]
+http://bst3.me:80/7142954/11092011/337430.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PENTHOUSE REALITY TV [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PENTHOUSE REALITY TV [FHD]
+http://bst3.me:80/7142954/11092011/337431.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PINKO CLUB [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PINKO CLUB [FHD]
+http://bst3.me:80/7142954/11092011/295261.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PLAYBOY TV EUROPE [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYBOY TV EUROPE [HD]
+http://bst3.me:80/7142954/11092011/337432.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PLAYBOY TV LA [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYBOY TV LA [FHD]
+http://bst3.me:80/7142954/11092011/337433.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PLAYBOY [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYBOY [FHD]
+http://bst3.me:80/7142954/11092011/44216.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PLAYBOY [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYBOY [FHD][H265]
+http://bst3.me:80/7142954/11092011/44158.ts
+#EXTINF:-1 tvg-id="Playboy TV" tvg-name="[XXX] PLAYBOY [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYBOY [HD]
+http://bst3.me:80/7142954/11092011/44154.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PLAYBOY [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYBOY [SD]
+http://bst3.me:80/7142954/11092011/44153.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PLAYHOUSE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PLAYHOUSE
+http://bst3.me:80/7142954/11092011/337434.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] POV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] POV
+http://bst3.me:80/7142954/11092011/228672.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] PURE BABES [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PURE BABES [FHD]
+http://bst3.me:80/7142954/11092011/337435.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] REALITY KINGS [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] REALITY KINGS [FHD][H265]
+http://bst3.me:80/7142954/11092011/337436.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] RED LIPS [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] RED LIPS [FHD]
+http://bst3.me:80/7142954/11092011/337437.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] RED XXX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] RED XXX
+http://bst3.me:80/7142954/11092011/337438.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] REDLIGHT [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] REDLIGHT [HD]
+http://bst3.me:80/7142954/11092011/295272.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Russas" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Russas
+http://bst3.me:80/7142954/11092011/228676.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] RUSSIAN NIGHT [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] RUSSIAN NIGHT [FHD]
+http://bst3.me:80/7142954/11092011/337439.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] SECRET CIRCLE [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SECRET CIRCLE [FHD]
+http://bst3.me:80/7142954/11092011/337440.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Sexo a Tres" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Sexo a Tres
+http://bst3.me:80/7142954/11092011/228680.ts
+#EXTINF:-1 tvg-id="Sextreme.br" tvg-name="[XXX] SEXTREME [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SEXTREME [SD]
+http://bst3.me:80/7142954/11092011/44155.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Sexy Hot [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexy Hot [FHD]
+http://bst3.me:80/7142954/11092011/210679.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Sexy Hot [FHD][H265]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexy Hot [FHD][H265]
+http://bst3.me:80/7142954/11092011/44159.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Sexy Hot [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexy Hot [HD]
+http://bst3.me:80/7142954/11092011/44218.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Sexy Hot [SD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexy Hot [SD]
+http://bst3.me:80/7142954/11092011/330076.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] SHALUN [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SHALUN [FHD]
+http://bst3.me:80/7142954/11092011/337441.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] SHELK [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SHELK [FHD]
+http://bst3.me:80/7142954/11092011/337442.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Teen | real teen beauty blasted with cum" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Teen | real teen beauty blasted with cum
+http://bst3.me:80/7142954/11092011/363907.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Teste de Fudelidade [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Teste de Fudelidade [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228311.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Teste de Fudelidade [Pack 02] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Teste de Fudelidade [Pack 02] [HD]
+http://bst3.me:80/7142954/11092011/228314.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Teste de Fudelidade [Pack 03] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Teste de Fudelidade [Pack 03] [HD]
+http://bst3.me:80/7142954/11092011/228317.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] TRUE AMATEURS [FHD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] TRUE AMATEURS [FHD]
+http://bst3.me:80/7142954/11092011/337443.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Tweetney [Pack 01] [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [24HR]",[XXX] Tweetney [Pack 01] [HD]
+http://bst3.me:80/7142954/11092011/228320.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] VIVID TOUCH" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] VIVID TOUCH
+http://bst3.me:80/7142954/11092011/337444.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] X-MO" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] X-MO
+http://bst3.me:80/7142954/11092011/337445.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] Yinyleon" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos [OnlyFans] [Privacy]",[XXX] Yinyleon
+http://bst3.me:80/7142954/11092011/353895.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 1
+http://bst3.me:80/7142954/11092011/337446.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 2
+http://bst3.me:80/7142954/11092011/337447.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 3
+http://bst3.me:80/7142954/11092011/337448.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 4
+http://bst3.me:80/7142954/11092011/337449.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 5
+http://bst3.me:80/7142954/11092011/337450.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 6" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 6
+http://bst3.me:80/7142954/11092011/337451.ts
+#EXTINF:-1 tvg-id="" tvg-name="[XXX] [ADULT] CHANNEL 7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] [ADULT] CHANNEL 7
+http://bst3.me:80/7142954/11092011/337452.ts
+#EXTINF:-1 tvg-id="[XXX] 21 Sextury" tvg-name="[XXX] 21 Sextury" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] 21 Sextury
+http://bst3.me:80/7142954/11092011/436509.ts
+#EXTINF:-1 tvg-id="[XXX] 4K Ultra" tvg-name="[XXX] 4K Ultra" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] 4K Ultra
+http://bst3.me:80/7142954/11092011/436510.ts
+#EXTINF:-1 tvg-id="[XXX] ADULT 4K" tvg-name="[XXX] ADULT 4K" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] ADULT 4K
+http://bst3.me:80/7142954/11092011/436511.ts
+#EXTINF:-1 tvg-id="[XXX] Adult Tiny 1" tvg-name="[XXX] Adult Tiny 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult Tiny 1
+http://bst3.me:80/7142954/11092011/436512.ts
+#EXTINF:-1 tvg-id="[XXX] Adult Tiny 2" tvg-name="[XXX] Adult Tiny 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult Tiny 2
+http://bst3.me:80/7142954/11092011/436513.ts
+#EXTINF:-1 tvg-id="[XXX] Adult Tiny 3" tvg-name="[XXX] Adult Tiny 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult Tiny 3
+http://bst3.me:80/7142954/11092011/436514.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 1" tvg-name="[XXX] Adult TINY4K 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 1
+http://bst3.me:80/7142954/11092011/436515.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 10" tvg-name="[XXX] Adult TINY4K 10" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 10
+http://bst3.me:80/7142954/11092011/436516.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 11" tvg-name="[XXX] Adult TINY4K 11" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 11
+http://bst3.me:80/7142954/11092011/436517.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 2" tvg-name="[XXX] Adult TINY4K 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 2
+http://bst3.me:80/7142954/11092011/436518.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 3" tvg-name="[XXX] Adult TINY4K 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 3
+http://bst3.me:80/7142954/11092011/436519.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 4" tvg-name="[XXX] Adult TINY4K 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 4
+http://bst3.me:80/7142954/11092011/436520.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 5" tvg-name="[XXX] Adult TINY4K 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 5
+http://bst3.me:80/7142954/11092011/436521.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 6" tvg-name="[XXX] Adult TINY4K 6" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 6
+http://bst3.me:80/7142954/11092011/436522.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 7" tvg-name="[XXX] Adult TINY4K 7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 7
+http://bst3.me:80/7142954/11092011/436523.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 8" tvg-name="[XXX] Adult TINY4K 8" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 8
+http://bst3.me:80/7142954/11092011/436524.ts
+#EXTINF:-1 tvg-id="[XXX] Adult TINY4K 9" tvg-name="[XXX] Adult TINY4K 9" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Adult TINY4K 9
+http://bst3.me:80/7142954/11092011/436525.ts
+#EXTINF:-1 tvg-id="[XXX] A GIRL KNOWS" tvg-name="[XXX] A GIRL KNOWS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] A GIRL KNOWS
+http://bst3.me:80/7142954/11092011/436526.ts
+#EXTINF:-1 tvg-id="[XXX] Alba XXX1" tvg-name="[XXX] Alba XXX1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Alba XXX1
+http://bst3.me:80/7142954/11092011/436527.ts
+#EXTINF:-1 tvg-id="[XXX] Alba XXX2" tvg-name="[XXX] Alba XXX2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Alba XXX2
+http://bst3.me:80/7142954/11092011/436528.ts
+#EXTINF:-1 tvg-id="[XXX] Alba XXX HD1 FHD" tvg-name="[XXX] Alba XXX HD1 FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Alba XXX HD1 FHD
+http://bst3.me:80/7142954/11092011/436529.ts
+#EXTINF:-1 tvg-id="[XXX] Alba XXX HD2 FHD" tvg-name="[XXX] Alba XXX HD2 FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Alba XXX HD2 FHD
+http://bst3.me:80/7142954/11092011/436530.ts
+#EXTINF:-1 tvg-id="[XXX] Alba XXX HD3 FHD" tvg-name="[XXX] Alba XXX HD3 FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Alba XXX HD3 FHD
+http://bst3.me:80/7142954/11092011/436531.ts
+#EXTINF:-1 tvg-id="[XXX] Alba XXX HD4 FHD" tvg-name="[XXX] Alba XXX HD4 FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Alba XXX HD4 FHD
+http://bst3.me:80/7142954/11092011/436532.ts
+#EXTINF:-1 tvg-id="[XXX] ALL ANAL" tvg-name="[XXX] ALL ANAL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] ALL ANAL
+http://bst3.me:80/7142954/11092011/436533.ts
+#EXTINF:-1 tvg-id="[XXX] Anal 4K" tvg-name="[XXX] Anal 4K" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Anal 4K
+http://bst3.me:80/7142954/11092011/436534.ts
+#EXTINF:-1 tvg-id="[XXX] Anal Mom" tvg-name="[XXX] Anal Mom" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Anal Mom
+http://bst3.me:80/7142954/11092011/436535.ts
+#EXTINF:-1 tvg-id="[XXX] ANALMOM" tvg-name="[XXX] ANALMOM" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] ANALMOM
+http://bst3.me:80/7142954/11092011/436536.ts
+#EXTINF:-1 tvg-id="[XXX] Anal Only" tvg-name="[XXX] Anal Only" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Anal Only
+http://bst3.me:80/7142954/11092011/436537.ts
+#EXTINF:-1 tvg-id="[XXX] ANALONLY" tvg-name="[XXX] ANALONLY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] ANALONLY
+http://bst3.me:80/7142954/11092011/436538.ts
+#EXTINF:-1 tvg-id="[XXX] Anal Teen Angels" tvg-name="[XXX] Anal Teen Angels" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Anal Teen Angels
+http://bst3.me:80/7142954/11092011/436539.ts
+#EXTINF:-1 tvg-id="[XXX] Asshole Fever" tvg-name="[XXX] Asshole Fever" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Asshole Fever
+http://bst3.me:80/7142954/11092011/436540.ts
+#EXTINF:-1 tvg-id="[XXX] Balkan Erotic FHD" tvg-name="[XXX] Balkan Erotic FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Balkan Erotic FHD
+http://bst3.me:80/7142954/11092011/436541.ts
+#EXTINF:-1 tvg-id="[XXX] BALLOON BOXXX" tvg-name="[XXX] BALLOON BOXXX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BALLOON BOXXX
+http://bst3.me:80/7142954/11092011/436542.ts
+#EXTINF:-1 tvg-id="[XXX] Banana Fever" tvg-name="[XXX] Banana Fever" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Banana Fever
+http://bst3.me:80/7142954/11092011/436543.ts
+#EXTINF:-1 tvg-id="[XXX] Bangbros" tvg-name="[XXX] Bangbros" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Bangbros
+http://bst3.me:80/7142954/11092011/436544.ts
+#EXTINF:-1 tvg-id="[XXX] BANG BROS 10" tvg-name="[XXX] BANG BROS 10" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BANG BROS 10
+http://bst3.me:80/7142954/11092011/436545.ts
+#EXTINF:-1 tvg-id="[XXX] BANG BROS 2" tvg-name="[XXX] BANG BROS 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BANG BROS 2
+http://bst3.me:80/7142954/11092011/436546.ts
+#EXTINF:-1 tvg-id="[XXX] Bangbros 4K" tvg-name="[XXX] Bangbros 4K" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Bangbros 4K
+http://bst3.me:80/7142954/11092011/436547.ts
+#EXTINF:-1 tvg-id="[XXX] BANG BROS 5" tvg-name="[XXX] BANG BROS 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BANG BROS 5
+http://bst3.me:80/7142954/11092011/436548.ts
+#EXTINF:-1 tvg-id="[XXX] BANG BROS 9" tvg-name="[XXX] BANG BROS 9" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BANG BROS 9
+http://bst3.me:80/7142954/11092011/436549.ts
+#EXTINF:-1 tvg-id="[XXX] Bang Bus" tvg-name="[XXX] Bang Bus" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Bang Bus
+http://bst3.me:80/7142954/11092011/436550.ts
+#EXTINF:-1 tvg-id="[XXX] Barely Legal TV HD" tvg-name="[XXX] Barely Legal TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Barely Legal TV HD
+http://bst3.me:80/7142954/11092011/436551.ts
+#EXTINF:-1 tvg-id="[XXX] BBCPIE" tvg-name="[XXX] BBCPIE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BBCPIE
+http://bst3.me:80/7142954/11092011/436552.ts
+#EXTINF:-1 tvg-id="[XXX] Beate Uhse TV FHD" tvg-name="[XXX] Beate Uhse TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Beate Uhse TV FHD
+http://bst3.me:80/7142954/11092011/436553.ts
+#EXTINF:-1 tvg-id="[XXX] Blacked" tvg-name="[XXX] Blacked" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Blacked
+http://bst3.me:80/7142954/11092011/436554.ts
+#EXTINF:-1 tvg-id="[XXX] BLACKED 1" tvg-name="[XXX] BLACKED 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BLACKED 1
+http://bst3.me:80/7142954/11092011/436555.ts
+#EXTINF:-1 tvg-id="[XXX] BLACKED 2" tvg-name="[XXX] BLACKED 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BLACKED 2
+http://bst3.me:80/7142954/11092011/436556.ts
+#EXTINF:-1 tvg-id="[XXX] Black White Porn 1" tvg-name="[XXX] Black White Porn 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Black White Porn 1
+http://bst3.me:80/7142954/11092011/436557.ts
+#EXTINF:-1 tvg-id="[XXX] Blue Hustler HD" tvg-name="[XXX] Blue Hustler HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Blue Hustler HD
+http://bst3.me:80/7142954/11092011/436558.ts
+#EXTINF:-1 tvg-id="[XXX] Brand New Amateurs" tvg-name="[XXX] Brand New Amateurs" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Brand New Amateurs
+http://bst3.me:80/7142954/11092011/436559.ts
+#EXTINF:-1 tvg-id="[XXX] Bratty Sis" tvg-name="[XXX] Bratty Sis" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Bratty Sis
+http://bst3.me:80/7142954/11092011/436560.ts
+#EXTINF:-1 tvg-id="[XXX] Bratty Sis +1" tvg-name="[XXX] Bratty Sis +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Bratty Sis +1
+http://bst3.me:80/7142954/11092011/436561.ts
+#EXTINF:-1 tvg-id="[XXX] BRAZZERS" tvg-name="[XXX] BRAZZERS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BRAZZERS
+http://bst3.me:80/7142954/11092011/436562.ts
+#EXTINF:-1 tvg-id="[XXX] BRAZZERS 1" tvg-name="[XXX] BRAZZERS 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BRAZZERS 1
+http://bst3.me:80/7142954/11092011/436563.ts
+#EXTINF:-1 tvg-id="[XXX] BRAZZERS 2" tvg-name="[XXX] BRAZZERS 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BRAZZERS 2
+http://bst3.me:80/7142954/11092011/436564.ts
+#EXTINF:-1 tvg-id="[XXX] Brazzers 3" tvg-name="[XXX] Brazzers 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Brazzers 3
+http://bst3.me:80/7142954/11092011/436565.ts
+#EXTINF:-1 tvg-id="[XXX] BRAZZERS 4" tvg-name="[XXX] BRAZZERS 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] BRAZZERS 4
+http://bst3.me:80/7142954/11092011/436566.ts
+#EXTINF:-1 tvg-id="[XXX] Brazzers Extra" tvg-name="[XXX] Brazzers Extra" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Brazzers Extra
+http://bst3.me:80/7142954/11092011/436567.ts
+#EXTINF:-1 tvg-id="[XXX] Brazzers TV Español" tvg-name="[XXX] Brazzers TV Español" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Brazzers TV Español
+http://bst3.me:80/7142954/11092011/436568.ts
+#EXTINF:-1 tvg-id="[XXX] Brazzers TV Europe FHD" tvg-name="[XXX] Brazzers TV Europe FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Brazzers TV Europe FHD
+http://bst3.me:80/7142954/11092011/436569.ts
+#EXTINF:-1 tvg-id="[XXX] Cento X Cento TV FHD" tvg-name="[XXX] Cento X Cento TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Cento X Cento TV FHD
+http://bst3.me:80/7142954/11092011/436570.ts
+#EXTINF:-1 tvg-id="[XXX] Cum 4k UHD" tvg-name="[XXX] Cum 4k UHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Cum 4k UHD
+http://bst3.me:80/7142954/11092011/436571.ts
+#EXTINF:-1 tvg-id="[XXX] Cum Perfection" tvg-name="[XXX] Cum Perfection" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Cum Perfection
+http://bst3.me:80/7142954/11092011/436572.ts
+#EXTINF:-1 tvg-id="[XXX] Czech Gang Bang" tvg-name="[XXX] Czech Gang Bang" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Czech Gang Bang
+http://bst3.me:80/7142954/11092011/436573.ts
+#EXTINF:-1 tvg-id="[XXX] CZECH STREETS" tvg-name="[XXX] CZECH STREETS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] CZECH STREETS
+http://bst3.me:80/7142954/11092011/436574.ts
+#EXTINF:-1 tvg-id="[XXX] Dad Crush" tvg-name="[XXX] Dad Crush" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dad Crush
+http://bst3.me:80/7142954/11092011/436575.ts
+#EXTINF:-1 tvg-id="[XXX] Dancing Bear" tvg-name="[XXX] Dancing Bear" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dancing Bear
+http://bst3.me:80/7142954/11092011/436576.ts
+#EXTINF:-1 tvg-id="[XXX] danejones" tvg-name="[XXX] danejones" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] danejones
+http://bst3.me:80/7142954/11092011/436577.ts
+#EXTINF:-1 tvg-id="[XXX] Dane Jones" tvg-name="[XXX] Dane Jones" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dane Jones
+http://bst3.me:80/7142954/11092011/436578.ts
+#EXTINF:-1 tvg-id="[XXX] Dark X" tvg-name="[XXX] Dark X" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dark X
+http://bst3.me:80/7142954/11092011/436579.ts
+#EXTINF:-1 tvg-id="[XXX] Daughter Swap" tvg-name="[XXX] Daughter Swap" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Daughter Swap
+http://bst3.me:80/7142954/11092011/436580.ts
+#EXTINF:-1 tvg-id="[XXX] Day with a Pornstar" tvg-name="[XXX] Day with a Pornstar" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Day with a Pornstar
+http://bst3.me:80/7142954/11092011/436581.ts
+#EXTINF:-1 tvg-id="[XXX] DDF Busty" tvg-name="[XXX] DDF Busty" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] DDF Busty
+http://bst3.me:80/7142954/11092011/436582.ts
+#EXTINF:-1 tvg-id="[XXX] DDF Network" tvg-name="[XXX] DDF Network" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] DDF Network
+http://bst3.me:80/7142954/11092011/436583.ts
+#EXTINF:-1 tvg-id="[XXX] Dorcel" tvg-name="[XXX] Dorcel" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dorcel
+http://bst3.me:80/7142954/11092011/436584.ts
+#EXTINF:-1 tvg-id="[XXX] Dorcel Club" tvg-name="[XXX] Dorcel Club" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dorcel Club
+http://bst3.me:80/7142954/11092011/436585.ts
+#EXTINF:-1 tvg-id="[XXX] Dorcel Club.com" tvg-name="[XXX] Dorcel Club.com" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dorcel Club.com
+http://bst3.me:80/7142954/11092011/436586.ts
+#EXTINF:-1 tvg-id="[XXX] Dorcel TV FHD" tvg-name="[XXX] Dorcel TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dorcel TV FHD
+http://bst3.me:80/7142954/11092011/436587.ts
+#EXTINF:-1 tvg-id="[XXX] Dorcel XXX FHD" tvg-name="[XXX] Dorcel XXX FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dorcel XXX FHD
+http://bst3.me:80/7142954/11092011/436588.ts
+#EXTINF:-1 tvg-id="[XXX] Dusk FHD" tvg-name="[XXX] Dusk FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Dusk FHD
+http://bst3.me:80/7142954/11092011/436589.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 2 HD" tvg-name="[XXX] Erotic 2 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 2 HD
+http://bst3.me:80/7142954/11092011/436590.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 3 HD" tvg-name="[XXX] Erotic 3 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 3 HD
+http://bst3.me:80/7142954/11092011/436591.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 4 HD" tvg-name="[XXX] Erotic 4 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 4 HD
+http://bst3.me:80/7142954/11092011/436592.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 5 HD" tvg-name="[XXX] Erotic 5 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 5 HD
+http://bst3.me:80/7142954/11092011/436593.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 6 HD" tvg-name="[XXX] Erotic 6 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 6 HD
+http://bst3.me:80/7142954/11092011/436594.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 7 HD" tvg-name="[XXX] Erotic 7 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 7 HD
+http://bst3.me:80/7142954/11092011/436595.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic 8 HD" tvg-name="[XXX] Erotic 8 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic 8 HD
+http://bst3.me:80/7142954/11092011/436596.ts
+#EXTINF:-1 tvg-id="[XXX] Erotic HD" tvg-name="[XXX] Erotic HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erotic HD
+http://bst3.me:80/7142954/11092011/436597.ts
+#EXTINF:-1 tvg-id="[XXX] ERO X" tvg-name="[XXX] ERO X" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] ERO X
+http://bst3.me:80/7142954/11092011/436598.ts
+#EXTINF:-1 tvg-id="[XXX] Erox FHD" tvg-name="[XXX] Erox FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erox FHD
+http://bst3.me:80/7142954/11092011/436599.ts
+#EXTINF:-1 tvg-id="[XXX] EroxTV" tvg-name="[XXX] EroxTV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EroxTV
+http://bst3.me:80/7142954/11092011/436600.ts
+#EXTINF:-1 tvg-id="[XXX] Eroxxx FHD" tvg-name="[XXX] Eroxxx FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Eroxxx FHD
+http://bst3.me:80/7142954/11092011/436601.ts
+#EXTINF:-1 tvg-id="[XXX] Erox XXX" tvg-name="[XXX] Erox XXX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Erox XXX
+http://bst3.me:80/7142954/11092011/436602.ts
+#EXTINF:-1 tvg-id="[XXX] Euro Girls On Girls" tvg-name="[XXX] Euro Girls On Girls" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Euro Girls On Girls
+http://bst3.me:80/7142954/11092011/436603.ts
+#EXTINF:-1 tvg-id="[XXX] Evil Angel" tvg-name="[XXX] Evil Angel" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Evil Angel
+http://bst3.me:80/7142954/11092011/436604.ts
+#EXTINF:-1 tvg-id="[XXX] EVIL ANGEL +1" tvg-name="[XXX] EVIL ANGEL +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EVIL ANGEL +1
+http://bst3.me:80/7142954/11092011/436605.ts
+#EXTINF:-1 tvg-id="[XXX] Evil Angel-1-1" tvg-name="[XXX] Evil Angel-1-1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Evil Angel-1-1
+http://bst3.me:80/7142954/11092011/436606.ts
+#EXTINF:-1 tvg-id="[XXX] EVIL ANGEL +4" tvg-name="[XXX] EVIL ANGEL +4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EVIL ANGEL +4
+http://bst3.me:80/7142954/11092011/436607.ts
+#EXTINF:-1 tvg-id="[XXX] EVIL ANGEL +49" tvg-name="[XXX] EVIL ANGEL +49" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EVIL ANGEL +49
+http://bst3.me:80/7142954/11092011/436608.ts
+#EXTINF:-1 tvg-id="[XXX] EVIL ANGEL +5" tvg-name="[XXX] EVIL ANGEL +5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EVIL ANGEL +5
+http://bst3.me:80/7142954/11092011/436609.ts
+#EXTINF:-1 tvg-id="[XXX] EVIL ANGEL +7" tvg-name="[XXX] EVIL ANGEL +7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EVIL ANGEL +7
+http://bst3.me:80/7142954/11092011/436610.ts
+#EXTINF:-1 tvg-id="[XXX] Evil Angel TV FHD" tvg-name="[XXX] Evil Angel TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Evil Angel TV FHD
+http://bst3.me:80/7142954/11092011/436611.ts
+#EXTINF:-1 tvg-id="[XXX] Evolved Fights" tvg-name="[XXX] Evolved Fights" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Evolved Fights
+http://bst3.me:80/7142954/11092011/436612.ts
+#EXTINF:-1 tvg-id="[XXX] Extasy" tvg-name="[XXX] Extasy" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Extasy
+http://bst3.me:80/7142954/11092011/436613.ts
+#EXTINF:-1 tvg-id="[XXX] EXTASY 4K" tvg-name="[XXX] EXTASY 4K" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] EXTASY 4K
+http://bst3.me:80/7142954/11092011/436614.ts
+#EXTINF:-1 tvg-id="[XXX] Extasy TV HD" tvg-name="[XXX] Extasy TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Extasy TV HD
+http://bst3.me:80/7142954/11092011/436615.ts
+#EXTINF:-1 tvg-id="[XXX] Exxxotica TV FHD" tvg-name="[XXX] Exxxotica TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Exxxotica TV FHD
+http://bst3.me:80/7142954/11092011/436616.ts
+#EXTINF:-1 tvg-id="[XXX] Fake Taxi" tvg-name="[XXX] Fake Taxi" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Fake Taxi
+http://bst3.me:80/7142954/11092011/436617.ts
+#EXTINF:-1 tvg-id="[XXX] Fake Taxi 1" tvg-name="[XXX] Fake Taxi 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Fake Taxi 1
+http://bst3.me:80/7142954/11092011/436618.ts
+#EXTINF:-1 tvg-id="[XXX] Fake Taxi 2" tvg-name="[XXX] Fake Taxi 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Fake Taxi 2
+http://bst3.me:80/7142954/11092011/436619.ts
+#EXTINF:-1 tvg-id="[XXX] Family Hookups" tvg-name="[XXX] Family Hookups" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Family Hookups
+http://bst3.me:80/7142954/11092011/436620.ts
+#EXTINF:-1 tvg-id="[XXX] Family Strokes" tvg-name="[XXX] Family Strokes" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Family Strokes
+http://bst3.me:80/7142954/11092011/436621.ts
+#EXTINF:-1 tvg-id="[XXX] Fantazzy TV HD" tvg-name="[XXX] Fantazzy TV [HD]" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Fantazzy TV [HD]
+http://bst3.me:80/7142954/11092011/436622.ts
+#EXTINF:-1 tvg-id="[XXX] France a Poil1" tvg-name="[XXX] France a Poil1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] France a Poil1
+http://bst3.me:80/7142954/11092011/436623.ts
+#EXTINF:-1 tvg-id="[XXX] France a Poil2" tvg-name="[XXX] France a Poil2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] France a Poil2
+http://bst3.me:80/7142954/11092011/436624.ts
+#EXTINF:-1 tvg-id="[XXX] France a Poil3" tvg-name="[XXX] France a Poil3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] France a Poil3
+http://bst3.me:80/7142954/11092011/436625.ts
+#EXTINF:-1 tvg-id="[XXX] France a Poil4" tvg-name="[XXX] France a Poil4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] France a Poil4
+http://bst3.me:80/7142954/11092011/436626.ts
+#EXTINF:-1 tvg-id="[XXX] French Lover" tvg-name="[XXX] French Lover" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] French Lover
+http://bst3.me:80/7142954/11092011/436627.ts
+#EXTINF:-1 tvg-id="[XXX] Gay Adult TV" tvg-name="[XXX] Gay Adult TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Gay Adult TV
+http://bst3.me:80/7142954/11092011/436628.ts
+#EXTINF:-1 tvg-id="[XXX] Girls Rimming" tvg-name="[XXX] Girls Rimming" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Girls Rimming
+http://bst3.me:80/7142954/11092011/436629.ts
+#EXTINF:-1 tvg-id="[XXX] Glam HD" tvg-name="[XXX] Glam HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Glam HD
+http://bst3.me:80/7142954/11092011/436630.ts
+#EXTINF:-1 tvg-id="[XXX] Glory Hole" tvg-name="[XXX] Glory Hole" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Glory Hole
+http://bst3.me:80/7142954/11092011/436631.ts
+#EXTINF:-1 tvg-id="[XXX] HENTAI-3D 1-1" tvg-name="[XXX] HENTAI-3D 1-1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HENTAI-3D 1-1
+http://bst3.me:80/7142954/11092011/436632.ts
+#EXTINF:-1 tvg-id="[XXX] HENTAI-3D 1-2" tvg-name="[XXX] HENTAI-3D 1-2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HENTAI-3D 1-2
+http://bst3.me:80/7142954/11092011/436633.ts
+#EXTINF:-1 tvg-id="[XXX] HENTAI-3D 2-1" tvg-name="[XXX] HENTAI-3D 2-1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HENTAI-3D 2-1
+http://bst3.me:80/7142954/11092011/436634.ts
+#EXTINF:-1 tvg-id="[XXX] HENTAI-3D 2-2" tvg-name="[XXX] HENTAI-3D 2-2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HENTAI-3D 2-2
+http://bst3.me:80/7142954/11092011/436635.ts
+#EXTINF:-1 tvg-id="[XXX] HENTAI-3D 3-1" tvg-name="[XXX] HENTAI-3D 3-1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HENTAI-3D 3-1
+http://bst3.me:80/7142954/11092011/436636.ts
+#EXTINF:-1 tvg-id="[XXX] Hookup Hotshot" tvg-name="[XXX] Hookup Hotshot" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hookup Hotshot
+http://bst3.me:80/7142954/11092011/436637.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB BABES 1" tvg-name="[XXX] HOTCLUB BABES 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB BABES 1
+http://bst3.me:80/7142954/11092011/436638.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB BABES 2" tvg-name="[XXX] HOTCLUB BABES 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB BABES 2
+http://bst3.me:80/7142954/11092011/436639.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB BABES 3" tvg-name="[XXX] HOTCLUB BABES 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB BABES 3
+http://bst3.me:80/7142954/11092011/436640.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB BABES 4" tvg-name="[XXX] HOTCLUB BABES 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB BABES 4
+http://bst3.me:80/7142954/11092011/436641.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB BABES 5" tvg-name="[XXX] HOTCLUB BABES 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB BABES 5
+http://bst3.me:80/7142954/11092011/436642.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB DORCEL" tvg-name="[XXX] HOTCLUB DORCEL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB DORCEL
+http://bst3.me:80/7142954/11092011/436643.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GANGBANG 1" tvg-name="[XXX] HOTCLUB GANGBANG 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GANGBANG 1
+http://bst3.me:80/7142954/11092011/436644.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GANGBANG 2" tvg-name="[XXX] HOTCLUB GANGBANG 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GANGBANG 2
+http://bst3.me:80/7142954/11092011/436645.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GANGBANG 3" tvg-name="[XXX] HOTCLUB GANGBANG 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GANGBANG 3
+http://bst3.me:80/7142954/11092011/436646.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GLORYHOLE 1" tvg-name="[XXX] HOTCLUB GLORYHOLE 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GLORYHOLE 1
+http://bst3.me:80/7142954/11092011/436647.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GLORYHOLE 2" tvg-name="[XXX] HOTCLUB GLORYHOLE 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GLORYHOLE 2
+http://bst3.me:80/7142954/11092011/436648.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GLORYHOLE 3" tvg-name="[XXX] HOTCLUB GLORYHOLE 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GLORYHOLE 3
+http://bst3.me:80/7142954/11092011/436649.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GLORYHOLE 4" tvg-name="[XXX] HOTCLUB GLORYHOLE 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GLORYHOLE 4
+http://bst3.me:80/7142954/11092011/436650.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB GLORYHOLE 5" tvg-name="[XXX] HOTCLUB GLORYHOLE 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB GLORYHOLE 5
+http://bst3.me:80/7142954/11092011/436651.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB LADYBOY 1" tvg-name="[XXX] HOTCLUB LADYBOY 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB LADYBOY 1
+http://bst3.me:80/7142954/11092011/436652.ts
+#EXTINF:-1 tvg-id="[XXX] HOTCLUB LADYBOY 2" tvg-name="[XXX] HOTCLUB LADYBOY 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOTCLUB LADYBOY 2
+http://bst3.me:80/7142954/11092011/436653.ts
+#EXTINF:-1 tvg-id="[XXX] HOT FHD" tvg-name="[XXX] HOT FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOT FHD
+http://bst3.me:80/7142954/11092011/436654.ts
+#EXTINF:-1 tvg-id="[XXX] Hot Guys Fuck" tvg-name="[XXX] Hot Guys Fuck" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hot Guys Fuck
+http://bst3.me:80/7142954/11092011/436655.ts
+#EXTINF:-1 tvg-id="[XXX] HOT KINKY JO" tvg-name="[XXX] HOT KINKY JO" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HOT KINKY JO
+http://bst3.me:80/7142954/11092011/436656.ts
+#EXTINF:-1 tvg-id="[XXX] Hot Sexy 1" tvg-name="[XXX] Hot Sexy 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hot Sexy 1
+http://bst3.me:80/7142954/11092011/436657.ts
+#EXTINF:-1 tvg-id="[XXX] Hot Sexy 2" tvg-name="[XXX] Hot Sexy 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hot Sexy 2
+http://bst3.me:80/7142954/11092011/436658.ts
+#EXTINF:-1 tvg-id="[XXX] Hot Sexy 3" tvg-name="[XXX] Hot Sexy 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hot Sexy 3
+http://bst3.me:80/7142954/11092011/436659.ts
+#EXTINF:-1 tvg-id="[XXX] Hot Sexy 4" tvg-name="[XXX] Hot Sexy 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hot Sexy 4
+http://bst3.me:80/7142954/11092011/436660.ts
+#EXTINF:-1 tvg-id="[XXX] HUSTLER" tvg-name="[XXX] HUSTLER" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] HUSTLER
+http://bst3.me:80/7142954/11092011/436661.ts
+#EXTINF:-1 tvg-id="[XXX] Hustler HD" tvg-name="[XXX] Hustler HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Hustler HD
+http://bst3.me:80/7142954/11092011/436662.ts
+#EXTINF:-1 tvg-id="[XXX] IPPA" tvg-name="[XXX] IPPA" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] IPPA
+http://bst3.me:80/7142954/11092011/436663.ts
+#EXTINF:-1 tvg-id="[XXX] Japan HDV" tvg-name="[XXX] Japan HDV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Japan HDV
+http://bst3.me:80/7142954/11092011/436664.ts
+#EXTINF:-1 tvg-id="[XXX] JAPANHDV" tvg-name="[XXX] JAPANHDV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] JAPANHDV
+http://bst3.me:80/7142954/11092011/436665.ts
+#EXTINF:-1 tvg-id="[XXX] Leo Gold TV FHD" tvg-name="[XXX] Leo Gold TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Leo Gold TV FHD
+http://bst3.me:80/7142954/11092011/436666.ts
+#EXTINF:-1 tvg-id="[XXX] Leo TV FHD" tvg-name="[XXX] Leo TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Leo TV FHD
+http://bst3.me:80/7142954/11092011/436667.ts
+#EXTINF:-1 tvg-id="[XXX] Lesbian Affair" tvg-name="[XXX] Lesbian Affair" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Lesbian Affair
+http://bst3.me:80/7142954/11092011/436668.ts
+#EXTINF:-1 tvg-id="[XXX] Little Caprice" tvg-name="[XXX] Little Caprice" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Little Caprice
+http://bst3.me:80/7142954/11092011/436669.ts
+#EXTINF:-1 tvg-id="[XXX] Little Caprice +1" tvg-name="[XXX] Little Caprice +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Little Caprice +1
+http://bst3.me:80/7142954/11092011/436670.ts
+#EXTINF:-1 tvg-id="[XXX] Little Caprice Dreams" tvg-name="[XXX] Little Caprice Dreams" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Little Caprice Dreams
+http://bst3.me:80/7142954/11092011/436671.ts
+#EXTINF:-1 tvg-id="[XXX] Mega 1" tvg-name="[XXX] Mega 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Mega 1
+http://bst3.me:80/7142954/11092011/436672.ts
+#EXTINF:-1 tvg-id="[XXX] Mia Khalifa" tvg-name="[XXX] Mia Khalifa" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Mia Khalifa
+http://bst3.me:80/7142954/11092011/436673.ts
+#EXTINF:-1 tvg-id="[XXX] Mia Khalifa +1" tvg-name="[XXX] Mia Khalifa +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Mia Khalifa +1
+http://bst3.me:80/7142954/11092011/436674.ts
+#EXTINF:-1 tvg-id="[XXX] MOFOS" tvg-name="[XXX] MOFOS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] MOFOS
+http://bst3.me:80/7142954/11092011/436675.ts
+#EXTINF:-1 tvg-id="[XXX] MOMS TEACH SEX" tvg-name="[XXX] MOMS TEACH SEX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] MOMS TEACH SEX
+http://bst3.me:80/7142954/11092011/436676.ts
+#EXTINF:-1 tvg-id="[XXX] My Daughter's Hot Friend" tvg-name="[XXX] My Daughter's Hot Friend" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] My Daughter's Hot Friend
+http://bst3.me:80/7142954/11092011/436677.ts
+#EXTINF:-1 tvg-id="[XXX] MY PERVY FAMILY" tvg-name="[XXX] MY PERVY FAMILY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] MY PERVY FAMILY
+http://bst3.me:80/7142954/11092011/436678.ts
+#EXTINF:-1 tvg-id="[XXX] Naughty America" tvg-name="[XXX] Naughty America" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Naughty America
+http://bst3.me:80/7142954/11092011/436679.ts
+#EXTINF:-1 tvg-id="[XXX] NAUGHTY CAT" tvg-name="[XXX] NAUGHTY CAT" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] NAUGHTY CAT
+http://bst3.me:80/7142954/11092011/436680.ts
+#EXTINF:-1 tvg-id="[XXX] Naughty HD" tvg-name="[XXX] Naughty HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Naughty HD
+http://bst3.me:80/7142954/11092011/436681.ts
+#EXTINF:-1 tvg-id="[XXX] NETIP Asian Porn" tvg-name="[XXX] NETIP Asian Porn" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] NETIP Asian Porn
+http://bst3.me:80/7142954/11092011/436682.ts
+#EXTINF:-1 tvg-id="[XXX] nubiles" tvg-name="[XXX] nubiles" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] nubiles
+http://bst3.me:80/7142954/11092011/436683.ts
+#EXTINF:-1 tvg-id="[XXX] O LA LA" tvg-name="[XXX] O LA LA" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] O LA LA
+http://bst3.me:80/7142954/11092011/436684.ts
+#EXTINF:-1 tvg-id="[XXX] Oldtimer HD" tvg-name="[XXX] Oldtimer HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Oldtimer HD
+http://bst3.me:80/7142954/11092011/436685.ts
+#EXTINF:-1 tvg-id="[XXX] Passie XXX HD" tvg-name="[XXX] Passie XXX HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Passie XXX HD
+http://bst3.me:80/7142954/11092011/436686.ts
+#EXTINF:-1 tvg-id="[XXX] Passion XXX FHD" tvg-name="[XXX] Passion XXX FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Passion XXX FHD
+http://bst3.me:80/7142954/11092011/436687.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse After Midnight HD" tvg-name="[XXX] Penthouse After Midnight HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse After Midnight HD
+http://bst3.me:80/7142954/11092011/436688.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Black HD" tvg-name="[XXX] Penthouse Black HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Black HD
+http://bst3.me:80/7142954/11092011/436689.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Gold" tvg-name="[XXX] Penthouse Gold" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Gold
+http://bst3.me:80/7142954/11092011/436690.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse HD" tvg-name="[XXX] Penthouse HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse HD
+http://bst3.me:80/7142954/11092011/436691.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Naughty Nights HD" tvg-name="[XXX] Penthouse Naughty Nights HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Naughty Nights HD
+http://bst3.me:80/7142954/11092011/436692.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Passion" tvg-name="[XXX] Penthouse Passion" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Passion
+http://bst3.me:80/7142954/11092011/436693.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Passion HD" tvg-name="[XXX] Penthouse Passion HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Passion HD
+http://bst3.me:80/7142954/11092011/436694.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Quickies" tvg-name="[XXX] Penthouse Quickies" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Quickies
+http://bst3.me:80/7142954/11092011/436695.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Quickies HD" tvg-name="[XXX] Penthouse Quickies HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Quickies HD
+http://bst3.me:80/7142954/11092011/436696.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Reality TV HD" tvg-name="[XXX] Penthouse Reality TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Reality TV HD
+http://bst3.me:80/7142954/11092011/436697.ts
+#EXTINF:-1 tvg-id="[XXX] PERV CITY" tvg-name="[XXX] PERV CITY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PERV CITY
+http://bst3.me:80/7142954/11092011/436698.ts
+#EXTINF:-1 tvg-id="[XXX] Perv Mom +1" tvg-name="[XXX] Perv Mom +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Perv Mom +1
+http://bst3.me:80/7142954/11092011/436699.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 1" tvg-name="[XXX] Pink Erotic 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 1
+http://bst3.me:80/7142954/11092011/436700.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 2" tvg-name="[XXX] Pink Erotic 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 2
+http://bst3.me:80/7142954/11092011/436701.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 3" tvg-name="[XXX] Pink Erotic 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 3
+http://bst3.me:80/7142954/11092011/436702.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 4" tvg-name="[XXX] Pink Erotic 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 4
+http://bst3.me:80/7142954/11092011/436703.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 5" tvg-name="[XXX] Pink Erotic 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 5
+http://bst3.me:80/7142954/11092011/436704.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 6" tvg-name="[XXX] Pink Erotic 6" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 6
+http://bst3.me:80/7142954/11092011/436705.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 7" tvg-name="[XXX] Pink Erotic 7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 7
+http://bst3.me:80/7142954/11092011/436706.ts
+#EXTINF:-1 tvg-id="[XXX] Pink Erotic 8" tvg-name="[XXX] Pink Erotic 8" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pink Erotic 8
+http://bst3.me:80/7142954/11092011/436707.ts
+#EXTINF:-1 tvg-id="[XXX] Pinko Club TV" tvg-name="[XXX] Pinko Club TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pinko Club TV
+http://bst3.me:80/7142954/11092011/436708.ts
+#EXTINF:-1 tvg-id="[XXX] Playboy" tvg-name="[XXX] Playboy" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Playboy
+http://bst3.me:80/7142954/11092011/436709.ts
+#EXTINF:-1 tvg-id="[XXX] Playboy Brasil FHD" tvg-name="[XXX] Playboy Brasil FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Playboy Brasil FHD
+http://bst3.me:80/7142954/11092011/436710.ts
+#EXTINF:-1 tvg-id="[XXX] Playboy FHD" tvg-name="[XXX] Playboy FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Playboy FHD
+http://bst3.me:80/7142954/11092011/436711.ts
+#EXTINF:-1 tvg-id="[XXX] Playboy Latino FHD" tvg-name="[XXX] Playboy Latino FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Playboy Latino FHD
+http://bst3.me:80/7142954/11092011/436712.ts
+#EXTINF:-1 tvg-id="[XXX] Playboy USA FHD" tvg-name="[XXX] Playboy USA FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Playboy USA FHD
+http://bst3.me:80/7142954/11092011/436713.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX 4K BBC PIE" tvg-name="[XXX] PORNBOX 4K BBC PIE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX 4K BBC PIE
+http://bst3.me:80/7142954/11092011/436714.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX 4K SPANK MONSTER" tvg-name="[XXX] PORNBOX 4K SPANK MONSTER" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX 4K SPANK MONSTER
+http://bst3.me:80/7142954/11092011/436715.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX 4K TINY 4K" tvg-name="[XXX] PORNBOX 4K TINY 4K" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX 4K TINY 4K
+http://bst3.me:80/7142954/11092011/436716.ts
+#EXTINF:-1 tvg-id="[XXX] Pornbox A girl Knows" tvg-name="[XXX] Pornbox A girl Knows" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pornbox A girl Knows
+http://bst3.me:80/7142954/11092011/436717.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX ALL BLACK X" tvg-name="[XXX] PORNBOX ALL BLACK X" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX ALL BLACK X
+http://bst3.me:80/7142954/11092011/436718.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX ALL GROUP SEX" tvg-name="[XXX] PORNBOX ALL GROUP SEX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX ALL GROUP SEX
+http://bst3.me:80/7142954/11092011/436719.ts
+#EXTINF:-1 tvg-id="[XXX] Pornbox Amateur Euro" tvg-name="[XXX] Pornbox Amateur Euro" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Pornbox Amateur Euro
+http://bst3.me:80/7142954/11092011/436720.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX Analized" tvg-name="[XXX] PORNBOX Analized" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX Analized
+http://bst3.me:80/7142954/11092011/436721.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BABES" tvg-name="[XXX] PORNBOX BABES" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BABES
+http://bst3.me:80/7142954/11092011/436722.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BANG!" tvg-name="[XXX] PORNBOX BANG!" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BANG!
+http://bst3.me:80/7142954/11092011/436723.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BANG! +1" tvg-name="[XXX] PORNBOX BANG! +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BANG! +1
+http://bst3.me:80/7142954/11092011/436724.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BANGBUS" tvg-name="[XXX] PORNBOX BANGBUS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BANGBUS
+http://bst3.me:80/7142954/11092011/436725.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BLACKED" tvg-name="[XXX] PORNBOX BLACKED" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BLACKED
+http://bst3.me:80/7142954/11092011/436726.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BLACKED RAW" tvg-name="[XXX] PORNBOX BLACKED RAW" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BLACKED RAW
+http://bst3.me:80/7142954/11092011/436727.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BRATTY SIS" tvg-name="[XXX] PORNBOX BRATTY SIS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BRATTY SIS
+http://bst3.me:80/7142954/11092011/436728.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX BRAZZERS" tvg-name="[XXX] PORNBOX BRAZZERS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX BRAZZERS
+http://bst3.me:80/7142954/11092011/436729.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX CASTING COUCH" tvg-name="[XXX] PORNBOX CASTING COUCH" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX CASTING COUCH
+http://bst3.me:80/7142954/11092011/436730.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX CUM 4K 1" tvg-name="[XXX] PORNBOX CUM 4K 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX CUM 4K 1
+http://bst3.me:80/7142954/11092011/436731.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX CUM 4K 3" tvg-name="[XXX] PORNBOX CUM 4K 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX CUM 4K 3
+http://bst3.me:80/7142954/11092011/436732.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX CUM FIESTA" tvg-name="[XXX] PORNBOX CUM FIESTA" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX CUM FIESTA
+http://bst3.me:80/7142954/11092011/436733.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX DAUGHTER SWAP" tvg-name="[XXX] PORNBOX DAUGHTER SWAP" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX DAUGHTER SWAP
+http://bst3.me:80/7142954/11092011/436734.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX DDF BUSTY" tvg-name="[XXX] PORNBOX DDF BUSTY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX DDF BUSTY
+http://bst3.me:80/7142954/11092011/436735.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX DEEPER" tvg-name="[XXX] PORNBOX DEEPER" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX DEEPER
+http://bst3.me:80/7142954/11092011/436736.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX DIGITAL PLAYGROUND" tvg-name="[XXX] PORNBOX DIGITAL PLAYGROUND" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX DIGITAL PLAYGROUND
+http://bst3.me:80/7142954/11092011/436737.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX EROTIC SPICE" tvg-name="[XXX] PORNBOX EROTIC SPICE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX EROTIC SPICE
+http://bst3.me:80/7142954/11092011/436738.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX EVIL ANGEL" tvg-name="[XXX] PORNBOX EVIL ANGEL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX EVIL ANGEL
+http://bst3.me:80/7142954/11092011/436739.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX EXCLUSIVE STARTS ALINA LOPEZ" tvg-name="[XXX] PORNBOX EXCLUSIVE STARTS ALINA LOPEZ" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX EXCLUSIVE STARTS ALINA LOPEZ
+http://bst3.me:80/7142954/11092011/436740.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX EXCLUSIVE STARTS ANGELA WHITE" tvg-name="[XXX] PORNBOX EXCLUSIVE STARTS ANGELA WHITE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX EXCLUSIVE STARTS ANGELA WHITE
+http://bst3.me:80/7142954/11092011/436741.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX EXCLUSIVE STARTS BRANDI LOVE" tvg-name="[XXX] PORNBOX EXCLUSIVE STARTS BRANDI LOVE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX EXCLUSIVE STARTS BRANDI LOVE
+http://bst3.me:80/7142954/11092011/436742.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX EXCLUSIVE STARTS EMILY WILLIS" tvg-name="[XXX] PORNBOX EXCLUSIVE STARTS EMILY WILLIS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX EXCLUSIVE STARTS EMILY WILLIS
+http://bst3.me:80/7142954/11092011/436743.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX FAKE AGENT" tvg-name="[XXX] PORNBOX FAKE AGENT" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX FAKE AGENT
+http://bst3.me:80/7142954/11092011/436744.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX FAKE DRIVING SCHOOL" tvg-name="[XXX] PORNBOX FAKE DRIVING SCHOOL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX FAKE DRIVING SCHOOL
+http://bst3.me:80/7142954/11092011/436745.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX FAKE HOSTEL" tvg-name="[XXX] PORNBOX FAKE HOSTEL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX FAKE HOSTEL
+http://bst3.me:80/7142954/11092011/436746.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX Fake Taxi" tvg-name="[XXX] PORNBOX Fake Taxi" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX Fake Taxi
+http://bst3.me:80/7142954/11092011/436747.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX FAMILY STROKES" tvg-name="[XXX] PORNBOX FAMILY STROKES" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX FAMILY STROKES
+http://bst3.me:80/7142954/11092011/436748.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX FEMALE AGENT" tvg-name="[XXX] PORNBOX FEMALE AGENT" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX FEMALE AGENT
+http://bst3.me:80/7142954/11092011/436749.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX FORGIVE ME FATHER" tvg-name="[XXX] PORNBOX FORGIVE ME FATHER" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX FORGIVE ME FATHER
+http://bst3.me:80/7142954/11092011/436750.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX GANGBANG CREAMPIE" tvg-name="[XXX] PORNBOX GANGBANG CREAMPIE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX GANGBANG CREAMPIE
+http://bst3.me:80/7142954/11092011/436751.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX HOT MIX" tvg-name="[XXX] PORNBOX HOT MIX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX HOT MIX
+http://bst3.me:80/7142954/11092011/436752.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX JAYS POV" tvg-name="[XXX] PORNBOX JAYS POV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX JAYS POV
+http://bst3.me:80/7142954/11092011/436753.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX LETS DOE IT" tvg-name="[XXX] PORNBOX LETS DOE IT" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX LETS DOE IT
+http://bst3.me:80/7142954/11092011/436754.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX LIFE SELECTOR" tvg-name="[XXX] PORNBOX LIFE SELECTOR" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX LIFE SELECTOR
+http://bst3.me:80/7142954/11092011/436755.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MASSAGE ROOMS" tvg-name="[XXX] PORNBOX MASSAGE ROOMS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MASSAGE ROOMS
+http://bst3.me:80/7142954/11092011/436756.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MIKES APARTMENT" tvg-name="[XXX] PORNBOX MIKES APARTMENT" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MIKES APARTMENT
+http://bst3.me:80/7142954/11092011/436757.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MILE HIGH" tvg-name="[XXX] PORNBOX MILE HIGH" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MILE HIGH
+http://bst3.me:80/7142954/11092011/436758.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MY DIRTY HOBBY" tvg-name="[XXX] PORNBOX MY DIRTY HOBBY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MY DIRTY HOBBY
+http://bst3.me:80/7142954/11092011/436759.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MY FAMILY PIES" tvg-name="[XXX] PORNBOX MY FAMILY PIES" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MY FAMILY PIES
+http://bst3.me:80/7142954/11092011/436760.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MYLF" tvg-name="[XXX] PORNBOX MYLF" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MYLF
+http://bst3.me:80/7142954/11092011/436761.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MY LIFE IN MIAMI" tvg-name="[XXX] PORNBOX MY LIFE IN MIAMI" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MY LIFE IN MIAMI
+http://bst3.me:80/7142954/11092011/436762.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MY PERVY FAMILY" tvg-name="[XXX] PORNBOX MY PERVY FAMILY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MY PERVY FAMILY
+http://bst3.me:80/7142954/11092011/436763.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MY TINY WISH" tvg-name="[XXX] PORNBOX MY TINY WISH" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MY TINY WISH
+http://bst3.me:80/7142954/11092011/436764.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX MY VERY FIRST TIME" tvg-name="[XXX] PORNBOX MY VERY FIRST TIME" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX MY VERY FIRST TIME
+http://bst3.me:80/7142954/11092011/436765.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX NANNY SPY" tvg-name="[XXX] PORNBOX NANNY SPY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX NANNY SPY
+http://bst3.me:80/7142954/11092011/436766.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX NUBILE FILMS" tvg-name="[XXX] PORNBOX NUBILE FILMS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX NUBILE FILMS
+http://bst3.me:80/7142954/11092011/436767.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX PERV MOM" tvg-name="[XXX] PORNBOX PERV MOM" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX PERV MOM
+http://bst3.me:80/7142954/11092011/436768.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX PERVS ON PATROL" tvg-name="[XXX] PORNBOX PERVS ON PATROL" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX PERVS ON PATROL
+http://bst3.me:80/7142954/11092011/436769.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX PORNHOCHIC" tvg-name="[XXX] PORNBOX PORNHOCHIC" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX PORNHOCHIC
+http://bst3.me:80/7142954/11092011/436770.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX PORN WORLD" tvg-name="[XXX] PORNBOX PORN WORLD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX PORN WORLD
+http://bst3.me:80/7142954/11092011/436771.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX POVD" tvg-name="[XXX] PORNBOX POVD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX POVD
+http://bst3.me:80/7142954/11092011/436772.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX PRIVATE" tvg-name="[XXX] PORNBOX PRIVATE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX PRIVATE
+http://bst3.me:80/7142954/11092011/436773.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX PROPERTY SEX" tvg-name="[XXX] PORNBOX PROPERTY SEX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX PROPERTY SEX
+http://bst3.me:80/7142954/11092011/436774.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX STARS EXCLUSIVE ABELLA DANGER" tvg-name="[XXX] PORNBOX STARS EXCLUSIVE ABELLA DANGER" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX STARS EXCLUSIVE ABELLA DANGER
+http://bst3.me:80/7142954/11092011/436775.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX STARS EXCLUSIVE DANI DANIELS" tvg-name="[XXX] PORNBOX STARS EXCLUSIVE DANI DANIELS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX STARS EXCLUSIVE DANI DANIELS
+http://bst3.me:80/7142954/11092011/436776.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX STARS EXCLUSIVE JANICE GRIFFITH" tvg-name="[XXX] PORNBOX STARS EXCLUSIVE JANICE GRIFFITH" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX STARS EXCLUSIVE JANICE GRIFFITH
+http://bst3.me:80/7142954/11092011/436777.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX TRANS ANGELS" tvg-name="[XXX] PORNBOX TRANS ANGELS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX TRANS ANGELS
+http://bst3.me:80/7142954/11092011/436778.ts
+#EXTINF:-1 tvg-id="[XXX] PORNBOX TRANS EROTICA" tvg-name="[XXX] PORNBOX TRANS EROTICA" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNBOX TRANS EROTICA
+http://bst3.me:80/7142954/11092011/436779.ts
+#EXTINF:-1 tvg-id="[XXX] PORNHUB Fake Taxi" tvg-name="[XXX] PORNHUB Fake Taxi" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PORNHUB Fake Taxi
+http://bst3.me:80/7142954/11092011/436780.ts
+#EXTINF:-1 tvg-id="[XXX] PornHub PRIVATE" tvg-name="[XXX] PornHub PRIVATE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PornHub PRIVATE
+http://bst3.me:80/7142954/11092011/436781.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 1" tvg-name="[XXX] Primafila Hot Club 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 1
+http://bst3.me:80/7142954/11092011/436782.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 2" tvg-name="[XXX] Primafila Hot Club 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 2
+http://bst3.me:80/7142954/11092011/436783.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 3" tvg-name="[XXX] Primafila Hot Club 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 3
+http://bst3.me:80/7142954/11092011/436784.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 4" tvg-name="[XXX] Primafila Hot Club 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 4
+http://bst3.me:80/7142954/11092011/436785.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 5" tvg-name="[XXX] Primafila Hot Club 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 5
+http://bst3.me:80/7142954/11092011/436786.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 6" tvg-name="[XXX] Primafila Hot Club 6" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 6
+http://bst3.me:80/7142954/11092011/436787.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 7" tvg-name="[XXX] Primafila Hot Club 7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 7
+http://bst3.me:80/7142954/11092011/436788.ts
+#EXTINF:-1 tvg-id="[XXX] Primafila Hot Club 8" tvg-name="[XXX] Primafila Hot Club 8" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Primafila Hot Club 8
+http://bst3.me:80/7142954/11092011/436789.ts
+#EXTINF:-1 tvg-id="[XXX] Princess Cum" tvg-name="[XXX] Princess Cum" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Princess Cum
+http://bst3.me:80/7142954/11092011/436790.ts
+#EXTINF:-1 tvg-id="[XXX] PRIVATE" tvg-name="[XXX] PRIVATE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PRIVATE
+http://bst3.me:80/7142954/11092011/436791.ts
+#EXTINF:-1 tvg-id="[XXX] Private Spice" tvg-name="[XXX] Private Spice" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Private Spice
+http://bst3.me:80/7142954/11092011/436792.ts
+#EXTINF:-1 tvg-id="[XXX] Private TV FHD" tvg-name="[XXX] Private TV FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Private TV FHD
+http://bst3.me:80/7142954/11092011/436793.ts
+#EXTINF:-1 tvg-id="[XXX] PUBLIC AGENT" tvg-name="[XXX] PUBLIC AGENT" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PUBLIC AGENT
+http://bst3.me:80/7142954/11092011/436794.ts
+#EXTINF:-1 tvg-id="[XXX] PUBLIC AGENT +1" tvg-name="[XXX] PUBLIC AGENT +1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PUBLIC AGENT +1
+http://bst3.me:80/7142954/11092011/436795.ts
+#EXTINF:-1 tvg-id="[XXX] PUBLIC AGENT +2" tvg-name="[XXX] PUBLIC AGENT +2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PUBLIC AGENT +2
+http://bst3.me:80/7142954/11092011/436796.ts
+#EXTINF:-1 tvg-id="[XXX] PureTaboo" tvg-name="[XXX] PureTaboo" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PureTaboo
+http://bst3.me:80/7142954/11092011/436797.ts
+#EXTINF:-1 tvg-id="[XXX] PureTaboo" tvg-name="[XXX] PureTaboo" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PureTaboo
+http://bst3.me:80/7142954/11092011/436798.ts
+#EXTINF:-1 tvg-id="[XXX] Purple Pills FHD" tvg-name="[XXX] Purple Pills FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Purple Pills FHD
+http://bst3.me:80/7142954/11092011/436799.ts
+#EXTINF:-1 tvg-id="[XXX] PutaLocura" tvg-name="[XXX] PutaLocura" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] PutaLocura
+http://bst3.me:80/7142954/11092011/436800.ts
+#EXTINF:-1 tvg-id="[XXX] RAW 03" tvg-name="[XXX] RAW 03" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] RAW 03
+http://bst3.me:80/7142954/11092011/436801.ts
+#EXTINF:-1 tvg-id="[XXX] RAW 08" tvg-name="[XXX] RAW 08" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] RAW 08
+http://bst3.me:80/7142954/11092011/436802.ts
+#EXTINF:-1 tvg-id="[XXX] Real Girls Gone Bad" tvg-name="[XXX] Real Girls Gone Bad" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Real Girls Gone Bad
+http://bst3.me:80/7142954/11092011/436803.ts
+#EXTINF:-1 tvg-id="[XXX] Reality Kings" tvg-name="[XXX] Reality Kings" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Reality Kings
+http://bst3.me:80/7142954/11092011/436804.ts
+#EXTINF:-1 tvg-id="[XXX] Reality Kings TV HD" tvg-name="[XXX] Reality Kings TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Reality Kings TV HD
+http://bst3.me:80/7142954/11092011/436805.ts
+#EXTINF:-1 tvg-id="[XXX] REALTEENS" tvg-name="[XXX] REALTEENS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] REALTEENS
+http://bst3.me:80/7142954/11092011/436806.ts
+#EXTINF:-1 tvg-id="[XXX] Real Wife Stories" tvg-name="[XXX] Real Wife Stories" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Real Wife Stories
+http://bst3.me:80/7142954/11092011/436807.ts
+#EXTINF:-1 tvg-id="[XXX] RedBox Adult 10" tvg-name="[XXX] RedBox Adult 10" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] RedBox Adult 10
+http://bst3.me:80/7142954/11092011/436808.ts
+#EXTINF:-1 tvg-id="[XXX] REDBOX ADULTS" tvg-name="[XXX] REDBOX ADULTS" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] REDBOX ADULTS
+http://bst3.me:80/7142954/11092011/436809.ts
+#EXTINF:-1 tvg-id="[XXX] REDLIGHT FHD" tvg-name="[XXX] REDLIGHT FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] REDLIGHT FHD
+http://bst3.me:80/7142954/11092011/436810.ts
+#EXTINF:-1 tvg-id="[XXX] Red Lips FHD" tvg-name="[XXX] Red Lips FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Red Lips FHD
+http://bst3.me:80/7142954/11092011/436811.ts
+#EXTINF:-1 tvg-id="[XXX] Russian Night" tvg-name="[XXX] Russian Night" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Russian Night
+http://bst3.me:80/7142954/11092011/436812.ts
+#EXTINF:-1 tvg-id="[XXX] Russkaya Noch HD" tvg-name="[XXX] Russkaya Noch HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Russkaya Noch HD
+http://bst3.me:80/7142954/11092011/436813.ts
+#EXTINF:-1 tvg-id="[XXX] Secret Circle FHD" tvg-name="[XXX] Secret Circle FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Secret Circle FHD
+http://bst3.me:80/7142954/11092011/436814.ts
+#EXTINF:-1 tvg-id="[XXX] SEXART" tvg-name="[XXX] SEXART" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SEXART
+http://bst3.me:80/7142954/11092011/436815.ts
+#EXTINF:-1 tvg-id="[XXX] SeXation HD" tvg-name="[XXX] SeXation HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SeXation HD
+http://bst3.me:80/7142954/11092011/436816.ts
+#EXTINF:-1 tvg-id="[XXX] Sexprivé Europe HD" tvg-name="[XXX] Sexprivé Europe HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexprivé Europe HD
+http://bst3.me:80/7142954/11092011/436817.ts
+#EXTINF:-1 tvg-id="[XXX] Sexprivé HD" tvg-name="[XXX] Sexprivé HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexprivé HD
+http://bst3.me:80/7142954/11092011/436818.ts
+#EXTINF:-1 tvg-id="[XXX] Sexto Sento" tvg-name="[XXX] Sexto Sento" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexto Sento
+http://bst3.me:80/7142954/11092011/436819.ts
+#EXTINF:-1 tvg-id="[XXX] Sextreme FHD" tvg-name="[XXX] Sextreme FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sextreme FHD
+http://bst3.me:80/7142954/11092011/436820.ts
+#EXTINF:-1 tvg-id="[XXX] Sex With Muslims" tvg-name="[XXX] Sex With Muslims" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sex With Muslims
+http://bst3.me:80/7142954/11092011/436821.ts
+#EXTINF:-1 tvg-id="[XXX] Sexy Hot FHD" tvg-name="[XXX] Sexy Hot FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Sexy Hot FHD
+http://bst3.me:80/7142954/11092011/436822.ts
+#EXTINF:-1 tvg-id="[XXX] SHALUN TV HD" tvg-name="[XXX] SHALUN TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SHALUN TV HD
+http://bst3.me:80/7142954/11092011/436823.ts
+#EXTINF:-1 tvg-id="[XXX] Silvana" tvg-name="[XXX] Silvana" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Silvana
+http://bst3.me:80/7142954/11092011/436824.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 1" tvg-name="[XXX] SL Adult 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 1
+http://bst3.me:80/7142954/11092011/436825.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 2" tvg-name="[XXX] SL Adult 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 2
+http://bst3.me:80/7142954/11092011/436826.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 3" tvg-name="[XXX] SL Adult 3" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 3
+http://bst3.me:80/7142954/11092011/436827.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 4" tvg-name="[XXX] SL Adult 4" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 4
+http://bst3.me:80/7142954/11092011/436828.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 5" tvg-name="[XXX] SL Adult 5" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 5
+http://bst3.me:80/7142954/11092011/436829.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 6" tvg-name="[XXX] SL Adult 6" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 6
+http://bst3.me:80/7142954/11092011/436830.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 7" tvg-name="[XXX] SL Adult 7" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 7
+http://bst3.me:80/7142954/11092011/436831.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 8" tvg-name="[XXX] SL Adult 8" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 8
+http://bst3.me:80/7142954/11092011/436832.ts
+#EXTINF:-1 tvg-id="[XXX] SL Adult 9" tvg-name="[XXX] SL Adult 9" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Adult 9
+http://bst3.me:80/7142954/11092011/436833.ts
+#EXTINF:-1 tvg-id="[XXX] SL Erotic" tvg-name="[XXX] SL Erotic" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SL Erotic
+http://bst3.me:80/7142954/11092011/436834.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 1 HD" tvg-name="[XXX] SLTV Adult 1 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 1 HD
+http://bst3.me:80/7142954/11092011/436835.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 2 HD" tvg-name="[XXX] SLTV Adult 2 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 2 HD
+http://bst3.me:80/7142954/11092011/436836.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 3 HD" tvg-name="[XXX] SLTV Adult 3 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 3 HD
+http://bst3.me:80/7142954/11092011/436837.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 4 HD" tvg-name="[XXX] SLTV Adult 4 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 4 HD
+http://bst3.me:80/7142954/11092011/436838.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 5 HD" tvg-name="[XXX] SLTV Adult 5 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 5 HD
+http://bst3.me:80/7142954/11092011/436839.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 6 HD" tvg-name="[XXX] SLTV Adult 6 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 6 HD
+http://bst3.me:80/7142954/11092011/436840.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 7 HD" tvg-name="[XXX] SLTV Adult 7 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 7 HD
+http://bst3.me:80/7142954/11092011/436841.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 8 HD" tvg-name="[XXX] SLTV Adult 8 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 8 HD
+http://bst3.me:80/7142954/11092011/436842.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Adult 9 HD" tvg-name="[XXX] SLTV Adult 9 HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Adult 9 HD
+http://bst3.me:80/7142954/11092011/436843.ts
+#EXTINF:-1 tvg-id="[XXX] SLTV Erotic HD" tvg-name="[XXX] SLTV Erotic HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SLTV Erotic HD
+http://bst3.me:80/7142954/11092011/436844.ts
+#EXTINF:-1 tvg-id="[XXX] Squirted" tvg-name="[XXX] Squirted" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Squirted
+http://bst3.me:80/7142954/11092011/436845.ts
+#EXTINF:-1 tvg-id="[XXX] Stars XXX HD" tvg-name="[XXX] Stars XXX HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Stars XXX HD
+http://bst3.me:80/7142954/11092011/436846.ts
+#EXTINF:-1 tvg-id="[XXX] SUPERHEROES" tvg-name="[XXX] SUPERHEROES" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SUPERHEROES
+http://bst3.me:80/7142954/11092011/436847.ts
+#EXTINF:-1 tvg-id="[XXX] Super One" tvg-name="[XXX] Super One" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Super One
+http://bst3.me:80/7142954/11092011/436848.ts
+#EXTINF:-1 tvg-id="[XXX] SuperOne HD" tvg-name="[XXX] SuperOne HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] SuperOne HD
+http://bst3.me:80/7142954/11092011/436849.ts
+#EXTINF:-1 tvg-id="[XXX] Taboo" tvg-name="[XXX] Taboo" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Taboo
+http://bst3.me:80/7142954/11092011/436850.ts
+#EXTINF:-1 tvg-id="[XXX] Teen Red TV" tvg-name="[XXX] Teen Red TV" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Teen Red TV
+http://bst3.me:80/7142954/11092011/436851.ts
+#EXTINF:-1 tvg-id="[XXX] Television-X HD" tvg-name="[XXX] Television-X HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Television-X HD
+http://bst3.me:80/7142954/11092011/436852.ts
+#EXTINF:-1 tvg-id="[XXX] test" tvg-name="[XXX] test" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] test
+http://bst3.me:80/7142954/11092011/436853.ts
+#EXTINF:-1 tvg-id="[XXX] The Best Of Black TV HD" tvg-name="[XXX] The Best Of Black TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] The Best Of Black TV HD
+http://bst3.me:80/7142954/11092011/436854.ts
+#EXTINF:-1 tvg-id="[XXX] The Best Of BoX TV HD" tvg-name="[XXX] The Best Of BoX TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] The Best Of BoX TV HD
+http://bst3.me:80/7142954/11092011/436855.ts
+#EXTINF:-1 tvg-id="[XXX] Tiny 4k" tvg-name="[XXX] Tiny 4k" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Tiny 4k
+http://bst3.me:80/7142954/11092011/436856.ts
+#EXTINF:-1 tvg-id="[XXX] Trans 1" tvg-name="[XXX] Trans 1" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Trans 1
+http://bst3.me:80/7142954/11092011/436857.ts
+#EXTINF:-1 tvg-id="[XXX] Trans 2" tvg-name="[XXX] Trans 2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Trans 2
+http://bst3.me:80/7142954/11092011/436858.ts
+#EXTINF:-1 tvg-id="[XXX] TRANS PICCANTE" tvg-name="[XXX] TRANS PICCANTE" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] TRANS PICCANTE
+http://bst3.me:80/7142954/11092011/436859.ts
+#EXTINF:-1 tvg-id="[XXX] True Amateurs HD" tvg-name="[XXX] True Amateurs HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] True Amateurs HD
+http://bst3.me:80/7142954/11092011/436860.ts
+#EXTINF:-1 tvg-id="[XXX] True Anal" tvg-name="[XXX] True Anal" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] True Anal
+http://bst3.me:80/7142954/11092011/436861.ts
+#EXTINF:-1 tvg-id="[XXX] TUSHY" tvg-name="[XXX] TUSHY" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] TUSHY
+http://bst3.me:80/7142954/11092011/436862.ts
+#EXTINF:-1 tvg-id="[XXX] UAnal" tvg-name="[XXX] UAnal" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] UAnal
+http://bst3.me:80/7142954/11092011/436863.ts
+#EXTINF:-1 tvg-id="[XXX] UAnal-2" tvg-name="[XXX] UAnal-2" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] UAnal-2
+http://bst3.me:80/7142954/11092011/436864.ts
+#EXTINF:-1 tvg-id="[XXX] Venus" tvg-name="[XXX] Venus" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Venus
+http://bst3.me:80/7142954/11092011/436865.ts
+#EXTINF:-1 tvg-id="[XXX] Venus HD" tvg-name="[XXX] Venus HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Venus HD
+http://bst3.me:80/7142954/11092011/436866.ts
+#EXTINF:-1 tvg-id="[XXX] Vera DEEPER" tvg-name="[XXX] Vera DEEPER" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Vera DEEPER
+http://bst3.me:80/7142954/11092011/436867.ts
+#EXTINF:-1 tvg-id="[XXX] VERIFIED AMATEURS NYNA FERRAGNI" tvg-name="[XXX] VERIFIED AMATEURS NYNA FERRAGNI" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] VERIFIED AMATEURS NYNA FERRAGNI
+http://bst3.me:80/7142954/11092011/436868.ts
+#EXTINF:-1 tvg-id="[XXX] VISIT X TV HD" tvg-name="[XXX] VISIT X TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] VISIT X TV HD
+http://bst3.me:80/7142954/11092011/436869.ts
+#EXTINF:-1 tvg-id="[XXX] Vivid Red HD" tvg-name="[XXX] Vivid Red HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Vivid Red HD
+http://bst3.me:80/7142954/11092011/436870.ts
+#EXTINF:-1 tvg-id="[XXX] VividRed XXX" tvg-name="[XXX] VividRed XXX" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] VividRed XXX
+http://bst3.me:80/7142954/11092011/436871.ts
+#EXTINF:-1 tvg-id="[XXX] Vivid TV HD" tvg-name="[XXX] Vivid TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Vivid TV HD
+http://bst3.me:80/7142954/11092011/436872.ts
+#EXTINF:-1 tvg-id="[XXX] Vixen HD" tvg-name="[XXX] Vixen HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Vixen HD
+http://bst3.me:80/7142954/11092011/436873.ts
+#EXTINF:-1 tvg-id="[XXX] Wake Up N Fuck" tvg-name="[XXX] Wake Up N Fuck" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Wake Up N Fuck
+http://bst3.me:80/7142954/11092011/436874.ts
+#EXTINF:-1 tvg-id="[XXX] Wank It Now" tvg-name="[XXX] Wank It Now" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Wank It Now
+http://bst3.me:80/7142954/11092011/436875.ts
+#EXTINF:-1 tvg-id="[XXX] We Live Together" tvg-name="[XXX] We Live Together" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] We Live Together
+http://bst3.me:80/7142954/11092011/436876.ts
+#EXTINF:-1 tvg-id="[XXX] X-Dream TV HD" tvg-name="[XXX] X-Dream TV HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] X-Dream TV HD
+http://bst3.me:80/7142954/11092011/436877.ts
+#EXTINF:-1 tvg-id="[XXX] XXL HD" tvg-name="[XXX] XXL HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] XXL HD
+http://bst3.me:80/7142954/11092011/436878.ts
+#EXTINF:-1 tvg-id="[XXX] XY Max HD" tvg-name="[XXX] XY Max HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] XY Max HD
+http://bst3.me:80/7142954/11092011/436879.ts
+#EXTINF:-1 tvg-id="[XXX] XY Mix" tvg-name="[XXX] XY Mix" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] XY Mix
+http://bst3.me:80/7142954/11092011/436880.ts
+#EXTINF:-1 tvg-id="[XXX] XY Plus HD" tvg-name="[XXX] XY Plus HD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] XY Plus HD
+http://bst3.me:80/7142954/11092011/436881.ts
+#EXTINF:-1 tvg-id="[XXX] Penthouse Gold FHD" tvg-name="[XXX] Penthouse Gold FHD" tvg-logo="http://lgfp.one/ACU" group-title="Canais | Adultos",[XXX] Penthouse Gold FHD
+http://bst3.me:80/7142954/11092011/436882.ts
+#EXTINF:-1 tvg-id="[IL] 9 Kanal" tvg-name="[IL] 9 Kanal" tvg-logo="http://lgfp.one/WZN4" group-title="Canais | Israel",[IL] 9 Kanal
+http://bst3.me:80/7142954/11092011/436465.ts
+#EXTINF:-1 tvg-id="[IL] Channel 24" tvg-name="[IL] Channel 24" tvg-logo="http://lgfp.one/WZN5" group-title="Canais | Israel",[IL] Channel 24
+http://bst3.me:80/7142954/11092011/436466.ts
+#EXTINF:-1 tvg-id="[IL] Food Channel" tvg-name="[IL] Food Channel" tvg-logo="http://lgfp.one/WZN6" group-title="Canais | Israel",[IL] Food Channel
+http://bst3.me:80/7142954/11092011/436467.ts
+#EXTINF:-1 tvg-id="[IL] Good Life" tvg-name="[IL] Good Life" tvg-logo="http://lgfp.one/WZN7" group-title="Canais | Israel",[IL] Good Life
+http://bst3.me:80/7142954/11092011/436468.ts
+#EXTINF:-1 tvg-id="[IL] Hidabroot" tvg-name="[IL] Hidabroot" tvg-logo="http://lgfp.one/WZT3" group-title="Canais | Israel",[IL] Hidabroot
+http://bst3.me:80/7142954/11092011/436469.ts
+#EXTINF:-1 tvg-id="[IL] History" tvg-name="[IL] History" tvg-logo="http://lgfp.one/WZN8" group-title="Canais | Israel",[IL] History
+http://bst3.me:80/7142954/11092011/436470.ts
+#EXTINF:-1 tvg-id="[IL] Home +" tvg-name="[IL] Home +" tvg-logo="http://lgfp.one/WZN9" group-title="Canais | Israel",[IL] Home +
+http://bst3.me:80/7142954/11092011/436471.ts
+#EXTINF:-1 tvg-id="[IL] HOT Entertainment" tvg-name="[IL] HOT Entertainment" tvg-logo="http://lgfp.one/WZO0" group-title="Canais | Israel",[IL] HOT Entertainment
+http://bst3.me:80/7142954/11092011/436472.ts
+#EXTINF:-1 tvg-id="[IL] HOT Food" tvg-name="[IL] HOT Food" tvg-logo="http://lgfp.one/WZO1" group-title="Canais | Israel",[IL] HOT Food
+http://bst3.me:80/7142954/11092011/436473.ts
+#EXTINF:-1 tvg-id="[IL] HOT Health" tvg-name="[IL] HOT Health" tvg-logo="http://lgfp.one/WZO2" group-title="Canais | Israel",[IL] HOT Health
+http://bst3.me:80/7142954/11092011/436474.ts
+#EXTINF:-1 tvg-id="[IL] HOT Kids" tvg-name="[IL] HOT Kids" tvg-logo="http://lgfp.one/WZO3" group-title="Canais | Israel",[IL] HOT Kids
+http://bst3.me:80/7142954/11092011/436475.ts
+#EXTINF:-1 tvg-id="[IL] Music 24" tvg-name="[IL] Music 24" tvg-logo="http://lgfp.one/WZO4" group-title="Canais | Israel",[IL] Music 24
+http://bst3.me:80/7142954/11092011/436476.ts
+#EXTINF:-1 tvg-id="[IL] NAT GEO" tvg-name="[IL] NAT GEO" tvg-logo="http://lgfp.one/WZO5" group-title="Canais | Israel",[IL] NAT GEO
+http://bst3.me:80/7142954/11092011/436477.ts
+#EXTINF:-1 tvg-id="[IL] NAT GEO Wild" tvg-name="[IL] NAT GEO Wild" tvg-logo="http://lgfp.one/WZO6" group-title="Canais | Israel",[IL] NAT GEO Wild
+http://bst3.me:80/7142954/11092011/436478.ts
+#EXTINF:-1 tvg-id="[IL] one" tvg-name="[IL] one" tvg-logo="http://lgfp.one/WZO7" group-title="Canais | Israel",[IL] one
+http://bst3.me:80/7142954/11092011/436479.ts
+#EXTINF:-1 tvg-id="[IL] one 2" tvg-name="[IL] one 2" tvg-logo="http://lgfp.one/WZO8" group-title="Canais | Israel",[IL] one 2
+http://bst3.me:80/7142954/11092011/436480.ts
+#EXTINF:-1 tvg-id="[IL] Sport 5" tvg-name="[IL] Sport 5" tvg-logo="http://lgfp.one/WZO9" group-title="Canais | Israel",[IL] Sport 5
+http://bst3.me:80/7142954/11092011/436481.ts
+#EXTINF:-1 tvg-id="[IL] Sport 5 Gold" tvg-name="[IL] Sport 5 Gold" tvg-logo="http://lgfp.one/WZP0" group-title="Canais | Israel",[IL] Sport 5 Gold
+http://bst3.me:80/7142954/11092011/436482.ts
+#EXTINF:-1 tvg-id="[IL] Sport 5 Plus" tvg-name="[IL] Sport 5 Plus" tvg-logo="http://lgfp.one/WZP1" group-title="Canais | Israel",[IL] Sport 5 Plus
+http://bst3.me:80/7142954/11092011/436483.ts
+#EXTINF:-1 tvg-id="[IL] Sport 5 Stars" tvg-name="[IL] Sport 5 Stars" tvg-logo="http://lgfp.one/WZP2" group-title="Canais | Israel",[IL] Sport 5 Stars
+http://bst3.me:80/7142954/11092011/436484.ts
+#EXTINF:-1 tvg-id="[IL] Yes Sport 1" tvg-name="[IL] Yes Sport 1" tvg-logo="http://lgfp.one/WZP3" group-title="Canais | Israel",[IL] Yes Sport 1
+http://bst3.me:80/7142954/11092011/436485.ts
+#EXTINF:-1 tvg-id="[IL] Yes Sport 2" tvg-name="[IL] Yes Sport 2" tvg-logo="http://lgfp.one/WZP4" group-title="Canais | Israel",[IL] Yes Sport 2
+http://bst3.me:80/7142954/11092011/436486.ts
+#EXTINF:-1 tvg-id="[IL] Yes Sport 3" tvg-name="[IL] Yes Sport 3" tvg-logo="http://lgfp.one/WZP5" group-title="Canais | Israel",[IL] Yes Sport 3
+http://bst3.me:80/7142954/11092011/436487.ts
+#EXTINF:-1 tvg-id="[IL] Yes Sport 4" tvg-name="[IL] Yes Sport 4" tvg-logo="http://lgfp.one/WZP6" group-title="Canais | Israel",[IL] Yes Sport 4
+http://bst3.me:80/7142954/11092011/436488.ts
+#EXTINF:-1 tvg-id="[IL] Eurosport 1" tvg-name="[IL] Eurosport 1" tvg-logo="http://lgfp.one/WZP7" group-title="Canais | Israel",[IL] Eurosport 1
+http://bst3.me:80/7142954/11092011/436489.ts
+#EXTINF:-1 tvg-id="[IL] HOT 3" tvg-name="[IL] HOT 3" tvg-logo="http://lgfp.one/WZP8" group-title="Canais | Israel",[IL] HOT 3
+http://bst3.me:80/7142954/11092011/436490.ts
+#EXTINF:-1 tvg-id="[IL] HOT Channel 8" tvg-name="[IL] HOT Channel 8" tvg-logo="http://lgfp.one/WZP9" group-title="Canais | Israel",[IL] HOT Channel 8
+http://bst3.me:80/7142954/11092011/436491.ts
+#EXTINF:-1 tvg-id="[IL] HOT Cinema 1" tvg-name="[IL] HOT Cinema 1" tvg-logo="http://lgfp.one/WZQ0" group-title="Canais | Israel",[IL] HOT Cinema 1
+http://bst3.me:80/7142954/11092011/436492.ts
+#EXTINF:-1 tvg-id="[IL] HOT Cinema 3" tvg-name="[IL] HOT Cinema 3" tvg-logo="http://lgfp.one/WZQ1" group-title="Canais | Israel",[IL] HOT Cinema 3
+http://bst3.me:80/7142954/11092011/436493.ts
+#EXTINF:-1 tvg-id="[IL] HOT Cinema 4" tvg-name="[IL] HOT Cinema 4" tvg-logo="http://lgfp.one/WZQ2" group-title="Canais | Israel",[IL] HOT Cinema 4
+http://bst3.me:80/7142954/11092011/436494.ts
+#EXTINF:-1 tvg-id="[IL] HOT Comedy Central" tvg-name="[IL] HOT Comedy Central" tvg-logo="http://lgfp.one/WZQ3" group-title="Canais | Israel",[IL] HOT Comedy Central
+http://bst3.me:80/7142954/11092011/436495.ts
+#EXTINF:-1 tvg-id="[IL] HOT DIY" tvg-name="[IL] HOT DIY" tvg-logo="http://lgfp.one/WZQ4" group-title="Canais | Israel",[IL] HOT DIY
+http://bst3.me:80/7142954/11092011/436496.ts
+#EXTINF:-1 tvg-id="[IL] HOT HBO" tvg-name="[IL] HOT HBO" tvg-logo="http://lgfp.one/WZQ5" group-title="Canais | Israel",[IL] HOT HBO
+http://bst3.me:80/7142954/11092011/436497.ts
+#EXTINF:-1 tvg-id="[IL] HOT Luli" tvg-name="[IL] HOT Luli" tvg-logo="http://lgfp.one/WZT4" group-title="Canais | Israel",[IL] HOT Luli
+http://bst3.me:80/7142954/11092011/436498.ts
+#EXTINF:-1 tvg-id="[IL] HOT Zone" tvg-name="[IL] HOT Zone" tvg-logo="http://lgfp.one/WZQ6" group-title="Canais | Israel",[IL] HOT Zone
+http://bst3.me:80/7142954/11092011/436499.ts
+#EXTINF:-1 tvg-id="[IL] Viva" tvg-name="[IL] Viva" tvg-logo="http://lgfp.one/WZQ7" group-title="Canais | Israel",[IL] Viva
+http://bst3.me:80/7142954/11092011/436500.ts
+#EXTINF:-1 tvg-id="[IL] Viva Plus" tvg-name="[IL] Viva Plus" tvg-logo="http://lgfp.one/WZQ8" group-title="Canais | Israel",[IL] Viva Plus
+http://bst3.me:80/7142954/11092011/436501.ts
+#EXTINF:-1 tvg-id="[IL] Yes Movies Action" tvg-name="[IL] Yes Movies Action" tvg-logo="http://lgfp.one/WZQ9" group-title="Canais | Israel",[IL] Yes Movies Action
+http://bst3.me:80/7142954/11092011/436502.ts
+#EXTINF:-1 tvg-id="[IL] Yes Movies Comedy" tvg-name="[IL] Yes Movies Comedy" tvg-logo="http://lgfp.one/WZR0" group-title="Canais | Israel",[IL] Yes Movies Comedy
+http://bst3.me:80/7142954/11092011/436503.ts
+#EXTINF:-1 tvg-id="[IL] Yes Movies Drama" tvg-name="[IL] Yes Movies Drama" tvg-logo="http://lgfp.one/WZR1" group-title="Canais | Israel",[IL] Yes Movies Drama
+http://bst3.me:80/7142954/11092011/436504.ts
+#EXTINF:-1 tvg-id="[IL] Yes Movies Kids" tvg-name="[IL] Yes Movies Kids" tvg-logo="http://lgfp.one/WZR2" group-title="Canais | Israel",[IL] Yes Movies Kids
+http://bst3.me:80/7142954/11092011/436505.ts
+#EXTINF:-1 tvg-id="[IL] Yes TV Action" tvg-name="[IL] Yes TV Action" tvg-logo="http://lgfp.one/WZR3" group-title="Canais | Israel",[IL] Yes TV Action
+http://bst3.me:80/7142954/11092011/436506.ts
+#EXTINF:-1 tvg-id="[IL] Yes TV Comedy" tvg-name="[IL] Yes TV Comedy" tvg-logo="http://lgfp.one/WZR4" group-title="Canais | Israel",[IL] Yes TV Comedy
+http://bst3.me:80/7142954/11092011/436507.ts
+#EXTINF:-1 tvg-id="[IL] Yes TV Drama" tvg-name="[IL] Yes TV Drama" tvg-logo="http://lgfp.one/WZR5" group-title="Canais | Israel",[IL] Yes TV Drama
+http://bst3.me:80/7142954/11092011/436508.ts
+#EXTINF:-1 tvg-id="[TR] 24 HABER" tvg-name="[TR] 24 HABER" tvg-logo="http://lgfp.one/WXO8" group-title="Canais |  Turquia",[TR] 24 HABER
+http://bst3.me:80/7142954/11092011/435898.ts
+#EXTINF:-1 tvg-id="[TR] 24 Kitchen" tvg-name="[TR] 24 Kitchen" tvg-logo="http://lgfp.one/WXO9" group-title="Canais |  Turquia",[TR] 24 Kitchen
+http://bst3.me:80/7142954/11092011/435899.ts
+#EXTINF:-1 tvg-id="[TR] 24 TV" tvg-name="[TR] 24 TV" tvg-logo="http://lgfp.one/WXP0" group-title="Canais |  Turquia",[TR] 24 TV
+http://bst3.me:80/7142954/11092011/435900.ts
+#EXTINF:-1 tvg-id="[TR] 360 TV 4K" tvg-name="[TR] 360 TV 4K" tvg-logo="http://lgfp.one/WXP1" group-title="Canais |  Turquia",[TR] 360 TV 4K
+http://bst3.me:80/7142954/11092011/435901.ts
+#EXTINF:-1 tvg-id="[TR] A2TV FHD" tvg-name="[TR] A2TV FHD" tvg-logo="http://lgfp.one/WXP2" group-title="Canais |  Turquia",[TR] A2TV FHD
+http://bst3.me:80/7142954/11092011/435902.ts
+#EXTINF:-1 tvg-id="[TR] Ada TV" tvg-name="[TR] Ada TV" tvg-logo="http://lgfp.one/WXP3" group-title="Canais |  Turquia",[TR] Ada TV
+http://bst3.me:80/7142954/11092011/435903.ts
+#EXTINF:-1 tvg-id="[TR] Afroturk TV" tvg-name="[TR] Afroturk TV" tvg-logo="http://lgfp.one/WXP4" group-title="Canais |  Turquia",[TR] Afroturk TV
+http://bst3.me:80/7142954/11092011/435904.ts
+#EXTINF:-1 tvg-id="[TR] Agro TV" tvg-name="[TR] Agro TV" tvg-logo="http://lgfp.one/WXP5" group-title="Canais |  Turquia",[TR] Agro TV
+http://bst3.me:80/7142954/11092011/435905.ts
+#EXTINF:-1 tvg-id="[TR] Akit TV" tvg-name="[TR] Akit TV" tvg-logo="http://lgfp.one/WXP6" group-title="Canais |  Turquia",[TR] Akit TV
+http://bst3.me:80/7142954/11092011/435906.ts
+#EXTINF:-1 tvg-id="[TR] AKİT TV" tvg-name="[TR] AKİT TV" tvg-logo="http://lgfp.one/WXP7" group-title="Canais |  Turquia",[TR] AKİT TV
+http://bst3.me:80/7142954/11092011/435907.ts
+#EXTINF:-1 tvg-id="[TR] Aksu TV" tvg-name="[TR] Aksu TV" tvg-logo="http://lgfp.one/WXP8" group-title="Canais |  Turquia",[TR] Aksu TV
+http://bst3.me:80/7142954/11092011/435908.ts
+#EXTINF:-1 tvg-id="[TR] Alanya Posta TV" tvg-name="[TR] Alanya Posta TV" tvg-logo="http://lgfp.one/WXP9" group-title="Canais |  Turquia",[TR] Alanya Posta TV
+http://bst3.me:80/7142954/11092011/435909.ts
+#EXTINF:-1 tvg-id="[TR] Altas TV" tvg-name="[TR] Altas TV" tvg-logo="http://lgfp.one/WXQ0" group-title="Canais |  Turquia",[TR] Altas TV
+http://bst3.me:80/7142954/11092011/435910.ts
+#EXTINF:-1 tvg-id="[TR] Anadolu Dernek TV" tvg-name="[TR] Anadolu Dernek TV" tvg-logo="http://lgfp.one/WXQ1" group-title="Canais |  Turquia",[TR] Anadolu Dernek TV
+http://bst3.me:80/7142954/11092011/435911.ts
+#EXTINF:-1 tvg-id="[TR] Anadolu Net TV FHD" tvg-name="[TR] Anadolu Net TV FHD" tvg-logo="http://lgfp.one/WXQ2" group-title="Canais |  Turquia",[TR] Anadolu Net TV FHD
+http://bst3.me:80/7142954/11092011/435912.ts
+#EXTINF:-1 tvg-id="[TR] Anadolu TV" tvg-name="[TR] Anadolu TV" tvg-logo="http://lgfp.one/WXQ3" group-title="Canais |  Turquia",[TR] Anadolu TV
+http://bst3.me:80/7142954/11092011/435913.ts
+#EXTINF:-1 tvg-id="[TR] A News" tvg-name="[TR] A News" tvg-logo="http://lgfp.one/WXQ4" group-title="Canais |  Turquia",[TR] A News
+http://bst3.me:80/7142954/11092011/435914.ts
+#EXTINF:-1 tvg-id="[TR] ANIMAUX" tvg-name="[TR] ANIMAUX" tvg-logo="http://lgfp.one/WXQ5" group-title="Canais |  Turquia",[TR] ANIMAUX
+http://bst3.me:80/7142954/11092011/435915.ts
+#EXTINF:-1 tvg-id="[TR] Aras TV" tvg-name="[TR] Aras TV" tvg-logo="http://lgfp.one/WXQ6" group-title="Canais |  Turquia",[TR] Aras TV
+http://bst3.me:80/7142954/11092011/435916.ts
+#EXTINF:-1 tvg-id="[TR] Arkadag" tvg-name="[TR] Arkadag" tvg-logo="http://lgfp.one/WXQ7" group-title="Canais |  Turquia",[TR] Arkadag
+http://bst3.me:80/7142954/11092011/435917.ts
+#EXTINF:-1 tvg-id="[TR] AS TV" tvg-name="[TR] AS TV" tvg-logo="http://lgfp.one/WXQ8" group-title="Canais |  Turquia",[TR] AS TV
+http://bst3.me:80/7142954/11092011/435918.ts
+#EXTINF:-1 tvg-id="[TR] AS TV Bursa" tvg-name="[TR] AS TV Bursa" tvg-logo="http://lgfp.one/WXQ9" group-title="Canais |  Turquia",[TR] AS TV Bursa
+http://bst3.me:80/7142954/11092011/435919.ts
+#EXTINF:-1 tvg-id="[TR] ATV Alanya FHD" tvg-name="[TR] ATV Alanya FHD" tvg-logo="http://lgfp.one/WXR0" group-title="Canais |  Turquia",[TR] ATV Alanya FHD
+http://bst3.me:80/7142954/11092011/435920.ts
+#EXTINF:-1 tvg-id="[TR] ATV ATV Avrupa" tvg-name="[TR] ATV ATV Avrupa" tvg-logo="http://lgfp.one/WXR1" group-title="Canais |  Turquia",[TR] ATV ATV Avrupa
+http://bst3.me:80/7142954/11092011/435921.ts
+#EXTINF:-1 tvg-id="[TR] AUTOMOTO" tvg-name="[TR] AUTOMOTO" tvg-logo="http://lgfp.one/WXR2" group-title="Canais |  Turquia",[TR] AUTOMOTO
+http://bst3.me:80/7142954/11092011/435922.ts
+#EXTINF:-1 tvg-id="[TR] Baby TV" tvg-name="[TR] Baby TV" tvg-logo="http://lgfp.one/WXR3" group-title="Canais |  Turquia",[TR] Baby TV
+http://bst3.me:80/7142954/11092011/435923.ts
+#EXTINF:-1 tvg-id="[TR] beIN Box Office 1" tvg-name="[TR] beIN Box Office 1" tvg-logo="http://lgfp.one/WXR4" group-title="Canais |  Turquia",[TR] beIN Box Office 1
+http://bst3.me:80/7142954/11092011/435924.ts
+#EXTINF:-1 tvg-id="[TR] beIN Box Office 2" tvg-name="[TR] beIN Box Office 2" tvg-logo="http://lgfp.one/WXR5" group-title="Canais |  Turquia",[TR] beIN Box Office 2
+http://bst3.me:80/7142954/11092011/435925.ts
+#EXTINF:-1 tvg-id="[TR] beIN Box Office 3" tvg-name="[TR] beIN Box Office 3" tvg-logo="http://lgfp.one/WXR6" group-title="Canais |  Turquia",[TR] beIN Box Office 3
+http://bst3.me:80/7142954/11092011/435926.ts
+#EXTINF:-1 tvg-id="[TR] BeIn Gurme" tvg-name="[TR] BeIn Gurme" tvg-logo="http://lgfp.one/WXR7" group-title="Canais |  Turquia",[TR] BeIn Gurme
+http://bst3.me:80/7142954/11092011/435927.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Action" tvg-name="[TR] beIN Movies Action" tvg-logo="http://lgfp.one/WZR6" group-title="Canais |  Turquia",[TR] beIN Movies Action
+http://bst3.me:80/7142954/11092011/435928.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Action 2" tvg-name="[TR] beIN Movies Action 2" tvg-logo="http://lgfp.one/WXR8" group-title="Canais |  Turquia",[TR] beIN Movies Action 2
+http://bst3.me:80/7142954/11092011/435929.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Family" tvg-name="[TR] beIN Movies Family" tvg-logo="http://lgfp.one/WXR9" group-title="Canais |  Turquia",[TR] beIN Movies Family
+http://bst3.me:80/7142954/11092011/435930.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Premiere" tvg-name="[TR] beIN Movies Premiere" tvg-logo="http://lgfp.one/WXS0" group-title="Canais |  Turquia",[TR] beIN Movies Premiere
+http://bst3.me:80/7142954/11092011/435931.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Premiere 2" tvg-name="[TR] beIN Movies Premiere 2" tvg-logo="http://lgfp.one/WXS1" group-title="Canais |  Turquia",[TR] beIN Movies Premiere 2
+http://bst3.me:80/7142954/11092011/435932.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Stars" tvg-name="[TR] beIN Movies Stars" tvg-logo="http://lgfp.one/WXS2" group-title="Canais |  Turquia",[TR] beIN Movies Stars
+http://bst3.me:80/7142954/11092011/435933.ts
+#EXTINF:-1 tvg-id="[TR] beIN Movies Turk" tvg-name="[TR] beIN Movies Turk" tvg-logo="http://lgfp.one/WXS3" group-title="Canais |  Turquia",[TR] beIN Movies Turk
+http://bst3.me:80/7142954/11092011/435934.ts
+#EXTINF:-1 tvg-id="[TR] beIN Series 1" tvg-name="[TR] beIN Series 1" tvg-logo="http://lgfp.one/WXS4" group-title="Canais |  Turquia",[TR] beIN Series 1
+http://bst3.me:80/7142954/11092011/435935.ts
+#EXTINF:-1 tvg-id="[TR] beIN Series 2" tvg-name="[TR] beIN Series 2" tvg-logo="http://lgfp.one/WXS5" group-title="Canais |  Turquia",[TR] beIN Series 2
+http://bst3.me:80/7142954/11092011/435936.ts
+#EXTINF:-1 tvg-id="[TR] beIN Series 3" tvg-name="[TR] beIN Series 3" tvg-logo="http://lgfp.one/WXS6" group-title="Canais |  Turquia",[TR] beIN Series 3
+http://bst3.me:80/7142954/11092011/435937.ts
+#EXTINF:-1 tvg-id="[TR] beIN Series 4" tvg-name="[TR] beIN Series 4" tvg-logo="http://lgfp.one/WXS7" group-title="Canais |  Turquia",[TR] beIN Series 4
+http://bst3.me:80/7142954/11092011/435938.ts
+#EXTINF:-1 tvg-id="[TR] beIN Series Drama" tvg-name="[TR] beIN Series Drama" tvg-logo="http://lgfp.one/WXS8" group-title="Canais |  Turquia",[TR] beIN Series Drama
+http://bst3.me:80/7142954/11092011/435939.ts
+#EXTINF:-1 tvg-id="[TR] beIN Sports 1" tvg-name="[TR] beIN Sports 1" tvg-logo="http://lgfp.one/WXS9" group-title="Canais |  Turquia",[TR] beIN Sports 1
+http://bst3.me:80/7142954/11092011/435940.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 1" tvg-name="[TR] beINSPORTS 1" tvg-logo="http://lgfp.one/WXT0" group-title="Canais |  Turquia",[TR] beINSPORTS 1
+http://bst3.me:80/7142954/11092011/435941.ts
+#EXTINF:-1 tvg-id="[TR] beIN Sports 1 FEED" tvg-name="[TR] beIN Sports 1 FEED" tvg-logo="http://lgfp.one/WXT1" group-title="Canais |  Turquia",[TR] beIN Sports 1 FEED
+http://bst3.me:80/7142954/11092011/435942.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 1 FEED" tvg-name="[TR] beINSPORTS 1 FEED" tvg-logo="http://lgfp.one/WXT2" group-title="Canais |  Turquia",[TR] beINSPORTS 1 FEED
+http://bst3.me:80/7142954/11092011/435943.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 1 UHD" tvg-name="[TR] beINSPORTS 1 UHD" tvg-logo="http://lgfp.one/WXT3" group-title="Canais |  Turquia",[TR] beINSPORTS 1 UHD
+http://bst3.me:80/7142954/11092011/435944.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 2" tvg-name="[TR] beINSPORTS 2" tvg-logo="http://lgfp.one/WXT4" group-title="Canais |  Turquia",[TR] beINSPORTS 2
+http://bst3.me:80/7142954/11092011/435945.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 3" tvg-name="[TR] beINSPORTS 3" tvg-logo="http://lgfp.one/WXT5" group-title="Canais |  Turquia",[TR] beINSPORTS 3
+http://bst3.me:80/7142954/11092011/435946.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 4" tvg-name="[TR] beINSPORTS 4" tvg-logo="http://lgfp.one/WXT6" group-title="Canais |  Turquia",[TR] beINSPORTS 4
+http://bst3.me:80/7142954/11092011/435947.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 4K" tvg-name="[TR] beINSPORTS 4K" tvg-logo="http://lgfp.one/WXT7" group-title="Canais |  Turquia",[TR] beINSPORTS 4K
+http://bst3.me:80/7142954/11092011/435948.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 4K 1" tvg-name="[TR] beINSPORTS 4K 1" tvg-logo="http://lgfp.one/WXT8" group-title="Canais |  Turquia",[TR] beINSPORTS 4K 1
+http://bst3.me:80/7142954/11092011/435949.ts
+#EXTINF:-1 tvg-id="[TR] beIN Sports 5" tvg-name="[TR] beIN Sports 5" tvg-logo="http://lgfp.one/WXT9" group-title="Canais |  Turquia",[TR] beIN Sports 5
+http://bst3.me:80/7142954/11092011/435950.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS 5" tvg-name="[TR] beINSPORTS 5" tvg-logo="http://lgfp.one/WXU0" group-title="Canais |  Turquia",[TR] beINSPORTS 5
+http://bst3.me:80/7142954/11092011/435951.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS HABER" tvg-name="[TR] beINSPORTS HABER" tvg-logo="http://lgfp.one/WXU1" group-title="Canais |  Turquia",[TR] beINSPORTS HABER
+http://bst3.me:80/7142954/11092011/435952.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS MAX 1" tvg-name="[TR] beINSPORTS MAX 1" tvg-logo="http://lgfp.one/WXU2" group-title="Canais |  Turquia",[TR] beINSPORTS MAX 1
+http://bst3.me:80/7142954/11092011/435953.ts
+#EXTINF:-1 tvg-id="[TR] BeIn Sports Max 1" tvg-name="[TR] BeIn Sports Max 1" tvg-logo="http://lgfp.one/WXU3" group-title="Canais |  Turquia",[TR] BeIn Sports Max 1
+http://bst3.me:80/7142954/11092011/435954.ts
+#EXTINF:-1 tvg-id="[TR] beIN Sports Max 2" tvg-name="[TR] beIN Sports Max 2" tvg-logo="http://lgfp.one/WXU4" group-title="Canais |  Turquia",[TR] beIN Sports Max 2
+http://bst3.me:80/7142954/11092011/435955.ts
+#EXTINF:-1 tvg-id="[TR] beINSPORTS MAX 2" tvg-name="[TR] beINSPORTS MAX 2" tvg-logo="http://lgfp.one/WXU5" group-title="Canais |  Turquia",[TR] beINSPORTS MAX 2
+http://bst3.me:80/7142954/11092011/435956.ts
+#EXTINF:-1 tvg-id="[TR] Bengu Turk" tvg-name="[TR] Bengu Turk" tvg-logo="http://lgfp.one/WZR7" group-title="Canais |  Turquia",[TR] Bengu Turk
+http://bst3.me:80/7142954/11092011/435957.ts
+#EXTINF:-1 tvg-id="[TR] Beyaz TV 4K" tvg-name="[TR] Beyaz TV 4K" tvg-logo="http://lgfp.one/WXU6" group-title="Canais |  Turquia",[TR] Beyaz TV 4K
+http://bst3.me:80/7142954/11092011/435958.ts
+#EXTINF:-1 tvg-id="[TR] Bi Kanal" tvg-name="[TR] Bi Kanal" tvg-logo="http://lgfp.one/WXU7" group-title="Canais |  Turquia",[TR] Bi Kanal
+http://bst3.me:80/7142954/11092011/435959.ts
+#EXTINF:-1 tvg-id="[TR] Bir TV" tvg-name="[TR] Bir TV" tvg-logo="http://lgfp.one/WXU8" group-title="Canais |  Turquia",[TR] Bir TV
+http://bst3.me:80/7142954/11092011/435960.ts
+#EXTINF:-1 tvg-id="[TR] Bloomberg HT" tvg-name="[TR] Bloomberg HT" tvg-logo="http://lgfp.one/WXU9" group-title="Canais |  Turquia",[TR] Bloomberg HT
+http://bst3.me:80/7142954/11092011/435961.ts
+#EXTINF:-1 tvg-id="[TR] BRT 1" tvg-name="[TR] BRT 1" tvg-logo="http://lgfp.one/WXV0" group-title="Canais |  Turquia",[TR] BRT 1
+http://bst3.me:80/7142954/11092011/435962.ts
+#EXTINF:-1 tvg-id="[TR] BRT 2" tvg-name="[TR] BRT 2" tvg-logo="http://lgfp.one/WXV1" group-title="Canais |  Turquia",[TR] BRT 2
+http://bst3.me:80/7142954/11092011/435963.ts
+#EXTINF:-1 tvg-id="[TR] BRT 3" tvg-name="[TR] BRT 3" tvg-logo="http://lgfp.one/WXV2" group-title="Canais |  Turquia",[TR] BRT 3
+http://bst3.me:80/7142954/11092011/435964.ts
+#EXTINF:-1 tvg-id="[TR] BRTV" tvg-name="[TR] BRTV" tvg-logo="http://lgfp.one/WXV3" group-title="Canais |  Turquia",[TR] BRTV
+http://bst3.me:80/7142954/11092011/435965.ts
+#EXTINF:-1 tvg-id="[TR] Bursa AS TV" tvg-name="[TR] Bursa AS TV" tvg-logo="http://lgfp.one/WXV4" group-title="Canais |  Turquia",[TR] Bursa AS TV
+http://bst3.me:80/7142954/11092011/435966.ts
+#EXTINF:-1 tvg-id="[TR] Caillou" tvg-name="[TR] Caillou" tvg-logo="http://lgfp.one/WXV5" group-title="Canais |  Turquia",[TR] Caillou
+http://bst3.me:80/7142954/11092011/435967.ts
+#EXTINF:-1 tvg-id="[TR] Can Tempo TV" tvg-name="[TR] Can Tempo TV" tvg-logo="http://lgfp.one/WXV6" group-title="Canais |  Turquia",[TR] Can Tempo TV
+http://bst3.me:80/7142954/11092011/435968.ts
+#EXTINF:-1 tvg-id="[TR] Can Tempo TV" tvg-name="[TR] Can Tempo TV" tvg-logo="http://lgfp.one/WXV7" group-title="Canais |  Turquia",[TR] Can Tempo TV
+http://bst3.me:80/7142954/11092011/435969.ts
+#EXTINF:-1 tvg-id="[TR] Cartoonito" tvg-name="[TR] Cartoonito" tvg-logo="http://lgfp.one/WXV8" group-title="Canais |  Turquia",[TR] Cartoonito
+http://bst3.me:80/7142954/11092011/435970.ts
+#EXTINF:-1 tvg-id="[TR] Cartoon Network" tvg-name="[TR] Cartoon Network" tvg-logo="http://lgfp.one/WXV9" group-title="Canais |  Turquia",[TR] Cartoon Network
+http://bst3.me:80/7142954/11092011/435971.ts
+#EXTINF:-1 tvg-id="[TR] Çay TV" tvg-name="[TR] Çay TV" tvg-logo="http://lgfp.one/WXW0" group-title="Canais |  Turquia",[TR] Çay TV
+http://bst3.me:80/7142954/11092011/435972.ts
+#EXTINF:-1 tvg-id="[TR] Cem TV" tvg-name="[TR] Cem TV" tvg-logo="http://lgfp.one/WXW1" group-title="Canais |  Turquia",[TR] Cem TV
+http://bst3.me:80/7142954/11092011/435973.ts
+#EXTINF:-1 tvg-id="[TR] Channel 6 TV" tvg-name="[TR] Channel 6 TV" tvg-logo="http://lgfp.one/WXW2" group-title="Canais |  Turquia",[TR] Channel 6 TV
+http://bst3.me:80/7142954/11092011/435974.ts
+#EXTINF:-1 tvg-id="[TR] Chasse & Pêche" tvg-name="[TR] Chasse & Pêche" tvg-logo="http://lgfp.one/WXW3" group-title="Canais |  Turquia",[TR] Chasse & Pêche
+http://bst3.me:80/7142954/11092011/435975.ts
+#EXTINF:-1 tvg-id="[TR] CIFTCI TV" tvg-name="[TR] CIFTCI TV" tvg-logo="http://lgfp.one/WXW4" group-title="Canais |  Turquia",[TR] CIFTCI TV
+http://bst3.me:80/7142954/11092011/435976.ts
+#EXTINF:-1 tvg-id="[TR] Çiftçi TV" tvg-name="[TR] Çiftçi TV" tvg-logo="http://lgfp.one/WXW5" group-title="Canais |  Turquia",[TR] Çiftçi TV
+http://bst3.me:80/7142954/11092011/435977.ts
+#EXTINF:-1 tvg-id="[TR] Cine 1" tvg-name="[TR] Cine 1" tvg-logo="http://lgfp.one/WXW6" group-title="Canais |  Turquia",[TR] Cine 1
+http://bst3.me:80/7142954/11092011/435978.ts
+#EXTINF:-1 tvg-id="[TR] CNBC-E" tvg-name="[TR] CNBC-E" tvg-logo="http://lgfp.one/WXW7" group-title="Canais |  Turquia",[TR] CNBC-E
+http://bst3.me:80/7142954/11092011/435979.ts
+#EXTINF:-1 tvg-id="[TR] CNNTURK" tvg-name="[TR] CNNTURK" tvg-logo="http://lgfp.one/WXW8" group-title="Canais |  Turquia",[TR] CNNTURK
+http://bst3.me:80/7142954/11092011/435980.ts
+#EXTINF:-1 tvg-id="[TR] Çocuk Smart" tvg-name="[TR] Çocuk Smart" tvg-logo="http://lgfp.one/WXW9" group-title="Canais |  Turquia",[TR] Çocuk Smart
+http://bst3.me:80/7142954/11092011/435981.ts
+#EXTINF:-1 tvg-id="[TR] Da Vinci" tvg-name="[TR] Da Vinci" tvg-logo="http://lgfp.one/WXX0" group-title="Canais |  Turquia",[TR] Da Vinci
+http://bst3.me:80/7142954/11092011/435982.ts
+#EXTINF:-1 tvg-id="[TR] DA VINCI LEARNING" tvg-name="[TR] DA VINCI LEARNING" tvg-logo="http://lgfp.one/WXX1" group-title="Canais |  Turquia",[TR] DA VINCI LEARNING
+http://bst3.me:80/7142954/11092011/435983.ts
+#EXTINF:-1 tvg-id="[TR] Deniz Postasi TV" tvg-name="[TR] Deniz Postasi TV" tvg-logo="http://lgfp.one/WXX2" group-title="Canais |  Turquia",[TR] Deniz Postasi TV
+http://bst3.me:80/7142954/11092011/435984.ts
+#EXTINF:-1 tvg-id="[TR] Deniz Postası TV HD" tvg-name="[TR] Deniz Postası TV HD" tvg-logo="http://lgfp.one/WXX3" group-title="Canais |  Turquia",[TR] Deniz Postası TV HD
+http://bst3.me:80/7142954/11092011/435985.ts
+#EXTINF:-1 tvg-id="[TR] DHA" tvg-name="[TR] DHA" tvg-logo="http://lgfp.one/WZR8" group-title="Canais |  Turquia",[TR] DHA
+http://bst3.me:80/7142954/11092011/435986.ts
+#EXTINF:-1 tvg-id="[TR] Dim TV" tvg-name="[TR] Dim TV" tvg-logo="http://lgfp.one/WXX4" group-title="Canais |  Turquia",[TR] Dim TV
+http://bst3.me:80/7142954/11092011/435987.ts
+#EXTINF:-1 tvg-id="[TR] DİM TV HD" tvg-name="[TR] DİM TV HD" tvg-logo="http://lgfp.one/WXX5" group-title="Canais |  Turquia",[TR] DİM TV HD
+http://bst3.me:80/7142954/11092011/435988.ts
+#EXTINF:-1 tvg-id="[TR] Discovery Science" tvg-name="[TR] Discovery Science" tvg-logo="http://lgfp.one/WXX6" group-title="Canais |  Turquia",[TR] Discovery Science
+http://bst3.me:80/7142954/11092011/435989.ts
+#EXTINF:-1 tvg-id="[TR] Discovery World" tvg-name="[TR] Discovery World" tvg-logo="http://lgfp.one/WXX7" group-title="Canais |  Turquia",[TR] Discovery World
+http://bst3.me:80/7142954/11092011/435990.ts
+#EXTINF:-1 tvg-id="[TR] Disney Channel" tvg-name="[TR] Disney Channel" tvg-logo="http://lgfp.one/WXX8" group-title="Canais |  Turquia",[TR] Disney Channel
+http://bst3.me:80/7142954/11092011/435991.ts
+#EXTINF:-1 tvg-id="[TR] Disney Junior" tvg-name="[TR] Disney Junior" tvg-logo="http://lgfp.one/WXX9" group-title="Canais |  Turquia",[TR] Disney Junior
+http://bst3.me:80/7142954/11092011/435992.ts
+#EXTINF:-1 tvg-id="[TR] Diyanet TV" tvg-name="[TR] Diyanet TV" tvg-logo="http://lgfp.one/WXY0" group-title="Canais |  Turquia",[TR] Diyanet TV
+http://bst3.me:80/7142954/11092011/435993.ts
+#EXTINF:-1 tvg-id="[TR] Diyar TV" tvg-name="[TR] Diyar TV" tvg-logo="http://lgfp.one/WXY1" group-title="Canais |  Turquia",[TR] Diyar TV
+http://bst3.me:80/7142954/11092011/435994.ts
+#EXTINF:-1 tvg-id="[TR] DiziSmart Max" tvg-name="[TR] DiziSmart Max" tvg-logo="http://lgfp.one/WXY2" group-title="Canais |  Turquia",[TR] DiziSmart Max
+http://bst3.me:80/7142954/11092011/435995.ts
+#EXTINF:-1 tvg-id="[TR] DiziSmart Premium" tvg-name="[TR] DiziSmart Premium" tvg-logo="http://lgfp.one/WXY3" group-title="Canais |  Turquia",[TR] DiziSmart Premium
+http://bst3.me:80/7142954/11092011/435996.ts
+#EXTINF:-1 tvg-id="[TR] DocuBox" tvg-name="[TR] DocuBox" tvg-logo="http://lgfp.one/WXY4" group-title="Canais |  Turquia",[TR] DocuBox
+http://bst3.me:80/7142954/11092011/435997.ts
+#EXTINF:-1 tvg-id="[TR] Dost TV" tvg-name="[TR] Dost TV" tvg-logo="http://lgfp.one/WXY5" group-title="Canais |  Turquia",[TR] Dost TV
+http://bst3.me:80/7142954/11092011/435998.ts
+#EXTINF:-1 tvg-id="[TR] Dream Turk" tvg-name="[TR] Dream Turk" tvg-logo="http://lgfp.one/WXY6" group-title="Canais |  Turquia",[TR] Dream Turk
+http://bst3.me:80/7142954/11092011/435999.ts
+#EXTINF:-1 tvg-id="[TR] Dream Türk" tvg-name="[TR] Dream Türk" tvg-logo="http://lgfp.one/WXY7" group-title="Canais |  Turquia",[TR] Dream Türk
+http://bst3.me:80/7142954/11092011/436000.ts
+#EXTINF:-1 tvg-id="[TR] Dream Türk HD" tvg-name="[TR] Dream Türk HD" tvg-logo="http://lgfp.one/WXY8" group-title="Canais |  Turquia",[TR] Dream Türk HD
+http://bst3.me:80/7142954/11092011/436001.ts
+#EXTINF:-1 tvg-id="[TR] DREAM TV" tvg-name="[TR] DREAM TV" tvg-logo="http://lgfp.one/WXY9" group-title="Canais |  Turquia",[TR] DREAM TV
+http://bst3.me:80/7142954/11092011/436002.ts
+#EXTINF:-1 tvg-id="[TR] DREAM TV" tvg-name="[TR] DREAM TV" tvg-logo="http://lgfp.one/WXZ0" group-title="Canais |  Turquia",[TR] DREAM TV
+http://bst3.me:80/7142954/11092011/436003.ts
+#EXTINF:-1 tvg-id="[TR] EBA TV Ilkokul" tvg-name="[TR] EBA TV Ilkokul" tvg-logo="http://lgfp.one/WXZ1" group-title="Canais |  Turquia",[TR] EBA TV Ilkokul
+http://bst3.me:80/7142954/11092011/436004.ts
+#EXTINF:-1 tvg-id="[TR] EBA TV Ortaokul" tvg-name="[TR] EBA TV Ortaokul" tvg-logo="http://lgfp.one/WXZ2" group-title="Canais |  Turquia",[TR] EBA TV Ortaokul
+http://bst3.me:80/7142954/11092011/436005.ts
+#EXTINF:-1 tvg-id="[TR] Edessa TV" tvg-name="[TR] Edessa TV" tvg-logo="http://lgfp.one/WXZ3" group-title="Canais |  Turquia",[TR] Edessa TV
+http://bst3.me:80/7142954/11092011/436006.ts
+#EXTINF:-1 tvg-id="[TR] Ekin Türk" tvg-name="[TR] Ekin Türk" tvg-logo="http://lgfp.one/WXZ4" group-title="Canais |  Turquia",[TR] Ekin Türk
+http://bst3.me:80/7142954/11092011/436007.ts
+#EXTINF:-1 tvg-id="[TR] Ekol TV" tvg-name="[TR] Ekol TV" tvg-logo="http://lgfp.one/WXZ5" group-title="Canais |  Turquia",[TR] Ekol TV
+http://bst3.me:80/7142954/11092011/436008.ts
+#EXTINF:-1 tvg-id="[TR] Ekoturk" tvg-name="[TR] Ekoturk" tvg-logo="http://lgfp.one/WXZ6" group-title="Canais |  Turquia",[TR] Ekoturk
+http://bst3.me:80/7142954/11092011/436009.ts
+#EXTINF:-1 tvg-id="[TR] Elsharq TV FHD" tvg-name="[TR] Elsharq TV FHD" tvg-logo="http://lgfp.one/WXZ7" group-title="Canais |  Turquia",[TR] Elsharq TV FHD
+http://bst3.me:80/7142954/11092011/436010.ts
+#EXTINF:-1 tvg-id="[TR] ERCiS TV" tvg-name="[TR] ERCiS TV" tvg-logo="http://lgfp.one/WXZ8" group-title="Canais |  Turquia",[TR] ERCiS TV
+http://bst3.me:80/7142954/11092011/436011.ts
+#EXTINF:-1 tvg-id="[TR] ERTV" tvg-name="[TR] ERTV" tvg-logo="http://lgfp.one/WXZ9" group-title="Canais |  Turquia",[TR] ERTV
+http://bst3.me:80/7142954/11092011/436012.ts
+#EXTINF:-1 tvg-id="[TR] Er TV FHD" tvg-name="[TR] Er TV FHD" tvg-logo="http://lgfp.one/WYA0" group-title="Canais |  Turquia",[TR] Er TV FHD
+http://bst3.me:80/7142954/11092011/436013.ts
+#EXTINF:-1 tvg-id="[TR] Erzurum Web TV" tvg-name="[TR] Erzurum Web TV" tvg-logo="http://lgfp.one/WYA1" group-title="Canais |  Turquia",[TR] Erzurum Web TV
+http://bst3.me:80/7142954/11092011/436014.ts
+#EXTINF:-1 tvg-id="[TR] ES TV" tvg-name="[TR] ES TV" tvg-logo="http://lgfp.one/WZR9" group-title="Canais |  Turquia",[TR] ES TV
+http://bst3.me:80/7142954/11092011/436015.ts
+#EXTINF:-1 tvg-id="[TR] ES TV HD" tvg-name="[TR] ES TV HD" tvg-logo="http://lgfp.one/WYA2" group-title="Canais |  Turquia",[TR] ES TV HD
+http://bst3.me:80/7142954/11092011/436016.ts
+#EXTINF:-1 tvg-id="[TR] ETV Kayseri" tvg-name="[TR] ETV Kayseri" tvg-logo="http://lgfp.one/WYA3" group-title="Canais |  Turquia",[TR] ETV Kayseri
+http://bst3.me:80/7142954/11092011/436017.ts
+#EXTINF:-1 tvg-id="[TR] ETV Manisa" tvg-name="[TR] ETV Manisa" tvg-logo="http://lgfp.one/WYA4" group-title="Canais |  Turquia",[TR] ETV Manisa
+http://bst3.me:80/7142954/11092011/436018.ts
+#EXTINF:-1 tvg-id="[TR] Euro D" tvg-name="[TR] Euro D" tvg-logo="http://lgfp.one/WYA5" group-title="Canais |  Turquia",[TR] Euro D
+http://bst3.me:80/7142954/11092011/436019.ts
+#EXTINF:-1 tvg-id="[TR] Eurosport 2" tvg-name="[TR] Eurosport 2" tvg-logo="http://lgfp.one/WYA6" group-title="Canais |  Turquia",[TR] Eurosport 2
+http://bst3.me:80/7142954/11092011/436020.ts
+#EXTINF:-1 tvg-id="[TR] EXXEN SPOR 1" tvg-name="[TR] EXXEN SPOR 1" tvg-logo="http://lgfp.one/WYA7" group-title="Canais |  Turquia",[TR] EXXEN SPOR 1
+http://bst3.me:80/7142954/11092011/436021.ts
+#EXTINF:-1 tvg-id="[TR] EXXEN SPOR 1 576p" tvg-name="[TR] EXXEN SPOR 1 576p" tvg-logo="http://lgfp.one/WYA8" group-title="Canais |  Turquia",[TR] EXXEN SPOR 1 576p
+http://bst3.me:80/7142954/11092011/436022.ts
+#EXTINF:-1 tvg-id="[TR] EXXEN SPOR 6" tvg-name="[TR] EXXEN SPOR 6" tvg-logo="http://lgfp.one/WYA9" group-title="Canais |  Turquia",[TR] EXXEN SPOR 6
+http://bst3.me:80/7142954/11092011/436023.ts
+#EXTINF:-1 tvg-id="[TR] Exxen Sports 1" tvg-name="[TR] Exxen Sports 1" tvg-logo="http://lgfp.one/WYB0" group-title="Canais |  Turquia",[TR] Exxen Sports 1
+http://bst3.me:80/7142954/11092011/436024.ts
+#EXTINF:-1 tvg-id="[TR] Exxen TV" tvg-name="[TR] Exxen TV" tvg-logo="http://lgfp.one/WYB1" group-title="Canais |  Turquia",[TR] Exxen TV
+http://bst3.me:80/7142954/11092011/436025.ts
+#EXTINF:-1 tvg-id="[TR] Fashion TV" tvg-name="[TR] Fashion TV" tvg-logo="http://lgfp.one/WYB2" group-title="Canais |  Turquia",[TR] Fashion TV
+http://bst3.me:80/7142954/11092011/436026.ts
+#EXTINF:-1 tvg-id="[TR] FilmBox" tvg-name="[TR] FilmBox" tvg-logo="http://lgfp.one/WYB3" group-title="Canais |  Turquia",[TR] FilmBox
+http://bst3.me:80/7142954/11092011/436027.ts
+#EXTINF:-1 tvg-id="[TR] FilmBox Action" tvg-name="[TR] FilmBox Action" tvg-logo="http://lgfp.one/WYB4" group-title="Canais |  Turquia",[TR] FilmBox Action
+http://bst3.me:80/7142954/11092011/436028.ts
+#EXTINF:-1 tvg-id="[TR] Finest TV" tvg-name="[TR] Finest TV" tvg-logo="http://lgfp.one/WYB5" group-title="Canais |  Turquia",[TR] Finest TV
+http://bst3.me:80/7142954/11092011/436029.ts
+#EXTINF:-1 tvg-id="[TR] Flash Haber" tvg-name="[TR] Flash Haber" tvg-logo="http://lgfp.one/WYB6" group-title="Canais |  Turquia",[TR] Flash Haber
+http://bst3.me:80/7142954/11092011/436030.ts
+#EXTINF:-1 tvg-id="[TR] FLASH TV" tvg-name="[TR] FLASH TV" tvg-logo="http://lgfp.one/WYB7" group-title="Canais |  Turquia",[TR] FLASH TV
+http://bst3.me:80/7142954/11092011/436031.ts
+#EXTINF:-1 tvg-id="[TR] FM TV" tvg-name="[TR] FM TV" tvg-logo="http://lgfp.one/WYB8" group-title="Canais |  Turquia",[TR] FM TV
+http://bst3.me:80/7142954/11092011/436032.ts
+#EXTINF:-1 tvg-id="[TR] Fortuna TV HD" tvg-name="[TR] Fortuna TV HD" tvg-logo="http://lgfp.one/WYB9" group-title="Canais |  Turquia",[TR] Fortuna TV HD
+http://bst3.me:80/7142954/11092011/436033.ts
+#EXTINF:-1 tvg-id="[TR] FX" tvg-name="[TR] FX" tvg-logo="http://lgfp.one/WYC0" group-title="Canais |  Turquia",[TR] FX
+http://bst3.me:80/7142954/11092011/436034.ts
+#EXTINF:-1 tvg-id="[TR] GAZIANTEP OLAY TV" tvg-name="[TR] GAZIANTEP OLAY TV" tvg-logo="http://lgfp.one/WYC1" group-title="Canais |  Turquia",[TR] GAZIANTEP OLAY TV
+http://bst3.me:80/7142954/11092011/436035.ts
+#EXTINF:-1 tvg-id="[TR] GRT TV" tvg-name="[TR] GRT TV" tvg-logo="http://lgfp.one/WYC2" group-title="Canais |  Turquia",[TR] GRT TV
+http://bst3.me:80/7142954/11092011/436036.ts
+#EXTINF:-1 tvg-id="[TR] Guneydogu TV" tvg-name="[TR] Guneydogu TV" tvg-logo="http://lgfp.one/WYC3" group-title="Canais |  Turquia",[TR] Guneydogu TV
+http://bst3.me:80/7142954/11092011/436037.ts
+#EXTINF:-1 tvg-id="[TR] Gurbet24 TV" tvg-name="[TR] Gurbet24 TV" tvg-logo="http://lgfp.one/WYC4" group-title="Canais |  Turquia",[TR] Gurbet24 TV
+http://bst3.me:80/7142954/11092011/436038.ts
+#EXTINF:-1 tvg-id="[TR] GZT FHD" tvg-name="[TR] GZT FHD" tvg-logo="http://lgfp.one/WYC5" group-title="Canais |  Turquia",[TR] GZT FHD
+http://bst3.me:80/7142954/11092011/436039.ts
+#EXTINF:-1 tvg-id="[TR] Haber 61" tvg-name="[TR] Haber 61" tvg-logo="http://lgfp.one/WYC6" group-title="Canais |  Turquia",[TR] Haber 61
+http://bst3.me:80/7142954/11092011/436040.ts
+#EXTINF:-1 tvg-id="[TR] Haber61 TV HD" tvg-name="[TR] Haber61 TV HD" tvg-logo="http://lgfp.one/WYC7" group-title="Canais |  Turquia",[TR] Haber61 TV HD
+http://bst3.me:80/7142954/11092011/436041.ts
+#EXTINF:-1 tvg-id="[TR] Habertürk" tvg-name="[TR] Habertürk" tvg-logo="http://lgfp.one/WYC8" group-title="Canais |  Turquia",[TR] Habertürk
+http://bst3.me:80/7142954/11092011/436042.ts
+#EXTINF:-1 tvg-id="[TR] Habitat TV" tvg-name="[TR] Habitat TV" tvg-logo="http://lgfp.one/WYC9" group-title="Canais |  Turquia",[TR] Habitat TV
+http://bst3.me:80/7142954/11092011/436043.ts
+#EXTINF:-1 tvg-id="[TR] HISTORY" tvg-name="[TR] HISTORY" tvg-logo="http://lgfp.one/WZS0" group-title="Canais |  Turquia",[TR] HISTORY
+http://bst3.me:80/7142954/11092011/436044.ts
+#EXTINF:-1 tvg-id="[TR] HT Spor" tvg-name="[TR] HT Spor" tvg-logo="http://lgfp.one/WYD0" group-title="Canais |  Turquia",[TR] HT Spor
+http://bst3.me:80/7142954/11092011/436045.ts
+#EXTINF:-1 tvg-id="[TR] Hunat TV" tvg-name="[TR] Hunat TV" tvg-logo="http://lgfp.one/WYD1" group-title="Canais |  Turquia",[TR] Hunat TV
+http://bst3.me:80/7142954/11092011/436046.ts
+#EXTINF:-1 tvg-id="[TR] Icel TV" tvg-name="[TR] Icel TV" tvg-logo="http://lgfp.one/WYD2" group-title="Canais |  Turquia",[TR] Icel TV
+http://bst3.me:80/7142954/11092011/436047.ts
+#EXTINF:-1 tvg-id="[TR] Ikra TV" tvg-name="[TR] Ikra TV" tvg-logo="http://lgfp.one/WYD3" group-title="Canais |  Turquia",[TR] Ikra TV
+http://bst3.me:80/7142954/11092011/436048.ts
+#EXTINF:-1 tvg-id="[TR] Ilke TV" tvg-name="[TR] Ilke TV" tvg-logo="http://lgfp.one/WYD4" group-title="Canais |  Turquia",[TR] Ilke TV
+http://bst3.me:80/7142954/11092011/436049.ts
+#EXTINF:-1 tvg-id="[TR] Investigation Discovery" tvg-name="[TR] Investigation Discovery" tvg-logo="http://lgfp.one/WYD5" group-title="Canais |  Turquia",[TR] Investigation Discovery
+http://bst3.me:80/7142954/11092011/436050.ts
+#EXTINF:-1 tvg-id="[TR] Investigation Discovery" tvg-name="[TR] Investigation Discovery" tvg-logo="http://lgfp.one/WYD6" group-title="Canais |  Turquia",[TR] Investigation Discovery
+http://bst3.me:80/7142954/11092011/436051.ts
+#EXTINF:-1 tvg-id="[TR] KABE TV" tvg-name="[TR] KABE TV" tvg-logo="http://lgfp.one/WYD7" group-title="Canais |  Turquia",[TR] KABE TV
+http://bst3.me:80/7142954/11092011/436052.ts
+#EXTINF:-1 tvg-id="[TR] Kadirga TV" tvg-name="[TR] Kadirga TV" tvg-logo="http://lgfp.one/WYD8" group-title="Canais |  Turquia",[TR] Kadirga TV
+http://bst3.me:80/7142954/11092011/436053.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 12" tvg-name="[TR] Kanal 12" tvg-logo="http://lgfp.one/WYD9" group-title="Canais |  Turquia",[TR] Kanal 12
+http://bst3.me:80/7142954/11092011/436054.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 15" tvg-name="[TR] Kanal 15" tvg-logo="http://lgfp.one/WYE0" group-title="Canais |  Turquia",[TR] Kanal 15
+http://bst3.me:80/7142954/11092011/436055.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 23" tvg-name="[TR] Kanal 23" tvg-logo="http://lgfp.one/WYE1" group-title="Canais |  Turquia",[TR] Kanal 23
+http://bst3.me:80/7142954/11092011/436056.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 26" tvg-name="[TR] Kanal 26" tvg-logo="http://lgfp.one/WYE2" group-title="Canais |  Turquia",[TR] Kanal 26
+http://bst3.me:80/7142954/11092011/436057.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 3" tvg-name="[TR] Kanal 3" tvg-logo="http://lgfp.one/WYE3" group-title="Canais |  Turquia",[TR] Kanal 3
+http://bst3.me:80/7142954/11092011/436058.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 32" tvg-name="[TR] Kanal 32" tvg-logo="http://lgfp.one/WYE4" group-title="Canais |  Turquia",[TR] Kanal 32
+http://bst3.me:80/7142954/11092011/436059.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 33" tvg-name="[TR] Kanal 33" tvg-logo="http://lgfp.one/WYE5" group-title="Canais |  Turquia",[TR] Kanal 33
+http://bst3.me:80/7142954/11092011/436060.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 34" tvg-name="[TR] Kanal 34" tvg-logo="http://lgfp.one/WYE6" group-title="Canais |  Turquia",[TR] Kanal 34
+http://bst3.me:80/7142954/11092011/436061.ts
+#EXTINF:-1 tvg-id="[TR] Kanal 58" tvg-name="[TR] Kanal 58" tvg-logo="http://lgfp.one/WYE7" group-title="Canais |  Turquia",[TR] Kanal 58
+http://bst3.me:80/7142954/11092011/436062.ts
+#EXTINF:-1 tvg-name="Agents of the Four Seasons Dance of Spring (2026) S01E11" tvg-logo="http://lgfp.one/UQC4" group-title="Series | Crunchyroll",Agents of the Four Seasons Dance of Spring (2026) S01E11
+http://bst3.me:80/series/7142954/11092011/411297.mp4
+#EXTINF:-1 tvg-name="Thunder 3 (2026) S01E02" tvg-logo="http://lgfp.one/UQC4" group-title="Series | Netflix",Thunder 3 (2026) S01E02
+http://bst3.me:80/series/7142954/11092011/411296.mp4
+#EXTINF:-1 tvg-name="AI Girl (2026) [L] S01E03" tvg-logo="http://lgfp.one/UQC4" group-title="Series | Legendadas",AI Girl (2026) [L] S01E03
+http://bst3.me:80/series/7142954/11092011/411295.mp4
+#EXTINF:-1 tvg-name="A Casa do Dragão [L] S03E04" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Legendadas",A Casa do Dragão [L] S03E04
+http://bst3.me:80/series/7142954/11092011/411293.mp4
+#EXTINF:-1 tvg-name="De Férias com o Ex Diretoria S02E08" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Paramount Plus",De Férias com o Ex Diretoria S02E08
+http://bst3.me:80/series/7142954/11092011/411292.mp4
+#EXTINF:-1 tvg-name="De Férias com o Ex Diretoria S02E08" tvg-logo="http://lgfp.one/UQB9" group-title="Reality",De Férias com o Ex Diretoria S02E08
+http://bst3.me:80/series/7142954/11092011/411292.mp4
+#EXTINF:-1 tvg-name="Clevatess S02E02" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Crunchyroll",Clevatess S02E02
+http://bst3.me:80/series/7142954/11092011/411290.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E76" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E76
+http://bst3.me:80/series/7142954/11092011/411289.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E75" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E75
+http://bst3.me:80/series/7142954/11092011/411288.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E74" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E74
+http://bst3.me:80/series/7142954/11092011/411287.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E73" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E73
+http://bst3.me:80/series/7142954/11092011/411286.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E72" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E72
+http://bst3.me:80/series/7142954/11092011/411285.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E71" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E71
+http://bst3.me:80/series/7142954/11092011/411284.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E70" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E70
+http://bst3.me:80/series/7142954/11092011/411283.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E69" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E69
+http://bst3.me:80/series/7142954/11092011/411282.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E68" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E68
+http://bst3.me:80/series/7142954/11092011/411281.mp4
+#EXTINF:-1 tvg-name="Casa do Patrao (2026) S01E67" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",Casa do Patrao (2026) S01E67
+http://bst3.me:80/series/7142954/11092011/411280.mp4
+#EXTINF:-1 tvg-name="Quem Ama Cuida (2026) S01E49" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Globoplay",Quem Ama Cuida (2026) S01E49
+http://bst3.me:80/series/7142954/11092011/411278.mp4
+#EXTINF:-1 tvg-name="Quem Ama Cuida (2026) S01E49" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Novelas",Quem Ama Cuida (2026) S01E49
+http://bst3.me:80/series/7142954/11092011/411278.mp4
+#EXTINF:-1 tvg-name="Quem Ama Cuida (2026) S01E49" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Mais Assistidos",Quem Ama Cuida (2026) S01E49
+http://bst3.me:80/series/7142954/11092011/411278.mp4
+#EXTINF:-1 tvg-name="Trying S05E02" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Apple TV Plus",Trying S05E02
+http://bst3.me:80/series/7142954/11092011/411277.mp4
+#EXTINF:-1 tvg-name="X-Men '97 S02E05" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Disney Plus",X-Men '97 S02E05
+http://bst3.me:80/series/7142954/11092011/411276.mp4
+#EXTINF:-1 tvg-name="Tô De Graça S08E16" tvg-logo="http://lgfp.one/UQB9" group-title="Series | Globoplay",Tô De Graça S08E16
+http://bst3.me:80/series/7142954/11092011/411275.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E12" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E12
+http://bst3.me:80/series/7142954/11092011/411274.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E11" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E11
+http://bst3.me:80/series/7142954/11092011/411273.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E10" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E10
+http://bst3.me:80/series/7142954/11092011/411272.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E09" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E09
+http://bst3.me:80/series/7142954/11092011/411271.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E08" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E08
+http://bst3.me:80/series/7142954/11092011/411270.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E07" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E07
+http://bst3.me:80/series/7142954/11092011/411269.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E06" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E06
+http://bst3.me:80/series/7142954/11092011/411268.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E05" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E05
+http://bst3.me:80/series/7142954/11092011/411267.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E04" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E04
+http://bst3.me:80/series/7142954/11092011/411266.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E03" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E03
+http://bst3.me:80/series/7142954/11092011/411265.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E02" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E02
+http://bst3.me:80/series/7142954/11092011/411264.mp4
+#EXTINF:-1 tvg-name="People Magazine Alem da Noticia S09E01" tvg-logo="http://lgfp.one/UQB9" group-title="Series | HBO Max",People Magazine Alem da Noticia S09E01
+http://bst3.me:80/series/7142954/11092011/411263.mp4

@@ -1,0 +1,14 @@
+
+EXTM3U
+# PLAYLISTV: pltv-logo = "IMG_20170410_183756.jpg" pltv-name = "Lista de Canais" pltv-description = "Canais Filmes e Séries" pltv-cover = "FB_IMG_1489336469336.jpg" Site = "XXX SITE CASO HOUVER XXX" pltv-email = "DKChannel4g@gmail.com"
+
+Contém uma
+################## XXXX DK CHANNEL XXXX ########################
+
+#EXTINF:-1 tvg-logo="FB_IMG_1489336469336.jpg" group-title="CANAIS" pltv-subgroup="TESTE COMPLETO ",  DK Channel
+http://bit.ly/DKChannel
+
+
+
+
+Cont

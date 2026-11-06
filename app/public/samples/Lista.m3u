@@ -1,0 +1,53 @@
+#EXTM3U
+#EXTINF-1 tvg-id=CanalSete.br@SD tvg-logo=httpsi.imgur.com0cq0BPp.png group-title=General,Canal Sete
+httpplay.canalsete.com.br1935canalsetexpl-c7_sourceplaylist.m3u8
+#EXTINF-1 tvg-id=CanalUOL.br@SD tvg-logo=httpsconteudo.imguol.com.brcplaylogo_canaluol_2024.svg group-title=General,Canal UOL (1080p)
+httpsvideo24.mais.uol.com.brlive6146.m3u8
+#EXTINF-1 tvg-id=ChromaTV.br@SD tvg-logo=httpsi.imgur.comSnaIMgj.png group-title=Entertainment,Chroma TV (480p)
+https5c483b9d1019c.streamlock.net80548054playlist.m3u8
+#EXTINF-1 tvg-id=CinturaoVerde.br@SD tvg-logo=httpseswqkrogupaisirwcsys.supabase.costoragev1objectpublicmbc-mediacanais1775688612576-u0628igjimf.png group-title=General,Cinturao Verde
+httpsplay.redecinturaoverde.com.brplaylist.m3u8
+#EXTINF-1 tvg-id=ConexaoTV.br@SD tvg-logo=httpsi.imgur.comCJ9SPsZ.png group-title=General,Conexao TV (720p)
+https5a57bda70564a.streamlock.netconexaotvconexaotv.sdpplaylist.m3u8
+#EXTINF-1 tvg-id=ESPN4.br@SD tvg-logo=httpsupload.wikimedia.orgwikipediacommonsthumb778ESPN_4_logo.svg960px-ESPN_4_logo.svg.png group-title=Sports,ESPN 4 (Brazil) (1080p)
+http181.78.197.598000playa07nindex.m3u8
+#EXTINF-1 tvg-id=ESPN.br@SD tvg-logo=httpsupload.wikimedia.orgwikipediacommonsthumb22fESPN_wordmark.svg960px-ESPN_wordmark.svg.png group-title=Sports,ESPN (Brazil) (1080p)
+http181.78.197.598000playa07zindex.m3u8
+#EXTINF-1 tvg-id=FalaLitoral.br@SD tvg-logo=httpsi.imgur.comNF6PL8O.png group-title=General,Fala Litoral (480p)
+https5c483b9d1019c.streamlock.netfalalitoraltvfalalitoraltvplaylist.m3u8
+#EXTINF-1 tvg-id=FonteTV.br@SD tvg-logo=httpsi.imgur.com7q2BmNc.png group-title=Religious,Fonte TV
+https59fb88a1b1108.streamlock.netfonte_definst_fontetvchunklist_w1224511652.m3u8
+#EXTINF-1 tvg-id=MBCBrasilTV.br@SD tvg-logo=httpseswqkrogupaisirwcsys.supabase.costoragev1objectpublicmbc-mediacanais1775702325773-d10vtu076za.png group-title=General,MBC Brasil TV
+httpsplay.mbcbrasil.tv.brplaylist.m3u8
+#EXTINF-1 tvg-id=NovaEraTV.br@SD tvg-logo=httpsi.imgur.comIK3F9Uq.png group-title=Undefined,Nova Era TV (1080p) [Not 247]
+httpwz3.dnip.com.br1935novaeratvnovaeratv.sdplive.m3u8
+#EXTINF-1 tvg-id=RedeGlobo.br@SD tvg-logo=httpsi.imgur.comO02TF2r.png group-title=Undefined,Rede Globo (1080p)
+httpscdn-sp2.satlabscloud.com.brRBS_HDindex.m3u8token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF-1 tvg-id=TelecineAction.br@SD tvg-logo=httpsi.imgur.comBHYWG0h.png group-title=Movies,Telecine Action (1080p)
+http46.151.196.22314326
+#EXTINF-1 tvg-id=TVClube.br@SD tvg-logo=httpsi.imgur.comCpXjcyE.png group-title=Undefined,TV Clube (720p)
+https5c483b9d1019c.streamlock.net81868186playlist.m3u8
+#EXTINF-1 tvg-id=TVComunitaria.br@SD tvg-logo=httpsi.imgur.comuxefHY3.png group-title=General,TV Comunitaria (360p)
+https5b7f3c45ab7c2.streamlock.net8008smil8008.smilplaylist.m3u8DVR=
+#EXTINF-1 tvg-id=TVGloboBrasilia.br@SD tvg-logo= group-title=Undefined,TV Globo Brasilia (1080p)
+http79.127.238.22814173
+#EXTINF-1 tvg-id=TVMaisMarica.br@SD tvg-logo=httpsi.imgur.comlgCRX7q.png group-title=General,TV Mais Marica (1080p)
+https5cf4a2c2512a2.streamlock.nettvmaismaricatvmaismaricaplaylist.m3u8
+#EXTINF-1 tvg-id=TVPantanalMS.br@SD tvg-logo=httpsi.imgur.com0FOmktl.png group-title=Undefined,TV Pantanal MS (360p) [Not 247]
+https5a2b083e9f360.streamlock.nettvpantanaltvpantanal.sdpplaylist.m3u8
+#EXTINF-1 tvg-id=TVPassoFundo.br@SD tvg-logo=httpsi.imgur.comQFE6TiV.png group-title=General,TV Passo Fundo (720p)
+https5a57bda70564a.streamlock.nettvpassotvpasso.sdpplaylist.m3u8
+#EXTINF-1 tvg-id=TVSimCachoeiro.br@SD tvg-logo=httpsi.imgur.comt5oUK3C.png group-title=News,TV Sim Cachoeiro (720p)
+https5cf4a2c2512a2.streamlock.net81048104playlist.m3u8
+#EXTINF-1 tvg-id=TVSimSaoMateus.br@SD tvg-logo=httpsi.imgur.comt5oUK3C.png group-title=News,TV Sim Sao Mateus (720p)
+https5cf4a2c2512a2.streamlock.net82368236playlist.m3u8
+#EXTINF-1 tvg-id=TVSuldeMinas.br@SD tvg-logo=httpsi.imgur.comhPh8cxK.png group-title=General,TV Sul de Minas (720p)
+https5cf4a2c2512a2.streamlock.nettvsuldeminastvsuldeminasplaylist.m3u8
+#EXTINF-1 tvg-id=TVTerceiroAnjo.br@SD tvg-logo=httpsi.imgur.comPExKWNv.png group-title=Religious,TV Terceiro Anjo (360p)
+httpsstreamer1.streamhost.orgsaliveGMI3anjohplaylist.m3u8
+#EXTINF-1 tvg-id=TVUFG.br@SD tvg-logo=httpsi.imgur.comYp3dbJo.png group-title=Education,TV UFG (720p) [Not 247]
+httpflash.softhost.com.br1935ufgtvufgwebplaylist.m3u8
+#EXTINF-1 tvg-id=TVVicosa.br@SD tvg-logo=httpsi.imgur.comTZF55f9.png group-title=Entertainment,TV Vicosa (480p)
+httpwz4.dnip.com.brfratevitvfratevitv.sdpplaylist.m3u8
+#EXTINF-1 tvg-id=UnisulTV.br@SD tvg-logo=httpsi.imgur.comN0TvAFz.png group-title=Culture;Education,Unisul TV (720p)
+httpssitetv.brasilstream.com.brhlssitetvindex.m3u8token=
