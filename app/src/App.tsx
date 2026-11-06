@@ -8,6 +8,7 @@ import type { Canal, Epg, Playlist } from "./types";
 import Menu from "./Menu";
 import Secao from "./Secao";
 import Playlists from "./Playlists";
+import TelaFavoritos from "./TelaFavoritos";
 import "./App.css";
 
 const LISTA_EXEMPLO = "/samples/teste.m3u";
@@ -124,13 +125,19 @@ export default function App() {
     <HashRouter>
       <div className="app">
         <header className="barra">
-          <h1>Xique-Xique APP</h1>
-          <span className="nome-lista">
-            {carregando ? "Carregando…" : ativa ? ativa.nome : "Lista de exemplo"}
-          </span>
-          <button className="botao" data-nav onClick={() => arquivoRef.current?.click()}>
+          <div className="marca">
+            <img src="./icon.png" alt="" className="marca-icone" />
+            <h1 className="marca-nome">CineBeco IPTV</h1>
+          </div>
+
+          <button
+            className="botao botao-arquivo"
+            data-nav
+            onClick={() => arquivoRef.current?.click()}
+          >
             Abrir arquivo
           </button>
+
           <input
             ref={arquivoRef}
             type="file"
@@ -162,11 +169,17 @@ export default function App() {
               />
             }
           />
+          <Route
+            path="/favoritos"
+            element={<TelaFavoritos canais={canais} epg={epg} />}
+          />
           <Route path="/:secao" element={<Secao canais={canais} epg={epg} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
-        {mostrarTeclas && <div className="teclas">Última tecla: {ultimaTecla || "—"}</div>}
+        {mostrarTeclas && (
+          <div className="teclas">Última tecla: {ultimaTecla || "—"}</div>
+        )}
       </div>
     </HashRouter>
   );

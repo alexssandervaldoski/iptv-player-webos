@@ -3,6 +3,7 @@ import { Navigate, NavLink, useNavigate, useParams } from "react-router-dom";
 import type { Canal, Epg } from "./types";
 import { SECOES } from "./secoes";
 import Painel from "./Painel";
+import { useFavoritos } from "./favoritos";
 
 interface Props {
   canais: Canal[];
@@ -12,6 +13,7 @@ interface Props {
 export default function Secao({ canais, epg }: Props) {
   const { secao } = useParams();
   const navigate = useNavigate();
+  const { favoritos } = useFavoritos();
   const atual = SECOES.find((s) => s.id === secao);
 
   const doTipo = useMemo(
@@ -39,6 +41,14 @@ export default function Secao({ canais, epg }: Props) {
               {s.icone} {s.rotulo}
             </NavLink>
           ))}
+
+          <NavLink
+            to="/favoritos"
+            data-nav
+            className={({ isActive }) => "aba" + (isActive ? " ativa" : "")}
+          >
+            ★ Favoritos{favoritos.length > 0 ? ` (${favoritos.length})` : ""}
+          </NavLink>
         </div>
 
         <span className="contagem">{doTipo.length} itens</span>

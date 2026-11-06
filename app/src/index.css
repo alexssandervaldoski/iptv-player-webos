@@ -1,9 +1,24 @@
 :root {
-  --fundo-1: #12104a;
-  --fundo-2: #2a1fb8;
-  --cartao: rgba(255, 255, 255, 0.08);
-  --borda: rgba(255, 255, 255, 0.25);
+  /* Fundo no tom do logo */
+  --fundo-1: #0f172a;
+  --fundo-2: #16213a;
+
+  /* Cartões e bordas */
+  --cartao: rgba(255, 255, 255, 0.06);
+  --borda: rgba(255, 255, 255, 0.14);
+
+  /* Destaque amarelo do logo */
   --realce: rgba(255, 255, 255, 0.18);
+  --amarelo: #ffc107;
+  --amarelo-claro: #ffd54f;
+
+  /* Azul da TV — usado nas fontes */
+  --azul: #4da3ff;
+  --azul-claro: #8ec5ff;
+
+  /* Texto */
+  --texto: #8ec5ff;
+  --texto-forte: #cfe4ff;
 }
 
 * {
@@ -13,10 +28,9 @@
 }
 
 body {
-  background: linear-gradient(135deg, var(--fundo-1), var(--fundo-2));
-  background-attachment: fixed;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-  height: 100vh;
-  overflow: hidden;
+  margin: 0;
+  background: var(--fundo-1);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }

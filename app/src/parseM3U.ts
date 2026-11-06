@@ -5,10 +5,74 @@ function pegarAtributo(linha: string, nome: string): string {
   return achou ? achou[1] : "";
 }
 
-function classificar(grupo: string): Tipo {
-  const g = grupo.toLowerCase();
-  if (/\b(filmes?|movies?)\b/.test(g)) return "filmes";
-  if (/\b(s[eé]ries?)\b/.test(g)) return "series";
+// Palavras que indicam filme no nome do grupo
+const PALAVRAS_FILME = [
+  "filme",
+  "filmes",
+  "movie",
+  "movies",
+  "vod",
+  "lancamento",
+  "lancamentos",
+  "cinema",
+  "acao",
+  "comedia",
+  "drama",
+  "terror",
+  "suspense",
+  "aventura",
+  "animacao",
+  "documentario",
+  "romance",
+  "ficcao",
+  "guerra",
+  "policial",
+  "misterio",
+  "fantasia",
+  "familia",
+  "classicos",
+  "legendado",
+  "dublado",
+  "4k",
+  "uhd",
+];
+
+// Palavras que indicam série no nome do grupo
+const PALAVRAS_SERIE = [
+  "serie",
+  "series",
+  "seriado",
+  "seriados",
+  "temporada",
+  "temporadas",
+  "novela",
+  "novelas",
+  "sitcom",
+  "anime",
+  "animes",
+  "desenho",
+  "desenhos",
+  "infantil",
+  "kids",
+];
+
+// Remove acentos para comparar sem depender de grafia
+function semAcento(s: string): string {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function classificar(grupo: string, nome: string): Tipo {
+  const g = semAcento(grupo.toLowerCase());
+  const n = semAcento(nome.toLowerCase());
+
+  // Séries primeiro: "Série" tem prioridade sobre "Ação", por exemplo
+  if (PALAVRAS_SERIE.some((p) => g.includes(p))) return "series";
+  if (PALAVRAS_FILME.some((p) => g.includes(p))) return "filmes";
+
+  // Sem grupo reconhecível, tenta pelo nome do item
+  if (/\bS\d{1,2}\s*E\d{1,2}\b/i.test(nome)) return "series";
+  if (/\b(temporada|season)\b/i.test(n)) return "series";
+
   return "aovivo";
 }
 
@@ -33,11 +97,10 @@ export function parseM3U(texto: string): Canal[] {
         id: canais.length,
         ...pendente,
         url: linha,
-        tipo: classificar(pendente.grupo),
+        tipo: classificar(pendente.grupo, pendente.nome),
       });
       pendente = null;
     }
   }
-
   return canais;
 }

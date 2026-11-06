@@ -1,12 +1,12 @@
 {
-  "id": "com.alex.xiqxiq",
+  "id": "com.alex.cinebeco",
   "version": "1.0.0",
   "vendor": "Alex",
   "type": "web",
   "main": "index.html",
-  "title": "Xique-Xique",
+  "title": "CineBeco IPTV",
   "icon": "icon.png",
   "resolution": "1920x1080",
-  "bgColor": "#000000",
+  "bgColor": "#0f172a",
   "disableBackHistoryAPI": true
 }

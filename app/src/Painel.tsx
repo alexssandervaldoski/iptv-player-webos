@@ -1,15 +1,18 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import type { Canal, Entrada, Epg } from "./types";
 import Player from "./Player";
 import Logo from "./Logo";
+import OverlayCanal from "./OverlayCanal";
 import { useNavegacao } from "./useNavegacao";
+import { useFocoEspacial, focarPrimeiro } from "./useFocoEspacial";
 import { agruparVariantes } from "./agrupar";
 import { epgIdDe, programaAgora } from "./epg";
 import { qualidade } from "./texto";
+import { useFavoritos } from "./favoritos";
 
-// Desenha no máximo isto por vez, para listas enormes não travarem a tela
 const LIMITE = 300;
+const SEGUNDOS_TROCA = 5;
 
 function hora(ms: number): string {
   return new Date(ms).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
@@ -22,7 +25,11 @@ interface Props {
 
 export default function Painel({ canais, epg }: Props) {
   const navigate = useNavigate();
+  const { favoritos, alternar, ehFavorito } = useFavoritos();
+  useFocoEspacial();
+
   const [grupo, setGrupo] = useState("Todos");
+  const [soFavoritos, setSoFavoritos] = useState(false);
   const [busca, setBusca] = useState("");
   const [agrupar, setAgrupar] = useState(true);
   const [ordenar, setOrdenar] = useState(false);
@@ -30,15 +37,36 @@ export default function Painel({ canais, epg }: Props) {
   const [varianteId, setVarianteId] = useState<number | null>(null);
   const [agora, setAgora] = useState(() => Date.now());
 
-  // Atualiza o "agora" a cada 30 segundos, para o guia acompanhar o relógio
+  const [pendente, setPendente] = useState<Entrada | null>(null);
+  const [segundos, setSegundos] = useState(SEGUNDOS_TROCA);
+  const [imersivo, setImersivo] = useState(false);
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const areaRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     const t = setInterval(() => setAgora(Date.now()), 30000);
     return () => clearInterval(t);
   }, []);
 
-  const entradas = useMemo(() => agruparVariantes(canais, agrupar), [canais, agrupar]);
+  useEffect(() => {
+    const t = setTimeout(focarPrimeiro, 50);
+    return () => clearTimeout(t);
+  }, []);
 
-  // Ordem alfabética opcional. O "numeric" põe "Canal 2" antes de "Canal 10"
+  const urlsFavoritas = useMemo(
+    () => new Set(favoritos.map((f) => f.url)),
+    [favoritos]
+  );
+
+  const entradas = useMemo(() => {
+    const base = agruparVariantes(canais, agrupar);
+    return base.map((e) => ({
+      ...e,
+      favorito: e.variantes.some((v) => urlsFavoritas.has(v.url)),
+    }));
+  }, [canais, agrupar, urlsFavoritas]);
+
   const ordenadas = useMemo(
     () =>
       ordenar
@@ -49,7 +77,6 @@ export default function Painel({ canais, epg }: Props) {
     [entradas, ordenar]
   );
 
-  // Para cada item, o id do canal dentro do guia (calculado uma vez)
   const idEpg = useMemo(() => {
     const mapa = new Map<number, string>();
     if (!epg) return mapa;
@@ -71,9 +98,13 @@ export default function Painel({ canais, epg }: Props) {
     for (const e of entradas) {
       contagem.set(e.grupo, (contagem.get(e.grupo) ?? 0) + 1);
     }
-    const lista: [string, number][] = [["Todos", entradas.length], ...contagem];
-    return lista;
+    return [...contagem] as [string, number][];
   }, [entradas]);
+
+  const totalFavoritos = useMemo(
+    () => entradas.filter((e) => e.favorito).length,
+    [entradas]
+  );
 
   const grupoAtual = grupos.some(([nome]) => nome === grupo) ? grupo : "Todos";
 
@@ -81,10 +112,12 @@ export default function Painel({ canais, epg }: Props) {
     () =>
       ordenadas.filter(
         (e) =>
-          (grupoAtual === "Todos" || e.grupo === grupoAtual) &&
+          (soFavoritos
+            ? e.favorito
+            : grupoAtual === "Todos" || e.grupo === grupoAtual) &&
           e.nome.toLowerCase().includes(busca.toLowerCase())
       ),
-    [ordenadas, grupoAtual, busca]
+    [ordenadas, grupoAtual, busca, soFavoritos]
   );
   const visiveis = filtrados.slice(0, LIMITE);
 
@@ -94,44 +127,115 @@ export default function Painel({ canais, epg }: Props) {
 
   function escolher(e: Entrada) {
     setAtual(e);
-    setVarianteId(null); // volta para a melhor qualidade
+    setVarianteId(null);
+    setPendente(null);
   }
 
   function alternarAgrupar() {
     setAgrupar((a) => !a);
     setAtual(null);
     setVarianteId(null);
+    setPendente(null);
   }
 
-  // Voltar: se há algo tocando, para; senão, volta ao menu principal
+  const abrirTelaCheia = useCallback(async () => {
+    const alvo = videoRef.current ?? areaRef.current;
+
+    try {
+      if (alvo) {
+        if (alvo.requestFullscreen) {
+          await alvo.requestFullscreen();
+        } else if ((alvo as any).webkitRequestFullscreen) {
+          await (alvo as any).webkitRequestFullscreen();
+        } else if ((alvo as any).webkitEnterFullscreen) {
+          (alvo as any).webkitEnterFullscreen();
+        } else {
+          setImersivo(true);
+        }
+      } else {
+        setImersivo(true);
+      }
+    } catch {
+      setImersivo(true);
+    }
+
+    videoRef.current?.play?.().catch(() => {});
+  }, []);
+
+  const sairTelaCheia = useCallback(async () => {
+    setImersivo(false);
+    if (!document.fullscreenElement) return;
+    try {
+      await document.exitFullscreen();
+    } catch {
+      // ignora
+    }
+  }, []);
+
+  const navegarCanal = useCallback(
+    (direcao: 1 | -1) => {
+      const base = pendente ?? atual;
+      if (!base) return;
+      const i = filtrados.findIndex((x) => x.id === base.id);
+      if (i < 0) return;
+      const alvo = filtrados[i + direcao];
+      if (!alvo) return;
+      setPendente(alvo);
+      setSegundos(SEGUNDOS_TROCA);
+    },
+    [pendente, atual, filtrados]
+  );
+
+  useEffect(() => {
+    if (!pendente) return;
+    if (segundos <= 0) {
+      escolher(pendente);
+      return;
+    }
+    const t = setTimeout(() => setSegundos((s) => s - 1), 1000);
+    return () => clearTimeout(t);
+  }, [pendente, segundos]);
+
+  const voltarAoPlayer = useCallback(() => {
+    if (!atual) return;
+    const el = document.getElementById("canal-" + atual.id);
+    if (el) {
+      el.focus();
+      el.scrollIntoView({ block: "center" });
+    }
+  }, [atual]);
+
   useNavegacao(() => {
+    if (imersivo || document.fullscreenElement) {
+      sairTelaCheia();
+      return true;
+    }
+    if (pendente) {
+      setPendente(null);
+      return true;
+    }
     if (atual) {
       setAtual(null);
       setVarianteId(null);
-    } else {
-      navigate("/");
+      return true;
     }
+    navigate("/");
     return true;
   });
 
-  // Teclas de canal: CH+ vai para o próximo, CH- para o anterior
   useEffect(() => {
     function aoTeclar(e: KeyboardEvent) {
       const avancar = e.key === "PageUp" || e.keyCode === 427;
       const voltar = e.key === "PageDown" || e.keyCode === 428;
-      if (!atual || (!avancar && !voltar)) return;
+      if (!avancar && !voltar) return;
+      if (!atual && !pendente) return;
 
-      const i = filtrados.findIndex((x) => x.id === atual.id);
-      const proximo = filtrados[i + (avancar ? 1 : -1)];
-      if (i >= 0 && proximo) {
-        e.preventDefault();
-        escolher(proximo);
-        document.getElementById("canal-" + proximo.id)?.focus();
-      }
+      e.preventDefault();
+      navegarCanal(avancar ? 1 : -1);
     }
     window.addEventListener("keydown", aoTeclar);
     return () => window.removeEventListener("keydown", aoTeclar);
-  }, [atual, filtrados]);
+  }, [atual, pendente, navegarCanal]);
 
   if (canais.length === 0) {
     return (
@@ -142,18 +246,77 @@ export default function Painel({ canais, epg }: Props) {
   }
 
   const prog = atual ? programaAgora(programasDa(atual), agora) : null;
+  const favoritoAtual = variante ? urlsFavoritas.has(variante.url) : false;
+  const indicePendente = pendente
+    ? filtrados.findIndex((x) => x.id === pendente.id)
+    : -1;
+
+  if (imersivo && atual && variante) {
+    return (
+      <div className="modo-imersivo">
+        <Player key={variante.id} url={variante.url} />
+        <div className="imersivo-info">
+          <strong>{atual.nome}</strong>
+          <span>{atual.grupo}</span>
+        </div>
+        <button className="botao imersivo-sair" data-nav onClick={sairTelaCheia}>
+          ✕ Sair
+        </button>
+      </div>
+    );
+  }
 
   return (
     <main className="painel-tres">
       <aside className="coluna coluna-grupos">
         <ul className="lista">
+          <li>
+            <button
+              className={"item item-favoritos" + (soFavoritos ? " ativo" : "")}
+              data-nav
+              onFocus={() => setSoFavoritos(true)}
+              onClick={() => setSoFavoritos(true)}
+            >
+              <span>★ Favoritos</span>
+              <span>{totalFavoritos}</span>
+            </button>
+          </li>
+
+          <li>
+            <button
+              className={
+                "item" + (!soFavoritos && grupoAtual === "Todos" ? " ativo" : "")
+              }
+              data-nav
+              onFocus={() => {
+                setSoFavoritos(false);
+                setGrupo("Todos");
+              }}
+              onClick={() => {
+                setSoFavoritos(false);
+                setGrupo("Todos");
+              }}
+            >
+              <span>Todos</span>
+              <span>{entradas.length}</span>
+            </button>
+          </li>
+
           {grupos.map(([nome, qtd]) => (
             <li key={nome}>
               <button
-                className={"item" + (nome === grupoAtual ? " ativo" : "")}
+                className={
+                  "item" + (!soFavoritos && nome === grupoAtual ? " ativo" : "")
+                }
                 data-nav
-                onFocus={() => setGrupo(nome)}
-                onClick={() => setGrupo(nome)}
+                onFocus={() => {
+                  setSoFavoritos(false);
+                  setGrupo(nome);
+                }}
+                onClick={() => {
+                  setSoFavoritos(false);
+                  setGrupo(nome);
+                }}
               >
                 <span>{nome}</span>
                 <span>{qtd}</span>
@@ -194,7 +357,10 @@ export default function Painel({ canais, epg }: Props) {
                 >
                   <Logo src={e.logo} nome={e.nome} />
                   <span className="nome-item">
-                    <span>{e.nome}</span>
+                    <span>
+                      {e.favorito && <span className="estrela">★ </span>}
+                      {e.nome}
+                    </span>
                     {agoraNoAr && <small className="epg-linha">▶ {agoraNoAr.titulo}</small>}
                   </span>
                   {e.variantes.length > 1 && (
@@ -206,7 +372,11 @@ export default function Painel({ canais, epg }: Props) {
               </li>
             );
           })}
-          {visiveis.length === 0 && <li className="vazio">Nada encontrado</li>}
+          {visiveis.length === 0 && (
+            <li className="vazio">
+              {soFavoritos ? "Nenhum favorito nesta seção." : "Nada encontrado"}
+            </li>
+          )}
         </ul>
 
         {filtrados.length > LIMITE && (
@@ -219,14 +389,50 @@ export default function Painel({ canais, epg }: Props) {
       <section className="painel coluna-player">
         {atual && variante ? (
           <>
-            <Player key={variante.id} url={variante.url} />
+            <div className="area-video" ref={areaRef}>
+              <Player ref={videoRef} key={variante.id} url={variante.url} />
+
+              {pendente && (
+                <OverlayCanal
+                  atual={atual}
+                  pendente={pendente}
+                  segundos={segundos}
+                  total={filtrados.length}
+                  indice={indicePendente}
+                  onConfirmar={() => escolher(pendente)}
+                  onCancelar={() => setPendente(null)}
+                />
+              )}
+            </div>
 
             <div className="titulo-canal">
               <Logo src={atual.logo} nome={atual.nome} tamanho={56} />
-              <div>
+              <div className="titulo-dados">
                 <h2>{atual.nome}</h2>
                 <p>{atual.grupo}</p>
               </div>
+              <button
+                className="botao botao-play"
+                data-nav
+                onClick={abrirTelaCheia}
+                title="Assistir em tela cheia"
+              >
+                ⛶ Tela cheia
+              </button>
+              <button
+                className={"botao botao-favorito" + (favoritoAtual ? " ativo" : "")}
+                data-nav
+                onClick={() =>
+                  alternar({
+                    url: variante.url,
+                    nome: atual.nome,
+                    grupo: atual.grupo,
+                    logo: atual.logo,
+                  })
+                }
+              >
+                {favoritoAtual ? "★ Favorito" : "☆ Favoritar"}
+              </button>
             </div>
 
             {atual.variantes.length > 1 && (
@@ -286,7 +492,11 @@ export default function Painel({ canais, epg }: Props) {
             )}
           </>
         ) : (
-          <p className="vazio">Selecione um item para assistir.</p>
+          <div className="player-vazio">
+            <span className="player-vazio-icone">▶</span>
+            <strong>Pronto para assistir</strong>
+            <p>Selecione um canal na lista ao lado.</p>
+          </div>
         )}
       </section>
     </main>
