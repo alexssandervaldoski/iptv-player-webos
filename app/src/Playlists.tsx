@@ -1,99 +1,230 @@
-import { useState } from "react";
-import type { FormEvent } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import type { Playlist } from "./types";
+import type { ModoPlaylist, Playlist } from "./types";
 import { useNavegacao } from "./useNavegacao";
+import { useFocoEspacial, focarPrimeiro } from "./useFocoEspacial";
+import { montarUrlXtream, montarEpgXtream, recalcular } from "./playlist";
 
 interface Props {
   playlists: Playlist[];
   ativaId: string | null;
-  carregando: boolean;
-  aoSalvar: (p: Playlist) => void;
-  aoApagar: (id: string) => void;
-  aoConectar: (id: string) => void;
-  aoAtualizar: (id: string) => void;
+  onSalvar: (p: Playlist) => void;
+  onRemover: (id: string) => void;
+  onConectar: (id: string) => void;
 }
 
-const VAZIO = { nome: "", url: "", epgUrl: "" };
-
-function host(url: string): string {
-  try {
-    return new URL(url).host;
-  } catch {
-    return "endereço inválido";
-  }
+function novoId(): string {
+  return "pl_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
 }
 
-const ehHttp = (texto: string) => /^https?:\/\//i.test(texto);
+function vazia(): Playlist {
+  return {
+    id: novoId(),
+    nome: "",
+    modo: "xtream",
+    host: "",
+    usuario: "",
+    senha: "",
+    url: "",
+    epgUrl: "",
+  };
+}
 
 export default function Playlists({
   playlists,
   ativaId,
-  carregando,
-  aoSalvar,
-  aoApagar,
-  aoConectar,
-  aoAtualizar,
+  onSalvar,
+  onRemover,
+  onConectar,
 }: Props) {
   const navigate = useNavigate();
-  const [editandoId, setEditandoId] = useState<string | null>(null);
-  const [form, setForm] = useState(VAZIO);
-  const [erroForm, setErroForm] = useState("");
-  const [confirmandoId, setConfirmandoId] = useState<string | null>(null);
+  const [editando, setEditando] = useState<Playlist | null>(null);
+  const [erro, setErro] = useState("");
+  useFocoEspacial();
 
-  function limpar() {
-    setEditandoId(null);
-    setForm(VAZIO);
-    setErroForm("");
-  }
+  useEffect(() => {
+    const t = setTimeout(focarPrimeiro, 50);
+    return () => clearTimeout(t);
+  }, []);
 
-  // Voltar: primeiro cancela a edição; depois volta ao menu
   useNavegacao(() => {
-    if (editandoId !== null || form.nome || form.url || form.epgUrl) {
-      limpar();
-    } else {
-      navigate("/");
+    if (editando) {
+      setEditando(null);
+      setErro("");
+      return true;
     }
+    navigate("/");
     return true;
   });
 
-  function editar(p: Playlist) {
-    setEditandoId(p.id);
-    setForm({ nome: p.nome, url: p.url, epgUrl: p.epgUrl });
-    setErroForm("");
+  function abrirNova() {
+    setErro("");
+    setEditando(vazia());
   }
 
-  function apagar(id: string) {
-    if (confirmandoId === id) {
-      aoApagar(id);
-      setConfirmandoId(null);
-      if (editandoId === id) limpar();
-    } else {
-      setConfirmandoId(id);
-    }
+  function abrirEdicao(p: Playlist) {
+    setErro("");
+    setEditando({ ...p });
   }
 
-  function enviar(e: FormEvent) {
-    e.preventDefault();
-    const url = form.url.trim();
-    const epgUrl = form.epgUrl.trim();
+  function alterar(campo: keyof Playlist, valor: string) {
+    if (!editando) return;
+    setEditando({ ...editando, [campo]: valor } as Playlist);
+  }
 
-    if (!ehHttp(url)) {
-      setErroForm("O endereço da lista deve começar com http:// ou https://");
+  function trocarModo(modo: ModoPlaylist) {
+    if (!editando) return;
+    setEditando({ ...editando, modo });
+  }
+
+  function salvar() {
+    if (!editando) return;
+
+    const nome = editando.nome.trim() || "Playlist";
+    const pronto = recalcular({ ...editando, nome });
+
+    if (!pronto.url) {
+      setErro(
+        pronto.modo === "xtream"
+          ? "Preencha o host, o usuário e a senha."
+          : "Cole o endereço completo da lista."
+      );
       return;
     }
-    if (epgUrl && !ehHttp(epgUrl)) {
-      setErroForm("O endereço do guia deve começar com http:// ou https://");
-      return;
-    }
 
-    aoSalvar({
-      id: editandoId ?? Date.now().toString(36),
-      nome: form.nome.trim() || "Minha lista",
-      url,
-      epgUrl,
-    });
-    limpar();
+    onSalvar(pronto);
+    setEditando(null);
+    setErro("");
+  }
+
+  // Prévia da URL que será gerada
+  const previa =
+    editando?.modo === "xtream"
+      ? montarUrlXtream(editando.host, editando.usuario, editando.senha)
+      : editando?.url ?? "";
+
+  const previaEpg =
+    editando?.modo === "xtream"
+      ? montarEpgXtream(editando.host, editando.usuario, editando.senha)
+      : "";
+
+  if (editando) {
+    return (
+      <div className="pagina">
+        <div className="topo-pagina">
+          <button
+            className="botao"
+            data-nav
+            onClick={() => {
+              setEditando(null);
+              setErro("");
+            }}
+          >
+            ← Voltar
+          </button>
+          <h2>{playlists.some((p) => p.id === editando.id) ? "Editar playlist" : "Nova playlist"}</h2>
+        </div>
+
+        <main className="form-playlist">
+          <label className="campo">
+            <span>Nome</span>
+            <input
+              className="entrada"
+              data-nav
+              placeholder="Minha lista"
+              value={editando.nome}
+              onChange={(e) => alterar("nome", e.target.value)}
+            />
+          </label>
+
+          <div className="modos">
+            <button
+              className={"botao" + (editando.modo === "xtream" ? " ativo" : "")}
+              data-nav
+              onClick={() => trocarModo("xtream")}
+            >
+              Host + usuário + senha
+            </button>
+            <button
+              className={"botao" + (editando.modo === "url" ? " ativo" : "")}
+              data-nav
+              onClick={() => trocarModo("url")}
+            >
+              URL completa
+            </button>
+          </div>
+
+          {editando.modo === "xtream" ? (
+            <>
+              <label className="campo">
+                <span>Host</span>
+                <input
+                  className="entrada"
+                  data-nav
+                  placeholder="http://servidor.com:8080"
+                  value={editando.host}
+                  onChange={(e) => alterar("host", e.target.value)}
+                />
+              </label>
+
+              <label className="campo">
+                <span>Usuário</span>
+                <input
+                  className="entrada"
+                  data-nav
+                  placeholder="seu_usuario"
+                  value={editando.usuario}
+                  onChange={(e) => alterar("usuario", e.target.value)}
+                />
+              </label>
+
+              <label className="campo">
+                <span>Senha</span>
+                <input
+                  className="entrada"
+                  data-nav
+                  placeholder="sua_senha"
+                  value={editando.senha}
+                  onChange={(e) => alterar("senha", e.target.value)}
+                />
+              </label>
+
+              {previa && (
+                <div className="previa">
+                  <span className="previa-rotulo">Endereço gerado</span>
+                  <code className="previa-url">{previa}</code>
+                  {previaEpg && (
+                    <>
+                      <span className="previa-rotulo">Guia de programação</span>
+                      <code className="previa-url">{previaEpg}</code>
+                    </>
+                  )}
+                </div>
+              )}
+            </>
+          ) : (
+            <label className="campo">
+              <span>Endereço da lista</span>
+              <input
+                className="entrada"
+                data-nav
+                placeholder="http://servidor.com/lista.m3u"
+                value={editando.url}
+                onChange={(e) => alterar("url", e.target.value)}
+              />
+            </label>
+          )}
+
+          {erro && <p className="erro">{erro}</p>}
+
+          <div className="acoes">
+            <button className="botao botao-principal" data-nav onClick={salvar}>
+              Salvar
+            </button>
+          </div>
+        </main>
+      </div>
+    );
   }
 
   return (
@@ -103,103 +234,46 @@ export default function Playlists({
           ← Menu
         </button>
         <h2>Playlists</h2>
+        <span className="contagem">{playlists.length} salvas</span>
       </div>
 
-      <main className="tela-playlists">
-        <section className="coluna">
-          <ul className="lista">
-            {playlists.map((p) => (
-              <li key={p.id} className="item-playlist">
-                <div className="dados">
-                  <strong>{p.nome}</strong>
-                  <small>
-                    {host(p.url)}
-                    {p.epgUrl ? " · com guia (EPG)" : ""}
-                  </small>
-                </div>
-                {p.id === ativaId && <span className="selo">Conectada</span>}
-                <div className="acoes">
-                  <button className="botao" data-nav onClick={() => aoConectar(p.id)}>
-                    Conectar
-                  </button>
-                  <button
-                    className="botao"
-                    data-nav
-                    disabled={p.id === ativaId && carregando}
-                    onClick={() => aoAtualizar(p.id)}
-                  >
-                    {p.id === ativaId && carregando ? "Atualizando…" : "Atualizar"}
-                  </button>
-                  <button className="botao" data-nav onClick={() => editar(p)}>
-                    Editar
-                  </button>
-                  <button className="botao" data-nav onClick={() => apagar(p.id)}>
-                    {confirmandoId === p.id ? "Confirmar?" : "Apagar"}
-                  </button>
-                </div>
-              </li>
-            ))}
-            {playlists.length === 0 && (
-              <li className="vazio">Nenhuma lista salva. Use o formulário ao lado.</li>
-            )}
-          </ul>
-        </section>
+      <main className="lista-playlists">
+        {playlists.map((p) => (
+          <div
+            key={p.id}
+            className={"card-playlist" + (p.id === ativaId ? " ativa" : "")}
+          >
+            <div className="card-playlist-info">
+              <strong>{p.nome}</strong>
+              <small>{p.modo === "xtream" ? p.host : p.url}</small>
+              {p.id === ativaId && <span className="selo-ativa">Conectada</span>}
+            </div>
 
-        <form className="form-playlist" onSubmit={enviar}>
-          <h2>{editandoId ? "Editar lista" : "Nova lista"}</h2>
-
-          <label className="campo">
-            Nome
-            <input
-              className="busca"
-              data-nav
-              placeholder="Minha lista"
-              value={form.nome}
-              onChange={(e) => setForm({ ...form, nome: e.target.value })}
-            />
-          </label>
-
-          <label className="campo">
-            Endereço da lista (M3U)
-            <input
-              className="busca"
-              data-nav
-              type="url"
-              placeholder="https://..."
-              value={form.url}
-              onChange={(e) => setForm({ ...form, url: e.target.value })}
-            />
-          </label>
-
-          <label className="campo">
-            Endereço do guia, EPG (opcional)
-            <input
-              className="busca"
-              data-nav
-              type="url"
-              placeholder="https://..."
-              value={form.epgUrl}
-              onChange={(e) => setForm({ ...form, epgUrl: e.target.value })}
-            />
-          </label>
-
-          {erroForm && <p className="erro">{erroForm}</p>}
-
-          <div className="acoes">
-            <button className="botao" data-nav type="submit">
-              Salvar
-            </button>
-            <button className="botao" data-nav type="button" onClick={limpar}>
-              Cancelar
-            </button>
+            <div className="card-playlist-acoes">
+              <button className="botao" data-nav onClick={() => onConectar(p.id)}>
+                Conectar
+              </button>
+              <button className="botao" data-nav onClick={() => abrirEdicao(p)}>
+                Editar
+              </button>
+              <button
+                className="botao botao-perigo"
+                data-nav
+                onClick={() => onRemover(p.id)}
+              >
+                Remover
+              </button>
+            </div>
           </div>
+        ))}
 
-          <p className="dica-form">
-            Os endereços ficam salvos só neste navegador ou dispositivo. Se o seu provedor
-            coloca usuário e senha no endereço, não compartilhe prints desta tela nem salve
-            o endereço em arquivos do projeto.
-          </p>
-        </form>
+        {playlists.length === 0 && (
+          <p className="vazio">Nenhuma playlist salva ainda.</p>
+        )}
+
+        <button className="botao botao-principal" data-nav onClick={abrirNova}>
+          + Adicionar playlist
+        </button>
       </main>
     </div>
   );

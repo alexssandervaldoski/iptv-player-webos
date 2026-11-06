@@ -104,6 +104,16 @@ export default function App() {
     setAtivaId((a) => a ?? p.id);
   }
 
+  function removerPlaylist(id: string) {
+    setPlaylists((lista) => lista.filter((p) => p.id !== id));
+    setAtivaId((a) => (a === id ? null : a));
+  }
+
+  function conectarPlaylist(id: string) {
+    if (id === ativaId) setRecarga((n) => n + 1);
+    else setAtivaId(id);
+  }
+
   function apagarPlaylist(id: string) {
     setPlaylists((lista) => lista.filter((x) => x.id !== id));
     setAtivaId((a) => (a === id ? null : a));
@@ -161,11 +171,9 @@ export default function App() {
               <Playlists
                 playlists={playlists}
                 ativaId={ativaId}
-                carregando={carregando}
-                aoSalvar={salvarPlaylist}
-                aoApagar={apagarPlaylist}
-                aoConectar={setAtivaId}
-                aoAtualizar={atualizarPlaylist}
+                onSalvar={salvarPlaylist}
+                onRemover={removerPlaylist}
+                onConectar={conectarPlaylist}
               />
             }
           />

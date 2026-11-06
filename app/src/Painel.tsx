@@ -17,6 +17,14 @@ const SEGUNDOS_TROCA = 5;
 // Grupos que ficam no topo da primeira coluna, nesta ordem.
 const GRUPOS_FIXOS = ["suporte", "suporte base", "suporte tecnico"];
 
+type Modo = "lista" | "pequeno" | "medio";
+
+const ROTULO_MODO: Record<Modo, string> = {
+  lista: "Lista",
+  pequeno: "Ícones pequenos",
+  medio: "Ícones médios",
+};
+
 function hora(ms: number): string {
   return new Date(ms).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
 }
@@ -46,6 +54,7 @@ export default function Painel({ canais, epg }: Props) {
   const [busca, setBusca] = useState("");
   const [agrupar, setAgrupar] = useState(true);
   const [ordenar, setOrdenar] = useState(false);
+  const [modo, setModo] = useState<Modo>("lista");
   const [atual, setAtual] = useState<Entrada | null>(null);
   const [varianteId, setVarianteId] = useState<number | null>(null);
   const [agora, setAgora] = useState(() => Date.now());
@@ -161,6 +170,10 @@ export default function Painel({ canais, epg }: Props) {
     setAtual(null);
     setVarianteId(null);
     setPendente(null);
+  }
+
+  function proximoModo() {
+    setModo((m) => (m === "lista" ? "pequeno" : m === "pequeno" ? "medio" : "lista"));
   }
 
   const abrirTelaCheia = useCallback(async () => {
@@ -368,14 +381,17 @@ export default function Painel({ canais, epg }: Props) {
 
         <div className="opcoes">
           <button className="botao" data-nav onClick={alternarAgrupar}>
-            Agrupar versões: {agrupar ? "sim" : "não"}
+            Agrupar: {agrupar ? "sim" : "não"}
           </button>
           <button className="botao" data-nav onClick={() => setOrdenar((o) => !o)}>
-            Ordenar A–Z: {ordenar ? "sim" : "não"}
+            A–Z: {ordenar ? "sim" : "não"}
+          </button>
+          <button className="botao" data-nav onClick={proximoModo}>
+            {ROTULO_MODO[modo]}
           </button>
         </div>
 
-        <ul className="lista">
+        <ul className={"lista modo-" + modo}>
           {visiveis.map((e) => {
             const agoraNoAr = programaAgora(programasDa(e), agora).atual;
             return (
@@ -385,6 +401,7 @@ export default function Painel({ canais, epg }: Props) {
                   className={"item" + (atual?.id === e.id ? " ativo" : "")}
                   data-nav
                   onClick={() => escolher(e)}
+                  title={e.nome}
                 >
                   <Logo src={e.logo} nome={e.nome} />
                   <span className="nome-item">
