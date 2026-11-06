@@ -11,16 +11,16 @@ import Playlists from "./Playlists";
 import TelaFavoritos from "./TelaFavoritos";
 import "./App.css";
 
-const LISTA_EXEMPLO = "/samples/teste.m3u";
-
 // Abra com ?teclas no endereço para ver o código de cada tecla apertada
 const mostrarTeclas = new URLSearchParams(window.location.search).has("teclas");
 
 export default function App() {
   const [playlists, setPlaylists] = useState<Playlist[]>(lerPlaylists);
-  const [ativaId, setAtivaId] = useState<string | null>(
-    () => lerAtiva() ?? lerPlaylists()[0]?.id ?? null
-  );
+  const [ativaId, setAtivaId] = useState<string | null>(() => {
+    const salva = lerAtiva();
+    if (salva) return salva;
+    return lerPlaylists()[0]?.id ?? null;
+  });
 
   const [canais, setCanais] = useState<Canal[]>([]);
   const [epg, setEpg] = useState<Epg | null>(null);
@@ -33,7 +33,7 @@ export default function App() {
   const arquivoRef = useRef<HTMLInputElement>(null);
 
   const ativa = playlists.find((p) => p.id === ativaId) ?? null;
-  const urlLista = ativa?.url ?? LISTA_EXEMPLO;
+  const urlLista = ativa?.url ?? "";
   const urlEpg = ativa?.epgUrl ?? "";
 
   // Guarda as mudanças no armazenamento do navegador
@@ -47,6 +47,13 @@ export default function App() {
 
   // Baixa a lista quando o endereço muda ou quando o botão Atualizar é usado
   useEffect(() => {
+    if (!urlLista) {
+      setCanais([]);
+      setErro("");
+      setCarregando(false);
+      return;
+    }
+
     let cancelado = false;
     setCarregando(true);
     setErro("");
@@ -101,7 +108,7 @@ export default function App() {
         ? lista.map((x) => (x.id === p.id ? p : x))
         : [...lista, p]
     );
-    setAtivaId((a) => a ?? p.id); // a primeira lista salva já fica conectada
+    setAtivaId((a) => a ?? p.id);
   }
 
   function removerPlaylist(id: string) {
@@ -115,11 +122,26 @@ export default function App() {
     else setAtivaId(id); // outra lista: conectar já baixa
   }
 
+  function apagarPlaylist(id: string) {
+    setPlaylists((lista) => lista.filter((x) => x.id !== id));
+    setAtivaId((a) => (a === id ? null : a));
+  }
+
+  function atualizarPlaylist(id: string) {
+    if (id === ativaId) setRecarga((n) => n + 1); // já conectada: baixa de novo
+    else setAtivaId(id); // outra lista: conectar já baixa
+  }
+
   async function aoEscolherArquivo(e: ChangeEvent<HTMLInputElement>) {
     const arquivo = e.target.files?.[0];
     if (!arquivo) return;
-    setCanais(parseM3U(await arquivo.text()));
-    setErro("");
+    try {
+      setCanais(parseM3U(await arquivo.text()));
+      setErro("");
+    } catch (err) {
+      setCanais([]);
+      setErro("Não foi possível ler o arquivo: " + mensagemDeErro(err));
+    }
   }
 
   return (
@@ -130,8 +152,6 @@ export default function App() {
             <img src="./icon.png" alt="" className="marca-icone" />
             <h1 className="marca-nome">CineBeco IPTV</h1>
           </div>
-
-          {carregando && <span className="contagem">Carregando…</span>}
 
           <button
             className="botao botao-arquivo"
@@ -170,7 +190,10 @@ export default function App() {
               />
             }
           />
-          <Route path="/favoritos" element={<TelaFavoritos canais={canais} />} />
+          <Route
+            path="/favoritos"
+            element={<TelaFavoritos canais={canais} />}
+          />
           <Route path="/:secao" element={<Secao canais={canais} epg={epg} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

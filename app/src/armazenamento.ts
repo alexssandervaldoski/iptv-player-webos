@@ -1,42 +1,61 @@
 import type { Playlist } from "./types";
 import { migrar } from "./playlist";
 
-const CHAVE_PLAYLISTS = "cinebeco:playlists";
-const CHAVE_ATIVA = "cinebeco:ativa";
+const CHAVE_PLAYLISTS = "cinebeco.playlists";
+const CHAVE_ATIVA = "cinebeco.ativa";
 
-export function lerPlaylists(): Playlist[] {
+// localStorage pode falhar no webOS (contexto restrito, cota cheia, modo privado)
+function ler(chave: string): string | null {
   try {
-    const bruto = localStorage.getItem(CHAVE_PLAYLISTS);
-    if (!bruto) return [];
-    const lista = JSON.parse(bruto);
-    if (!Array.isArray(lista)) return [];
-    return lista.map(migrar).filter((p): p is Playlist => Boolean(p));
-  } catch {
-    return [];
-  }
-}
-
-export function gravarPlaylists(lista: Playlist[]) {
-  try {
-    localStorage.setItem(CHAVE_PLAYLISTS, JSON.stringify(lista));
-  } catch {
-    // storage cheio ou bloqueado: ignora
-  }
-}
-
-export function lerAtiva(): string | null {
-  try {
-    return localStorage.getItem(CHAVE_ATIVA);
+    return localStorage.getItem(chave);
   } catch {
     return null;
   }
 }
 
-export function gravarAtiva(id: string | null) {
+function gravar(chave: string, valor: string): void {
   try {
-    if (id) localStorage.setItem(CHAVE_ATIVA, id);
-    else localStorage.removeItem(CHAVE_ATIVA);
+    localStorage.setItem(chave, valor);
   } catch {
-    // ignora
+    // silencioso: o app continua funcionando sem persistência
   }
+}
+
+export function lerPlaylists(): Playlist[] {
+  const bruto = ler(CHAVE_PLAYLISTS);
+  if (!bruto) return [];
+
+  try {
+    const lista = JSON.parse(bruto);
+    if (!Array.isArray(lista)) return [];
+    return lista
+      .map(migrar)
+      .filter((p): p is Playlist => p !== null);
+  } catch {
+    return [];
+  }
+}
+
+export function gravarPlaylists(lista: Playlist[]): void {
+  try {
+    gravar(CHAVE_PLAYLISTS, JSON.stringify(lista));
+  } catch {
+    // JSON.stringify pode falhar com referências circulares
+  }
+}
+
+export function lerAtiva(): string | null {
+  return ler(CHAVE_ATIVA);
+}
+
+export function gravarAtiva(id: string | null): void {
+  if (id === null) {
+    try {
+      localStorage.removeItem(CHAVE_ATIVA);
+    } catch {
+      // silencioso
+    }
+    return;
+  }
+  gravar(CHAVE_ATIVA, id);
 }
