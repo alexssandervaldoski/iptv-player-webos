@@ -1,8 +1,16 @@
-import type { Canal } from "./types";
+import type { Canal, Tipo } from "./types";
 
 function pegarAtributo(linha: string, nome: string): string {
   const achou = linha.match(new RegExp(`${nome}="([^"]*)"`));
   return achou ? achou[1] : "";
+}
+
+// Regra simples por palavra-chave no nome do grupo. Ajuste como precisar.
+function classificar(grupo: string): Tipo {
+  const g = grupo.toLowerCase();
+  if (/\b(filmes?|movies?)\b/.test(g)) return "filmes";
+  if (/\b(s[eé]ries?)\b/.test(g)) return "series";
+  return "aovivo";
 }
 
 export function parseM3U(texto: string): Canal[] {
@@ -13,7 +21,6 @@ export function parseM3U(texto: string): Canal[] {
     const linha = bruta.trim();
 
     if (linha.startsWith("#EXTINF")) {
-      // O nome vem depois da última vírgula fora das aspas
       const fimAtributos = linha.lastIndexOf('"');
       const virgula = linha.indexOf(",", fimAtributos >= 0 ? fimAtributos : 0);
       pendente = {
@@ -22,7 +29,12 @@ export function parseM3U(texto: string): Canal[] {
         logo: pegarAtributo(linha, "tvg-logo"),
       };
     } else if (linha !== "" && !linha.startsWith("#") && pendente) {
-      canais.push({ id: canais.length, ...pendente, url: linha });
+      canais.push({
+        id: canais.length,
+        ...pendente,
+        url: linha,
+        tipo: classificar(pendente.grupo),
+      });
       pendente = null;
     }
   }
