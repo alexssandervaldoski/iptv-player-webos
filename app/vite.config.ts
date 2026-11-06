@@ -5,7 +5,9 @@ export default defineConfig({
   base: './',
   plugins: [react()],
   build: {
-    target: 'chrome79',   // Chromium do WebOS é antigo
+    target: 'chrome79',
     outDir: 'dist',
+	assetsDir: 'assets',
+	chunkSizeWarningLimit: 800,
   },
 })

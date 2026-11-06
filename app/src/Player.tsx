@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import Hls from "hls.js";
-import mpegts from "mpegts.js";
+import type Hls from "hls.js";
+import type mpegts from "mpegts.js";
 
 interface Props {
   url: string;
@@ -19,6 +19,7 @@ export default function Player({ url }: Props) {
 
     let hls: Hls | null = null;
     let ts: mpegts.Player | null = null;
+    let cancelado = false;
 
     setErro("");
     setPrecisaPlay(false);
@@ -27,34 +28,48 @@ export default function Player({ url }: Props) {
       setErro("O vídeo não pôde ser carregado (código " + (video.error?.code ?? "?") + ").");
     video.addEventListener("error", aoFalhar);
 
-    if (ehMpegTs(url)) {
-      if (mpegts.getFeatureList().mseLivePlayback) {
-        ts = mpegts.createPlayer({ type: "mpegts", isLive: true, url });
-        ts.on(mpegts.Events.ERROR, (tipo: string, detalhe: string) =>
-          setErro(`Falha no stream: ${tipo} / ${detalhe}`)
-        );
-        ts.attachMediaElement(video);
-        ts.load();
+    async function iniciar() {
+      if (ehMpegTs(url)) {
+        const modulo = await import("mpegts.js");
+        if (cancelado) return;
+        const lib = modulo.default;
+
+        if (lib.getFeatureList().mseLivePlayback) {
+          ts = lib.createPlayer({ type: "mpegts", isLive: true, url });
+          ts.on(lib.Events.ERROR, (tipo: string, detalhe: string) =>
+            setErro(`Falha no stream: ${tipo} / ${detalhe}`)
+          );
+          ts.attachMediaElement(video);
+          ts.load();
+        } else {
+          setErro("Este navegador não suporta MPEG-TS.");
+        }
+      } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        video.src = url;
       } else {
-        setErro("Este navegador não suporta MPEG-TS.");
+        const modulo = await import("hls.js");
+        if (cancelado) return;
+        const HlsLib = modulo.default;
+
+        if (HlsLib.isSupported()) {
+          hls = new HlsLib();
+          hls.on(HlsLib.Events.ERROR, (_evento, dados) => {
+            if (dados.fatal) setErro(`Falha no stream: ${dados.type} / ${dados.details}`);
+          });
+          hls.loadSource(url);
+          hls.attachMedia(video);
+        } else {
+          setErro("Este navegador não suporta HLS.");
+        }
       }
-    } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-      video.src = url;
-    } else if (Hls.isSupported()) {
-      hls = new Hls();
-      hls.on(Hls.Events.ERROR, (_evento, dados) => {
-        if (dados.fatal) setErro(`Falha no stream: ${dados.type} / ${dados.details}`);
-      });
-      hls.loadSource(url);
-      hls.attachMedia(video);
-    } else {
-      setErro("Este navegador não suporta HLS.");
+
+      if (!cancelado) video.play().catch(() => setPrecisaPlay(true));
     }
 
-    // Autoplay pode ser bloqueado na TV: avisa em vez de falhar em silêncio
-    video.play().catch(() => setPrecisaPlay(true));
+    iniciar();
 
     return () => {
+      cancelado = true;
       video.removeEventListener("error", aoFalhar);
       ts?.destroy();
       hls?.destroy();

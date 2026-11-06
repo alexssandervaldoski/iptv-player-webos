@@ -194,13 +194,15 @@
   font-weight: bold;
 }
 
-/* Painel de três colunas */
+/* Layout de 3 colunas: grupos | canais | player */
 .painel-tres {
-  flex: 1;
-  min-height: 0;
   display: grid;
-  grid-template-columns: 280px 1fr 520px;
-  gap: 20px;
+  grid-template-columns: 260px 420px 1fr;
+  gap: 12px;
+  height: calc(100vh - 72px);
+  padding: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .painel-tres > * {
@@ -210,8 +212,27 @@
 .coluna {
   display: flex;
   flex-direction: column;
-  gap: 12px;
   min-height: 0;
+  overflow: hidden;
+}
+
+.coluna-grupos,
+.coluna-canais {
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  padding-right: 12px;
+}
+
+.coluna .lista {
+  flex: 1;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.coluna-player {
+  overflow-y: auto;
+  padding-left: 4px;
 }
 
 .opcoes {
@@ -249,8 +270,7 @@
   transition: background 0.15s, box-shadow 0.15s;
 }
 
-.item:hover,
-.item:focus {
+.item:hover {
   background: var(--realce);
   box-shadow: 0 0 0 3px #ffffff;
   outline: none;
@@ -427,4 +447,13 @@
 .dica-form {
   font-size: 0.8rem;
   opacity: 0.75;
+}
+
+/* Foco visível é essencial na TV */
+.item:focus,
+.botao:focus,
+.categoria:focus,
+.aba:focus {
+  outline: 3px solid #4da3ff;
+  outline-offset: 2px;
 }

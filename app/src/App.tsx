@@ -20,13 +20,15 @@ export default function App() {
   const [ativaId, setAtivaId] = useState<string | null>(
     () => lerAtiva() ?? lerPlaylists()[0]?.id ?? null
   );
+
   const [canais, setCanais] = useState<Canal[]>([]);
   const [epg, setEpg] = useState<Epg | null>(null);
+  const [carregando, setCarregando] = useState(false);
   const [erro, setErro] = useState("");
   const [avisoEpg, setAvisoEpg] = useState("");
-  const [carregando, setCarregando] = useState(false);
   const [recarga, setRecarga] = useState(0);
   const [ultimaTecla, setUltimaTecla] = useState("");
+
   const arquivoRef = useRef<HTMLInputElement>(null);
 
   const ativa = playlists.find((p) => p.id === ativaId) ?? null;
@@ -98,13 +100,12 @@ export default function App() {
         ? lista.map((x) => (x.id === p.id ? p : x))
         : [...lista, p]
     );
-    setAtivaId((a) => a ?? p.id); // a primeira lista salva já fica conectada
+    setAtivaId((a) => a ?? p.id);
   }
 
   function apagarPlaylist(id: string) {
-    const restantes = playlists.filter((p) => p.id !== id);
-    setPlaylists(restantes);
-    if (ativaId === id) setAtivaId(restantes[0]?.id ?? null);
+    setPlaylists((lista) => lista.filter((x) => x.id !== id));
+    setAtivaId((a) => (a === id ? null : a));
   }
 
   function atualizarPlaylist(id: string) {
@@ -143,7 +144,10 @@ export default function App() {
         {avisoEpg && <p className="erro">{avisoEpg}</p>}
 
         <Routes>
-          <Route path="/" element={<Menu canais={canais} totalPlaylists={playlists.length} />} />
+          <Route
+            path="/"
+            element={<Menu canais={canais} totalPlaylists={playlists.length} />}
+          />
           <Route
             path="/playlists"
             element={

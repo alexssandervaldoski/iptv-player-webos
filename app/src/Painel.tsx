@@ -134,14 +134,18 @@ export default function Painel({ canais, epg }: Props) {
   }, [atual, filtrados]);
 
   if (canais.length === 0) {
-    return <p className="vazio">Nenhum item nesta seção. Verifique os nomes dos grupos da sua lista.</p>;
+    return (
+      <p className="vazio">
+        Nenhum item nesta seção. Verifique os nomes dos grupos da sua lista.
+      </p>
+    );
   }
 
   const prog = atual ? programaAgora(programasDa(atual), agora) : null;
 
   return (
     <main className="painel-tres">
-      <aside className="coluna">
+      <aside className="coluna coluna-grupos">
         <ul className="lista">
           {grupos.map(([nome, qtd]) => (
             <li key={nome}>
@@ -159,7 +163,7 @@ export default function Painel({ canais, epg }: Props) {
         </ul>
       </aside>
 
-      <section className="coluna">
+      <section className="coluna coluna-canais">
         <input
           className="busca"
           data-nav
@@ -212,7 +216,7 @@ export default function Painel({ canais, epg }: Props) {
         )}
       </section>
 
-      <section className="painel">
+      <section className="painel coluna-player">
         {atual && variante ? (
           <>
             <Player key={variante.id} url={variante.url} />
@@ -264,7 +268,9 @@ export default function Painel({ canais, epg }: Props) {
                         }}
                       />
                     </div>
-                    {prog.atual.descricao && <p className="epg-desc">{prog.atual.descricao}</p>}
+                    {prog.atual.descricao && (
+                      <p className="epg-desc">{prog.atual.descricao}</p>
+                    )}
                   </>
                 )}
                 {prog.proximo && (
