@@ -1,7 +1,11 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [react()],
+  build: {
+    target: 'chrome79',   // Chromium do WebOS é antigo
+    outDir: 'dist',
+  },
 })

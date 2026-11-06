@@ -1,3 +1,4 @@
+import { gunzipSync } from "fflate";
 import { parseM3U } from "./parseM3U";
 import { parseEpg } from "./epg";
 import type { Canal, Epg } from "./types";
@@ -21,15 +22,19 @@ async function baixarBytes(url: string): Promise<ArrayBuffer> {
 }
 
 async function paraTexto(dados: ArrayBuffer): Promise<string> {
-  const inicio = new Uint8Array(dados, 0, Math.min(2, dados.byteLength));
-  const ehGzip = inicio.length === 2 && inicio[0] === 0x1f && inicio[1] === 0x8b;
-  if (!ehGzip) return new TextDecoder().decode(dados);
+  const bytes = new Uint8Array(dados);
 
-  if (typeof DecompressionStream === "undefined") {
-    throw new Error("Este navegador não descompacta arquivos .gz. Use um guia em .xml.");
+  // Gzip: assinatura 1f 8b
+  if (bytes.length > 2 && bytes[0] === 0x1f && bytes[1] === 0x8b) {
+    // WebOS não tem DecompressionStream: usa fflate como fallback
+    if (typeof DecompressionStream === "undefined") {
+      return new TextDecoder().decode(gunzipSync(bytes));
+    }
+    const fluxo = new Blob([dados]).stream().pipeThrough(new DecompressionStream("gzip"));
+    return await new Response(fluxo).text();
   }
-  const fluxo = new Blob([dados]).stream().pipeThrough(new DecompressionStream("gzip"));
-  return new Response(fluxo).text();
+
+  return new TextDecoder().decode(bytes);
 }
 
 export async function baixarLista(url: string): Promise<Canal[]> {
@@ -46,7 +51,8 @@ export async function baixarEpg(url: string): Promise<Epg> {
 
 export function mensagemDeErro(e: unknown): string {
   if (e instanceof TypeError) {
-    return "Não foi possível baixar (sem internet, endereço fora do ar ou bloqueio de CORS).";
+    return "Não foi possível acessar o endereço (rede ou CORS).";
   }
-  return e instanceof Error ? e.message : "Erro desconhecido.";
+  if (e instanceof Error) return e.message;
+  return "Erro desconhecido.";
 }

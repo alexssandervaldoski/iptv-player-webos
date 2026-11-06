@@ -11,6 +11,7 @@ const ehMpegTs = (url: string) => /\.ts(\?|$)/i.test(url);
 export default function Player({ url }: Props) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [erro, setErro] = useState("");
+  const [precisaPlay, setPrecisaPlay] = useState(false);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -18,6 +19,9 @@ export default function Player({ url }: Props) {
 
     let hls: Hls | null = null;
     let ts: mpegts.Player | null = null;
+
+    setErro("");
+    setPrecisaPlay(false);
 
     const aoFalhar = () =>
       setErro("O vídeo não pôde ser carregado (código " + (video.error?.code ?? "?") + ").");
@@ -46,7 +50,9 @@ export default function Player({ url }: Props) {
     } else {
       setErro("Este navegador não suporta HLS.");
     }
-    video.play().catch(() => {});
+
+    // Autoplay pode ser bloqueado na TV: avisa em vez de falhar em silêncio
+    video.play().catch(() => setPrecisaPlay(true));
 
     return () => {
       video.removeEventListener("error", aoFalhar);
@@ -57,9 +63,18 @@ export default function Player({ url }: Props) {
     };
   }, [url]);
 
+  const tentarPlay = () => {
+    videoRef.current?.play().then(() => setPrecisaPlay(false)).catch(() => {});
+  };
+
   return (
     <>
       <video ref={videoRef} className="video" controls autoPlay />
+      {precisaPlay && (
+        <button className="botao" data-nav onClick={tentarPlay}>
+          Pressione OK para iniciar
+        </button>
+      )}
       {erro && <p className="erro">{erro}</p>}
     </>
   );

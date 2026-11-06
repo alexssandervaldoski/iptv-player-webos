@@ -1,0 +1,12 @@
+{
+  "id": "com.alex.xiqxiq",
+  "version": "1.0.0",
+  "vendor": "Alex",
+  "type": "web",
+  "main": "index.html",
+  "title": "Xique-Xique",
+  "icon": "icon.png",
+  "resolution": "1920x1080",
+  "bgColor": "#000000",
+  "disableBackHistoryAPI": true
+}
