@@ -1,14 +1,19 @@
-
-EXTM3U
-# PLAYLISTV: pltv-logo = "IMG_20170410_183756.jpg" pltv-name = "Lista de Canais" pltv-description = "Canais Filmes e Séries" pltv-cover = "FB_IMG_1489336469336.jpg" Site = "XXX SITE CASO HOUVER XXX" pltv-email = "DKChannel4g@gmail.com"
-
-Contém uma
-################## XXXX DK CHANNEL XXXX ########################
-
-#EXTINF:-1 tvg-logo="FB_IMG_1489336469336.jpg" group-title="CANAIS" pltv-subgroup="TESTE COMPLETO ",  DK Channel
-http://bit.ly/DKChannel
-
-
-
-
-Cont
+#EXTM3U
+#EXTINF:-1 tvg-id="teste.mux" tvg-logo="/samples/logo-teste.svg" group-title="Teste",Stream de Teste Mux [FHD]
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="teste.mux" group-title="Teste",Stream de Teste Mux [HD]
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 group-title="Teste",Stream de Teste Mux [SD]
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-logo="/samples/nao-existe.png" group-title="Exemplos",Canal Exemplo 3
+https://exemplo.com/canal3.m3u8
+#EXTINF:-1 group-title="Exemplos",Canal Exemplo 10
+https://exemplo.com/canal10.m3u8
+#EXTINF:-1 group-title="Exemplos",Canal Exemplo 2
+https://exemplo.com/canal2.m3u8
+#EXTINF:-1 group-title="Exemplos",Alfa Canal
+https://exemplo.com/alfa.m3u8
+#EXTINF:-1 group-title="Filmes | Teste",Filme de Teste
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 group-title="Series | Teste",Série de Teste
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8

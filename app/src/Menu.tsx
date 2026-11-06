@@ -5,9 +5,10 @@ import { useNavegacao } from "./useNavegacao";
 
 interface Props {
   canais: Canal[];
+  totalPlaylists: number;
 }
 
-export default function Menu({ canais }: Props) {
+export default function Menu({ canais, totalPlaylists }: Props) {
   const navigate = useNavigate();
   useNavegacao(() => false);
 
@@ -25,6 +26,16 @@ export default function Menu({ canais }: Props) {
           <span>{canais.filter((c) => c.tipo === s.id).length} itens</span>
         </button>
       ))}
+
+      <button
+        className="card-menu card-playlists"
+        data-nav
+        onClick={() => navigate("/playlists")}
+      >
+        <span className="icone">📋</span>
+        <strong>Playlists</strong>
+        <span>{totalPlaylists} salvas</span>
+      </button>
     </main>
   );
 }

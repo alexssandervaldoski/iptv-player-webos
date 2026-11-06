@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="teste.mux">
+    <display-name>Stream de Teste Mux</display-name>
+  </channel>
+  <programme start="20261106000000 -0300" stop="20261106060000 -0300" channel="teste.mux">
+    <title>Madrugada de Teste</title>
+    <desc>Primeiro bloco do guia de teste.</desc>
+  </programme>
+  <programme start="20261106060000 -0300" stop="20261106120000 -0300" channel="teste.mux">
+    <title>Manhã de Teste</title>
+    <desc>Segundo bloco do guia de teste, com uma descrição um pouco mais longa para ver como o texto é cortado.</desc>
+  </programme>
+  <programme start="20261106120000 -0300" stop="20261106180000 -0300" channel="teste.mux">
+    <title>Tarde de Teste</title>
+    <desc>Terceiro bloco do guia de teste.</desc>
+  </programme>
+  <programme start="20261106180000 -0300" stop="20261107000000 -0300" channel="teste.mux">
+    <title>Noite de Teste</title>
+    <desc>Quarto bloco do guia de teste.</desc>
+  </programme>
+</tv>

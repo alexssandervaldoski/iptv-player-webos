@@ -1,18 +1,15 @@
 import { useMemo } from "react";
-import { Navigate, NavLink, Outlet, useNavigate, useParams } from "react-router-dom";
-import type { Canal, Tipo } from "./types";
+import { Navigate, NavLink, useNavigate, useParams } from "react-router-dom";
+import type { Canal, Epg } from "./types";
 import { SECOES } from "./secoes";
-
-export interface ContextoSecao {
-  secao: Tipo;
-  canais: Canal[];
-}
+import Painel from "./Painel";
 
 interface Props {
   canais: Canal[];
+  epg: Epg | null;
 }
 
-export default function Secao({ canais }: Props) {
+export default function Secao({ canais, epg }: Props) {
   const { secao } = useParams();
   const navigate = useNavigate();
   const atual = SECOES.find((s) => s.id === secao);
@@ -22,10 +19,7 @@ export default function Secao({ canais }: Props) {
     [canais, atual]
   );
 
-  // Endereço inválido (ex.: #/abc): volta ao menu
   if (!atual) return <Navigate to="/" replace />;
-
-  const contexto: ContextoSecao = { secao: atual.id, canais: doTipo };
 
   return (
     <div className="pagina">
@@ -50,7 +44,7 @@ export default function Secao({ canais }: Props) {
         <span className="contagem">{doTipo.length} itens</span>
       </nav>
 
-      <Outlet context={contexto} />
+      <Painel key={atual.id} canais={doTipo} epg={epg} />
     </div>
   );
 }
