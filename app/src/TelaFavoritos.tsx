@@ -150,7 +150,10 @@ export default function TelaFavoritos({ canais }: Props) {
                   className="botao botao-favorito ativo"
                   data-nav
                   onClick={() => {
-                    remover(atual.url);
+                    const salvo = favoritos.find(
+                      (f) => f.url === atual.url || chaveNome(f.nome) === chaveNome(atual.nome)
+                    );
+                    if (salvo) remover(salvo.url);
                     setAtual(null);
                   }}
                 >
