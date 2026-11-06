@@ -3,9 +3,13 @@ import { useEffect, useRef } from "react";
 // Teclas de voltar em TVs: Backspace, Escape e o código 461 do webOS
 const VOLTAR = new Set(["Backspace", "Escape", "GoBack", "BrowserBack"]);
 
+// aoVoltar devolve true se tratou o "voltar" (aí o navegador não faz o padrão)
 export function useNavegacao(aoVoltar: () => boolean) {
-  const ref = useRef(aoVoltar);
-  ref.current = aoVoltar;
+  const voltarRef = useRef(aoVoltar);
+
+  useEffect(() => {
+    voltarRef.current = aoVoltar; // mantém sempre a versão mais recente
+  });
 
   useEffect(() => {
     function aoTeclar(e: KeyboardEvent) {
@@ -19,7 +23,7 @@ export function useNavegacao(aoVoltar: () => boolean) {
         return;
       }
 
-      if (ref.current()) {
+      if (voltarRef.current()) {
         e.preventDefault();
         e.stopPropagation();
       }

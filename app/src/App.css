@@ -302,7 +302,7 @@ h3 {
 
 .painel-tres {
   display: grid;
-  grid-template-columns: 240px 380px minmax(0, 1fr);
+  grid-template-columns: 440px minmax(380px, 2fr) minmax(0, 1fr);
   gap: 12px;
   flex: 1;
   min-height: 0;
@@ -903,4 +903,22 @@ h3 {
 .botao-play {
   flex-shrink: 0;
   white-space: nowrap;
+}
+
+.erro-player {
+  padding: 10px 14px;
+  background: rgba(255, 90, 120, 0.25);
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Grupo fixado no topo da primeira coluna */
+.item-fixo {
+  border-color: rgba(77, 163, 255, 0.45);
+}
+
+.item-fixo span:first-child {
+  color: var(--azul-claro);
+  font-weight: 600;
 }

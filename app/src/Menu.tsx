@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import type { Canal } from "./types";
 import { SECOES } from "./secoes";
@@ -9,6 +9,15 @@ import { useFavoritos } from "./favoritos";
 interface Props {
   canais: Canal[];
   totalPlaylists: number;
+}
+
+function chaveNome(nome: string): string {
+  return nome
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 }
 
 export default function Menu({ canais, totalPlaylists }: Props) {
@@ -22,6 +31,15 @@ export default function Menu({ canais, totalPlaylists }: Props) {
     const t = setTimeout(focarPrimeiro, 50);
     return () => clearTimeout(t);
   }, []);
+
+  // Quantos favoritos existem de fato na playlist carregada
+  const favoritosAqui = useMemo(() => {
+    const urls = new Set(canais.map((c) => c.url));
+    const nomes = new Set(canais.map((c) => chaveNome(c.nome)));
+    return favoritos.filter(
+      (f) => urls.has(f.url) || nomes.has(chaveNome(f.nome))
+    ).length;
+  }, [favoritos, canais]);
 
   return (
     <main className="menu">
@@ -45,7 +63,7 @@ export default function Menu({ canais, totalPlaylists }: Props) {
       >
         <span className="icone">★</span>
         <strong>Favoritos</strong>
-        <span>{favoritos.length} salvos</span>
+        <span>{favoritosAqui} salvos</span>
       </button>
 
       <button

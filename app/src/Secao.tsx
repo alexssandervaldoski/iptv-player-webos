@@ -10,6 +10,15 @@ interface Props {
   epg: Epg | null;
 }
 
+function chaveNome(nome: string): string {
+  return nome
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
 export default function Secao({ canais, epg }: Props) {
   const { secao } = useParams();
   const navigate = useNavigate();
@@ -20,6 +29,14 @@ export default function Secao({ canais, epg }: Props) {
     () => canais.filter((c) => c.tipo === atual?.id),
     [canais, atual]
   );
+
+  const favoritosAqui = useMemo(() => {
+    const urls = new Set(canais.map((c) => c.url));
+    const nomes = new Set(canais.map((c) => chaveNome(c.nome)));
+    return favoritos.filter(
+      (f) => urls.has(f.url) || nomes.has(chaveNome(f.nome))
+    ).length;
+  }, [favoritos, canais]);
 
   if (!atual) return <Navigate to="/" replace />;
 
@@ -47,7 +64,7 @@ export default function Secao({ canais, epg }: Props) {
             data-nav
             className={({ isActive }) => "aba" + (isActive ? " ativa" : "")}
           >
-            ★ Favoritos{favoritos.length > 0 ? ` (${favoritos.length})` : ""}
+            ★ Favoritos{favoritosAqui > 0 ? ` (${favoritosAqui})` : ""}
           </NavLink>
         </div>
 

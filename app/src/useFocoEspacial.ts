@@ -33,12 +33,11 @@ function distancia(a: DOMRect, b: DOMRect, dir: Direcao): number {
   return principal + secundario * 2;
 }
 
-function mover(dir: Direcao) {
+function mover(dir: Direcao): boolean {
   const atual = document.activeElement as HTMLElement | null;
   const lista = focaveis();
   if (lista.length === 0) return false;
 
-  // Nada focado: vai para o primeiro
   if (!atual || !lista.includes(atual)) {
     lista[0].focus();
     return true;
@@ -70,17 +69,11 @@ const MAPA: Record<string, Direcao> = {
   ArrowDown: "baixo",
   ArrowLeft: "esq",
   ArrowRight: "dir",
-  // Códigos de controle de TV
-  Up: "cima",
-  Down: "baixo",
-  Left: "esq",
-  Right: "dir",
 };
 
 export function useFocoEspacial() {
   useEffect(() => {
     function aoTeclar(e: KeyboardEvent) {
-      // Não intercepta quando o usuário está digitando
       const alvo = e.target as HTMLElement;
       if (alvo.tagName === "INPUT" && alvo.getAttribute("type") !== "button") {
         if (e.key === "ArrowUp" || e.key === "ArrowDown") return;

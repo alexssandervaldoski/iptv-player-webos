@@ -9,7 +9,7 @@ import { useFavoritos } from "./favoritos";
 
 interface Props {
   canais: Canal[];
-  epg: Epg | null;
+  epg?: Epg | null;
 }
 
 const ROTULO_TIPO: Record<string, string> = {
@@ -18,17 +18,42 @@ const ROTULO_TIPO: Record<string, string> = {
   series: "Série",
 };
 
+// Normaliza o nome para comparar entre playlists diferentes
+function chaveNome(nome: string): string {
+  return nome
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
 export default function TelaFavoritos({ canais }: Props) {
   const navigate = useNavigate();
   const { favoritos, remover } = useFavoritos();
   const [atual, setAtual] = useState<Canal | null>(null);
   useFocoEspacial();
 
+  // Casa cada favorito com um canal: primeiro pela URL, depois pelo nome
   const disponiveis = useMemo(() => {
     const porUrl = new Map(canais.map((c) => [c.url, c]));
-    return favoritos
-      .map((f) => porUrl.get(f.url))
-      .filter((c): c is Canal => Boolean(c));
+    const porNome = new Map<string, Canal>();
+    for (const c of canais) {
+      const k = chaveNome(c.nome);
+      if (!porNome.has(k)) porNome.set(k, c);
+    }
+
+    const vistos = new Set<string>();
+    const lista: Canal[] = [];
+
+    for (const f of favoritos) {
+      const canal = porUrl.get(f.url) ?? porNome.get(chaveNome(f.nome));
+      if (!canal) continue;
+      if (vistos.has(canal.url)) continue;
+      vistos.add(canal.url);
+      lista.push(canal);
+    }
+    return lista;
   }, [favoritos, canais]);
 
   const ausentes = favoritos.length - disponiveis.length;

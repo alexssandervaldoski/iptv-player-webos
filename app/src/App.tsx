@@ -171,7 +171,7 @@ export default function App() {
           />
           <Route
             path="/favoritos"
-            element={<TelaFavoritos canais={canais} epg={epg} />}
+            element={<TelaFavoritos canais={canais} />}
           />
           <Route path="/:secao" element={<Secao canais={canais} epg={epg} />} />
           <Route path="*" element={<Navigate to="/" replace />} />

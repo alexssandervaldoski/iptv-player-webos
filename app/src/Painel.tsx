@@ -14,8 +14,21 @@ import { useFavoritos } from "./favoritos";
 const LIMITE = 300;
 const SEGUNDOS_TROCA = 5;
 
+// Grupos que ficam no topo da primeira coluna, nesta ordem.
+const GRUPOS_FIXOS = ["suporte", "suporte base", "suporte tecnico"];
+
 function hora(ms: number): string {
   return new Date(ms).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+}
+
+function semAcento(s: string): string {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+}
+
+// Posição do grupo na lista de fixos; -1 se não for fixo
+function pesoFixo(nome: string): number {
+  const n = semAcento(nome);
+  return GRUPOS_FIXOS.findIndex((f) => n === f || n.startsWith(f));
 }
 
 interface Props {
@@ -25,7 +38,7 @@ interface Props {
 
 export default function Painel({ canais, epg }: Props) {
   const navigate = useNavigate();
-  const { favoritos, alternar, ehFavorito } = useFavoritos();
+  const { favoritos, alternar } = useFavoritos();
   useFocoEspacial();
 
   const [grupo, setGrupo] = useState("Todos");
@@ -93,12 +106,24 @@ export default function Painel({ canais, epg }: Props) {
     return lista ?? [];
   }
 
+  // Grupos com os fixos no topo, mantendo a ordem original dos demais
   const grupos = useMemo(() => {
     const contagem = new Map<string, number>();
     for (const e of entradas) {
       contagem.set(e.grupo, (contagem.get(e.grupo) ?? 0) + 1);
     }
-    return [...contagem] as [string, number][];
+
+    const lista = [...contagem] as [string, number][];
+
+    return lista.sort((a, b) => {
+      const pa = pesoFixo(a[0]);
+      const pb = pesoFixo(b[0]);
+
+      if (pa !== -1 && pb !== -1) return pa - pb;
+      if (pa !== -1) return -1;
+      if (pb !== -1) return 1;
+      return 0;
+    });
   }, [entradas]);
 
   const totalFavoritos = useMemo(
@@ -196,6 +221,7 @@ export default function Painel({ canais, epg }: Props) {
     return () => clearTimeout(t);
   }, [pendente, segundos]);
 
+  // Leva o foco de volta ao canal que está tocando
   const voltarAoPlayer = useCallback(() => {
     if (!atual) return;
     const el = document.getElementById("canal-" + atual.id);
@@ -302,27 +328,32 @@ export default function Painel({ canais, epg }: Props) {
             </button>
           </li>
 
-          {grupos.map(([nome, qtd]) => (
-            <li key={nome}>
-              <button
-                className={
-                  "item" + (!soFavoritos && nome === grupoAtual ? " ativo" : "")
-                }
-                data-nav
-                onFocus={() => {
-                  setSoFavoritos(false);
-                  setGrupo(nome);
-                }}
-                onClick={() => {
-                  setSoFavoritos(false);
-                  setGrupo(nome);
-                }}
-              >
-                <span>{nome}</span>
-                <span>{qtd}</span>
-              </button>
-            </li>
-          ))}
+          {grupos.map(([nome, qtd]) => {
+            const fixo = pesoFixo(nome) !== -1;
+            return (
+              <li key={nome}>
+                <button
+                  className={
+                    "item" +
+                    (fixo ? " item-fixo" : "") +
+                    (!soFavoritos && nome === grupoAtual ? " ativo" : "")
+                  }
+                  data-nav
+                  onFocus={() => {
+                    setSoFavoritos(false);
+                    setGrupo(nome);
+                  }}
+                  onClick={() => {
+                    setSoFavoritos(false);
+                    setGrupo(nome);
+                  }}
+                >
+                  <span>{nome}</span>
+                  <span>{qtd}</span>
+                </button>
+              </li>
+            );
+          })}
         </ul>
       </aside>
 
@@ -414,10 +445,18 @@ export default function Painel({ canais, epg }: Props) {
               <button
                 className="botao botao-play"
                 data-nav
+                onClick={voltarAoPlayer}
+                title="Voltar ao canal em reprodução"
+              >
+                ▶
+              </button>
+              <button
+                className="botao botao-play"
+                data-nav
                 onClick={abrirTelaCheia}
                 title="Assistir em tela cheia"
               >
-                ⛶ Tela cheia
+                ⛶
               </button>
               <button
                 className={"botao botao-favorito" + (favoritoAtual ? " ativo" : "")}
