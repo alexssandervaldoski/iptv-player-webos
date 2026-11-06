@@ -100,14 +100,24 @@ export default function Painel({ canais, epg }: Props) {
   );
 
   const idEpg = useMemo(() => {
-    const mapa = new Map<number, string>();
-    if (!epg) return mapa;
-    for (const e of entradas) {
-      const id = epgIdDe(e.variantes, epg);
+  const mapa = new Map<number, string>();
+  if (!epg) return mapa;
+
+  // Índice dos canais completos por id
+  const porId = new Map(canais.map((c) => [c.id, c]));
+
+  for (const e of entradas) {
+    // Reconstrói os Canal[] a partir dos ids das variantes
+      const completos = e.variantes
+        .map((v) => porId.get(v.id))
+        .filter((c): c is Canal => Boolean(c));
+
+      const id = epgIdDe(completos, epg);
       if (id) mapa.set(e.id, id);
     }
+
     return mapa;
-  }, [entradas, epg]);
+  }, [entradas, canais, epg]);
 
   function programasDa(e: Entrada) {
     const id = idEpg.get(e.id);

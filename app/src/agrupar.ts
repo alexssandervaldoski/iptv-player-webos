@@ -14,18 +14,21 @@ export function agruparVariantes(canais: Canal[], agrupar: boolean): Entrada[] {
   }
 
   return [...mapa.values()].map((variantes) => {
-    // A melhor qualidade fica primeiro e é a que toca por padrão
-    const ordenadas = [...variantes].sort(
-      (a, b) => pesoQualidade(b.nome) - pesoQualidade(a.nome)
-    );
-    const principal = ordenadas[0];
-    return {
-      id: principal.id,
-      nome: nomeLimpo(principal.nome),
-      grupo: principal.grupo,
-      logo: ordenadas.find((v) => v.logo)?.logo ?? "",
-      tipo: principal.tipo,
-      variantes: ordenadas,
-    };
-  });
+  const ordenadas = [...variantes].sort(
+    (a, b) => pesoQualidade(b.nome) - pesoQualidade(a.nome)
+  );
+  const melhor = ordenadas[0];
+
+  return {
+    id: melhor.id,
+    nome: nomeLimpo(melhor.nome),
+    grupo: melhor.grupo,
+    logo: melhor.logo,
+    variantes: ordenadas.map((c) => ({
+      id: c.id,
+      nome: c.nome,
+      url: c.url,
+    })),
+  };
+});
 }

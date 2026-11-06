@@ -1,44 +1,19 @@
 export type Tipo = "aovivo" | "filmes" | "series";
 
-export type Canal = {
+export interface Canal {
   id: number;
   nome: string;
   grupo: string;
   logo: string;
-  epgId: string;
   url: string;
   tipo: Tipo;
-};
-
-export type Variante = {
-  id: number;
-  nome: string;
-  url: string;
-};
-
-export type Entrada = {
-  id: number;
-  nome: string;
-  grupo: string;
-  logo: string;
-  variantes: Variante[];
-  favorito?: boolean;
-};
-
-export type Programa = {
-  titulo: string;
-  descricao?: string;
-  inicio: number;
-  fim: number;
-};
-
-export type Epg = {
-  porId: Map<string, Programa[]>;
-};
+  epgId: string;
+}
 
 export type ModoPlaylist = "xtream" | "url";
 
-export type Playlist = {
+// Uma lista salva pelo usuário
+export interface Playlist {
   id: string;
   nome: string;
   modo: ModoPlaylist;
@@ -46,5 +21,34 @@ export type Playlist = {
   usuario: string;
   senha: string;
   url: string;
-  epgUrl?: string;
-};
+  epgUrl: string;
+}
+
+export interface Programa {
+  inicio: number; // milissegundos desde 1970
+  fim: number;
+  titulo: string;
+  descricao: string;
+}
+
+export interface Epg {
+  porId: Map<string, Programa[]>;
+  idPorNome: Map<string, string>;
+}
+
+// Uma versão do canal (FHD, HD, SD...)
+export interface Variante {
+  id: number;
+  nome: string;
+  url: string;
+}
+
+// Um item da tela: um canal, com uma ou mais versões
+export interface Entrada {
+  id: number;
+  nome: string;
+  grupo: string;
+  logo: string;
+  variantes: Variante[];
+  favorito?: boolean;
+}

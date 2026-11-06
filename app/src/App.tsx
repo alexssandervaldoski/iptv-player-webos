@@ -101,25 +101,16 @@ export default function App() {
         ? lista.map((x) => (x.id === p.id ? p : x))
         : [...lista, p]
     );
-    setAtivaId((a) => a ?? p.id);
+    setAtivaId((a) => a ?? p.id); // a primeira lista salva já fica conectada
   }
 
   function removerPlaylist(id: string) {
-    setPlaylists((lista) => lista.filter((p) => p.id !== id));
-    setAtivaId((a) => (a === id ? null : a));
+    const restantes = playlists.filter((p) => p.id !== id);
+    setPlaylists(restantes);
+    if (ativaId === id) setAtivaId(restantes[0]?.id ?? null);
   }
 
   function conectarPlaylist(id: string) {
-    if (id === ativaId) setRecarga((n) => n + 1);
-    else setAtivaId(id);
-  }
-
-  function apagarPlaylist(id: string) {
-    setPlaylists((lista) => lista.filter((x) => x.id !== id));
-    setAtivaId((a) => (a === id ? null : a));
-  }
-
-  function atualizarPlaylist(id: string) {
     if (id === ativaId) setRecarga((n) => n + 1); // já conectada: baixa de novo
     else setAtivaId(id); // outra lista: conectar já baixa
   }
@@ -139,6 +130,8 @@ export default function App() {
             <img src="./icon.png" alt="" className="marca-icone" />
             <h1 className="marca-nome">CineBeco IPTV</h1>
           </div>
+
+          {carregando && <span className="contagem">Carregando…</span>}
 
           <button
             className="botao botao-arquivo"
@@ -177,10 +170,7 @@ export default function App() {
               />
             }
           />
-          <Route
-            path="/favoritos"
-            element={<TelaFavoritos canais={canais} />}
-          />
+          <Route path="/favoritos" element={<TelaFavoritos canais={canais} />} />
           <Route path="/:secao" element={<Secao canais={canais} epg={epg} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
