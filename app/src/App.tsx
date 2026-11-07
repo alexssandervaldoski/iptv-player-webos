@@ -122,16 +122,6 @@ export default function App() {
     else setAtivaId(id); // outra lista: conectar já baixa
   }
 
-  function apagarPlaylist(id: string) {
-    setPlaylists((lista) => lista.filter((x) => x.id !== id));
-    setAtivaId((a) => (a === id ? null : a));
-  }
-
-  function atualizarPlaylist(id: string) {
-    if (id === ativaId) setRecarga((n) => n + 1); // já conectada: baixa de novo
-    else setAtivaId(id); // outra lista: conectar já baixa
-  }
-
   async function aoEscolherArquivo(e: ChangeEvent<HTMLInputElement>) {
     const arquivo = e.target.files?.[0];
     if (!arquivo) return;
@@ -160,6 +150,8 @@ export default function App() {
           >
             Abrir arquivo
           </button>
+
+          {carregando && <span className="carregando">Carregando…</span>}
 
           <input
             ref={arquivoRef}
